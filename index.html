@@ -1004,6 +1004,24 @@ svg.radar{width:100%;max-width:280px;height:auto;display:block;margin:0 auto;ove
 .lightbox{padding:0;border:1px solid var(--line-strong);border-radius:var(--r);background:var(--sheet);color:var(--ink);width:fit-content;max-width:calc(100vw - 32px);max-height:calc(100vh - 32px);overflow:auto;opacity:0;transform:scale(.98);transition:opacity var(--d-fade) var(--ease),transform var(--d-fade) var(--ease)}
 .lightbox.in{opacity:1;transform:none}
 .lightbox::backdrop,.sheet::backdrop{background:var(--backdrop)}
+
+.cmp{width:min(800px,calc(100vw - 32px));box-shadow:var(--sh-panel);opacity:0;transform:translateY(24px);transition:opacity var(--t4) var(--ease),transform var(--t4) var(--ease)}
+.cmp.in{opacity:1;transform:none}
+.cmp-t{min-width:0}
+.cmp-sub{font-size:var(--t13);color:var(--ink-2)}
+.cmp-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s4);margin-top:var(--s2)}
+.cmp-f{display:grid;align-content:start;gap:var(--s2);margin:0;min-width:0}
+.cmp-img{position:relative;display:grid;place-items:center;aspect-ratio:1/1;background:var(--photo);box-shadow:inset 0 0 0 1px var(--line);overflow:hidden}
+.cmp-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:var(--s3)}
+.cmp-img.photo img{mix-blend-mode:multiply}
+.cmp-3d{background:var(--thumb-bg)}
+.cmp-3d img{padding:0}
+.cmp-img .ph-miss{position:absolute;inset:0;display:none;place-content:center;text-align:center;font:500 var(--t13)/1.3 var(--sans);color:var(--photo-ink)}
+.cmp-img.is-empty .ph-miss,.cmp-img.is-none .ph-miss,.cmp-img.is-missing .ph-miss{display:grid}
+.cmp-cap{font-size:var(--t13);line-height:1.45;color:var(--ink-2)}
+.cmp-cap .est-mark{margin:0 var(--s1) 0 0}
+@media (max-width:599px){.cmp-grid{grid-template-columns:1fr;gap:var(--s3)}.cmp-img{aspect-ratio:4/3}}
+@media (prefers-reduced-motion:reduce){.cmp{transition:none;transform:none}}
 .lb-stage{position:relative;min-width:min(480px,calc(100vw - 32px));min-height:120px;display:grid;place-items:center;background:var(--vp-bg)}
 .lightbox img{display:block;max-width:min(1600px,calc(100vw - 32px));max-height:calc(100vh - 160px);width:auto;height:auto;margin:0 auto}
 .lightbox.photo .lb-stage{background:var(--photo)}
@@ -1179,7 +1197,7 @@ svg.radar{width:100%;max-width:280px;height:auto;display:block;margin:0 auto;ove
 }
 
 
-:root{--side-w:288px;--ctx-w:384px;--bar-h:56px}
+:root{--side-w:288px;--ctx-w:384px;--bar-h:56px;--thumb-bg:#F1F1EF} 
 .stamp.risk{color:var(--risk)}
 .vwhy.risk{color:var(--risk)}
 svg.i [fill="currentColor"]{stroke:none}
@@ -1318,6 +1336,11 @@ svg.i [fill="currentColor"]{stroke:none}
 .cf-stage .vp-note{display:none}
 .vp-callout{position:absolute;top:var(--s3);right:var(--s3);z-index:3;max-width:min(320px,calc(100% - 24px));padding:var(--s2) var(--s3);background:var(--overlay);border:1px solid var(--line-strong);border-left:2px solid var(--ink-2);font-size:var(--t12);line-height:1.4;color:var(--ink-2);pointer-events:none;transition:opacity var(--t3) var(--ease),transform var(--t3) var(--ease)}
 .vp-callout.is-fail{border-left-color:var(--stop)}
+
+.vp-now{position:absolute;left:0;top:0;z-index:3;max-width:calc(100% - 16px);margin:0;padding:3px var(--s2);background:var(--sheet);border:1px solid var(--ink);border-radius:var(--r);font:600 var(--t12)/1.3 var(--cond);color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;opacity:0;transform:translate(-50%,-100%);transition:opacity var(--t3) var(--ease)}
+.vp-now.is-in{opacity:1}
+.is-editing .vp-now{display:none}
+@media (prefers-reduced-motion:reduce){.vp-now{transition:none}}
 .vp-callout.is-risk,.vp-callout.is-lay{border-left-color:var(--risk)}
 .co-h{display:flex;align-items:center;gap:var(--s2);margin-bottom:2px;font:600 var(--t13)/1.2 var(--cond);color:var(--ink)}
 .co-x + .co-x{margin-top:2px}
@@ -1425,6 +1448,21 @@ svg.i [fill="currentColor"]{stroke:none}
 .oc-pick:focus-visible{box-shadow:none}
 .oc-pick[aria-disabled="true"]{cursor:default}
 .oc .photo.oc-ph{width:72px;height:72px;aspect-ratio:auto;align-self:start}
+
+.oc-media{display:grid;grid-template-rows:72px 72px;gap:4px;align-self:start}
+.oc-3d-slot{display:block;width:72px;height:72px}
+.oc-3d{position:absolute;left:var(--s2);top:calc(var(--s2) + 76px);z-index:1;display:grid;place-items:center;width:72px;height:72px;padding:0;border:0;border-radius:var(--r);background:var(--thumb-bg);box-shadow:inset 0 0 0 1px var(--line);overflow:hidden;cursor:zoom-in}
+.oc-3d img{width:100%;height:100%;object-fit:contain}
+.oc-3d .t3-tag{position:absolute;left:2px;bottom:2px;padding:1px 4px;font:600 10px/1.2 var(--cond);color:var(--photo-ink);background:var(--thumb-bg);border:1px solid var(--line);border-radius:2px}
+.oc-3d .t3-est{position:absolute;top:2px;right:2px;display:grid;place-items:center;width:16px;height:16px;border:1px dotted var(--photo-ink);border-radius:2px;background:var(--thumb-bg);font:600 10px/1 var(--cond);color:var(--photo-ink)}
+.oc-3d::after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:var(--ring);opacity:0;pointer-events:none;transition:opacity var(--d-state) var(--ease)}
+.oc-3d:hover::after{opacity:1}
+.oc-3d:focus-visible{box-shadow:var(--ring-out)}
+.oc-3d:active img{transform:translateY(1px)}
+.oc-3d.is-none{cursor:default;padding:var(--s1)}
+.oc-3d .ph-miss{display:grid;place-content:center;text-align:center;font:500 11px/1.25 var(--sans);color:var(--photo-ink)}
+.oc.is-fail .oc-3d img,.oc.is-pend .oc-3d img{opacity:.5}
+.oc.is-on.is-fail .oc-3d img{opacity:1}
 .oc .photo.oc-ph img{padding:4px}
 .oc-b{display:flex;flex-direction:column;gap:2px;min-width:0}
 .oc-n{display:flex;align-items:baseline;gap:6px;padding-right:var(--s5)}
@@ -1633,6 +1671,9 @@ svg.i [fill="currentColor"]{stroke:none}
   .ctx-x{display:inline-flex}
   .oc-pick{grid-template-columns:64px minmax(0,1fr)}
   .oc .photo.oc-ph{width:64px;height:64px}
+  .oc-media{grid-template-rows:64px 64px}
+  .oc-3d-slot{width:64px;height:64px}
+  .oc-3d{width:64px;height:64px;top:calc(var(--s2) + 68px)}
   .oc-v,.oc-x{padding-left:var(--s2)}
   .oc-confirm{margin-left:var(--s2)}
   .oc-qty{padding-left:var(--s2)}
@@ -1715,6 +1756,7 @@ svg.i [fill="currentColor"]{stroke:none}
         <p class="vp-loading" id="vp-loading" aria-live="polite">Loading the model…</p>
         <div class="vp-callout" id="vp-callout" hidden></div>
         <p class="vp-est" id="vp-est" hidden></p>
+        <p class="vp-now" id="vp-now" role="status" hidden></p>
         <div class="ed-overlay" id="ed-overlay" hidden></div>
         <div class="vp-fallback" id="vp-fallback" hidden>
           <strong>The 3D model needs WebGL</strong>
@@ -1769,6 +1811,16 @@ svg.i [fill="currentColor"]{stroke:none}
       <button class="ghost" type="button" id="lb-prev" title="Previous image (Left arrow)">Previous</button>
       <button class="ghost" type="button" id="lb-next" title="Next image (Right arrow)">Next</button>
       <button class="ghost" type="button" id="lb-close" autofocus title="Close the larger view (Esc)">Close</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="sheet cmp" id="cmp-dlg" aria-labelledby="cmp-h">
+  <div class="sheet-in">
+    <div class="sheet-top"><div class="cmp-t"><h2 id="cmp-h" translate="no"></h2><p class="cmp-sub" id="cmp-sub" translate="no" hidden></p></div><button class="ghost" type="button" id="cmp-close" title="Close (Esc)">Close</button></div>
+    <div class="cmp-grid">
+      <figure class="cmp-f"><div class="cmp-img photo" id="cmp-photo"></div><figcaption class="cmp-cap" id="cmp-pc"></figcaption></figure>
+      <figure class="cmp-f"><div class="cmp-img cmp-3d" id="cmp-3d"></div><figcaption class="cmp-cap" id="cmp-3c"></figcaption></figure>
     </div>
   </div>
 </dialog>
@@ -12756,6 +12808,8 @@ const CFG = (() => {
     };
     if (todo.length) wcTimer = setTimeout(() => idle(step, { timeout: 1500 }), 90);
   }
+  let anchorQueued = false;
+  function keepAnchorSoon() { if (anchorQueued) return; anchorQueued = true; requestAnimationFrame(() => { anchorQueued = false; keepAnchor(); }); }
   function rowPaint(st, slot) {
     const row = document.querySelector('.srow[data-slot="' + slot + '"]'); if (!row) return;
     const s = row.querySelector('.sr-s'), html = rowStamp(rowV(st, slot)); if (!s || !html) return;
@@ -12832,6 +12886,7 @@ const CFG = (() => {
       if (dis) pb.setAttribute('aria-disabled', 'true'); else pb.removeAttribute('aria-disabled');
       if (dis && !shared) pb.title = v.reason || ''; else pb.removeAttribute('title');
     }
+    keepAnchorSoon();
     const s = card.querySelector('.oc-st'); if (s) s.innerHTML = stampOf(v) + '<span class="vwhy' + (v.level === 'fail' ? ' fail' : v.level === 'risk' ? ' risk' : '') + '">' + esc(v.reason) + '</span>';
   }
   
@@ -12861,6 +12916,28 @@ const CFG = (() => {
     n.title = estText(o); n.hidden = false;
   }
   
+  const litOf = o => !!(o && ((o.attrs && o.attrs.lit) || o.lit || tagsOf(o).has('rgb')));
+  function tile3d(o, nm) {
+    const th = optThumbOf(o);
+    if (!th) return '<span class="oc-3d is-none"><span class="ph-miss">No 3D model</span></span>';
+    return '<button type="button" class="oc-3d" data-cmp="' + esc(o.id) + '" aria-label="' + esc('Our 3D model of ' + nm + ': see it larger, next to the photo') + '" title="See our 3D larger, next to the photo">' +
+      '<img src="' + esc(th) + '" alt="" width="320" height="320" loading="lazy" decoding="async"><span class="t3-tag">Our 3D</span>' + (o.modelEst ? '<span class="t3-est" aria-hidden="true">E</span>' : '') + '</button>';
+  }
+  function openCompare(o) {
+    const dlg = $('#cmp-dlg'); if (!dlg || !o || typeof dlg.showModal !== 'function') return;
+    const n = nameOf(o), { nm, sub } = splitName(n), im = photoOf(o), th = optThumbOf(o);
+    $('#cmp-h').textContent = nm; $('#cmp-sub').textContent = sub || ''; $('#cmp-sub').hidden = !sub;
+    $('#cmp-photo').className = 'cmp-img photo' + (im ? '' : ' is-empty');
+    $('#cmp-photo').innerHTML = im ? '<img src="' + esc(im.src) + '" alt="' + esc('Shop photo of ' + nm) + '" width="640" height="400" decoding="async" referrerpolicy="no-referrer"><span class="ph-miss">Photo unavailable</span>' : '<span class="ph-miss">Photo unavailable</span>';
+    $('#cmp-pc').innerHTML = im ? 'Shop photo' + (im.url || o.link ? ', <span translate="no">' + esc(shopName(im.url || o.link)) + '</span>' : '') : 'No usable photo from the shop.';
+    $('#cmp-3d').className = 'cmp-img cmp-3d' + (th ? '' : ' is-none');
+    $('#cmp-3d').innerHTML = th ? '<img src="' + esc(th) + '" alt="' + esc('Our 3D model of ' + nm) + '" width="320" height="320" decoding="async">' : '<span class="ph-miss">No 3D model</span>';
+    $('#cmp-3c').innerHTML = th ? (o.modelEst ? estMark(o) + esc(estText(o)) : 'Our 3D model, built from the maker’s published dimensions.') + (litOf(o) ? ' Shown with its lights on, warm white.' : '') : 'No 3D model for this part yet.';
+    if (!dlg.open) dlg.showModal();
+    requestAnimationFrame(() => dlg.classList.add('in'));
+  }
+  function closeCompare() { const dlg = $('#cmp-dlg'); if (!dlg || !dlg.open) return; dlg.classList.remove('in'); setTimeout(() => { if (dlg.open) dlg.close(); }, reduceMotion ? 0 : 200); }
+  
   const qtyIn = (st, o) => (isMulti(o.cat) ? ((multiItems(st, o.cat).find(x => x.o.id === o.id) || {}).qty || 0) : (effectivePart(st, o.cat) === o.id ? 1 : 0));
   const setOf = (st, slot) => { const s = {}; multiItems(st, slot).forEach(x => { s[x.o.key] = x.qty; }); return s; };
   const slotItems = (st, slot) => (isMulti(slot) ? multiItems(st, slot) : [{ o: optById(effectivePart(st, slot)), qty: 1 }].filter(x => x.o));
@@ -12869,8 +12946,10 @@ const CFG = (() => {
     const set = setOf(WLS, slot);
     if (qty > 0) set[o.key] = Math.min(20, qty); else delete set[o.key];
     confirmFor = null; peekOpt = null; prevId = null; swapSlot = slot;
+    const added = qty > 0 && !qtyIn(WLS, o); setAnchor(o);
     w3call('clearPreview'); w3call('clearHighlight'); callout(null);
     wlSet({ multi: { [slot]: set } });
+    if (added) confirmPick(o);
   }
 
   
@@ -13081,6 +13160,7 @@ const CFG = (() => {
       slotGroups().map(([g, ids]) => '<h3 class="lst-h3">' + esc(g) + '</h3><ul class="srows">' + ids.map(id => slotRow(st, id, id === open)).join('') + '</ul>').join('');
     ci.innerHTML = slotPanel(st, open);
     wiQueue(st, open); wcQueue(st);
+    keepAnchor();
     syncEst();
     if (swapSlot) { const s = swapSlot; swapSlot = null; [$('.srow[data-slot="' + s + '"]'), $('.oc.is-on')].forEach(el => { if (el) enter(el, 'is-swap'); }); }
   }
@@ -13118,7 +13198,12 @@ const CFG = (() => {
     const opts = B.options.filter(o => o.cat === slot), f = UI.filters[0] || null;
     const avail = TAGS.filter(t => opts.some(o => tagsOf(o).has(t[0])));
     const flt = f && avail.some(t => t[0] === f) ? f : null;
-    const ordered = opts.map((o, i) => ({ o, i, v: verdictOf(st, o) })).sort((a, b) => (b.v.on - a.v.on) || rank(a.v.level) - rank(b.v.level) || a.i - b.i);
+    const ordered0 = opts.map((o, i) => ({ o, i, v: verdictOf(st, o) }));
+    let ordered;
+    
+    
+    if (orderKeep && orderKeep.slot === slot) { const pos = new Map(orderKeep.ids.map((id, k) => [id, k])), at = x => (pos.has(x.o.id) ? pos.get(x.o.id) : 1e6 + x.i); ordered = ordered0.sort((a, b) => at(a) - at(b)); }
+    else { ordered = ordered0.sort((a, b) => (b.v.on - a.v.on) || rank(a.v.level) - rank(b.v.level) || a.i - b.i); orderKeep = { slot, ids: ordered.map(x => x.o.id) }; }
     const shown = ordered.filter(x => !flt || tagsOf(x.o).has(flt) || x.v.on);
     const nav = '<span class="ctx-nav"><button class="ghost icon" type="button" data-act="slot-prev" aria-label="Previous part: ' + esc(slotLabel2(ids[(k - 1 + ids.length) % ids.length])) + '" title="Previous part">' + svgI('left') + '</button><button class="ghost icon" type="button" data-act="slot-next" aria-label="Next part: ' + esc(slotLabel2(ids[(k + 1) % ids.length])) + '" title="Next part">' + svgI('right') + '</button></span>';
     const isDef = isDefaultPart(st, slot), p = presetById(st.preset);
@@ -13154,9 +13239,9 @@ const CFG = (() => {
     const links = [o.link].concat(o.altLinks || []).filter(Boolean);
     return '<div class="' + cls + '" data-oid="' + esc(o.id) + '">' +
       '<button type="button" class="oc-pick" data-oid="' + esc(o.id) + '" aria-pressed="' + on + '"' + (dis ? ' aria-disabled="true"' : '') + ' data-lab0="' + esc(lab0) + '" aria-label="' + esc(lab) + '" aria-describedby="ocv-' + sid + '"' + (dis && !shared ? ' title="' + esc(v.reason) + '"' : '') + '>' +
-        photoTile(o, 'oc-ph') + '<span class="oc-b"><span class="oc-n"><span class="oc-name" translate="no">' + esc(nm) + '</span>' + marksHtml(o) + '</span>' + (sub ? '<span class="oc-sub" translate="no">' + esc(sub) + '</span>' : '') +
+        '<span class="oc-media">' + photoOnly(o, 'oc-ph') + '<span class="oc-3d-slot" aria-hidden="true"></span></span>' + '<span class="oc-b"><span class="oc-n"><span class="oc-name" translate="no">' + esc(nm) + '</span>' + marksHtml(o) + '</span>' + (sub ? '<span class="oc-sub" translate="no">' + esc(sub) + '</span>' : '') +
         '<span class="oc-pr"><b class="num">' + (on ? (multi ? 'In your build' : 'Your pick') : (multi && d != null ? 'Add, ' : '') + (d == null ? 'Price to confirm' : Math.abs(d) < 0.005 && pr ? 'Same price' : esc(delta(d)))) + '</b>' + (pr != null ? '<span class="num">' + eur(pr) + '</span>' : '') + stockHtml(o) + estMark(o) + '</span>' + readouts(mv) +
-        (o.changes ? '<span class="oc-ch">' + esc(o.changes) + '</span>' : '') + '</span><span class="oc-sel" aria-hidden="true">' + svgI('check') + '</span></button>' +
+        (o.changes ? '<span class="oc-ch">' + esc(o.changes) + '</span>' : '') + '</span><span class="oc-sel" aria-hidden="true">' + svgI('check') + '</span></button>' + tile3d(o, nm) +
       (multi && on && o.price !== 0 ? '<div class="oc-qty" role="group" aria-label="How many: ' + esc(nm) + '"><span class="oc-qty-l">How many</span><button class="ghost icon" type="button" data-act="qty-" data-oid="' + esc(o.id) + '" aria-label="One fewer"' + (shared ? ' disabled' : '') + '>' + svgI('minus') + '</button><span class="num oc-qty-v" aria-live="polite">' + q + '</span><button class="ghost icon" type="button" data-act="qty+" data-oid="' + esc(o.id) + '" aria-label="One more"' + (q >= 20 || shared ? ' disabled' : '') + '>' + svgI('plus') + '</button><span class="num oc-qty-t">' + (pr != null ? eur(pr * q) : '') + '</span></div>' : '') +
       '<div class="oc-v" id="ocv-' + sid + '"><p class="oc-st">' + stampOf(v) + '<span class="vwhy' + (v.level === 'fail' ? ' fail' : v.level === 'risk' ? ' risk' : '') + '">' + esc(v.reason) + '</span></p>' + crit + also + '</div>' + conf +
       '<details class="disc sm oc-x"><summary>Details</summary><div class="opt-xb">' +
@@ -13171,7 +13256,7 @@ const CFG = (() => {
     if (!slot) return;
     const light = LIGHT_ONLY.includes(slot) || (curMode === 'light' && lightSlots().includes(slot));
     if (light) UI.lightSel = slot; else UI.slot = slot;
-    confirmFor = null; saveUI();
+    confirmFor = null; orderKeep = null; anchor = null; saveUI();
     clearPreview();
     if (light && curMode !== 'light') { location.hash = '#light'; return; }
     if (!light && curMode !== 'parts') { location.hash = '#parts'; return; }
@@ -13183,11 +13268,23 @@ const CFG = (() => {
     if (viaKeyboard) requestAnimationFrame(() => { const b = $('.oc.is-on .oc-pick') || $('.oc-pick'); if (b) b.focus({ preventScroll: false }); });
   }
   function stepSlot(dir) { const ids = slotOrder(), k = ids.indexOf(curSlot()); openSlot(ids[(k + dir + ids.length) % ids.length]); const h = $('#ctx-h'); if (h) h.focus({ preventScroll: true }); }
+  
+  let anchor = null;
+  function setAnchor(o) { const c = o && document.querySelector('.oc[data-oid="' + CSS.escape(o.id) + '"]'); anchor = c ? { oid: o.id, top: c.getBoundingClientRect().top } : null; }
+  function scrollerOf(el) { for (let n = el && el.parentElement; n; n = n.parentElement) { const s = getComputedStyle(n); if (/(auto|scroll)/.test(s.overflowY) && n.scrollHeight > n.clientHeight) return n; } return document.scrollingElement; }
+  function keepAnchor() {
+    if (!anchor) return;
+    const c = document.querySelector('.oc[data-oid="' + CSS.escape(anchor.oid) + '"]'); if (!c) return;
+    const d = c.getBoundingClientRect().top - anchor.top; if (Math.abs(d) < 1) return;
+    const sc = scrollerOf(c); if (sc) sc.scrollTop += d;
+  }
   function commit(o, cq) {
+    setAnchor(o);
     const patch = clickPatch(WLS, o, cq && cq.patch ? cq : null);
     confirmFor = null; peekOpt = null; prevId = null; swapSlot = o.cat;
     w3call('clearPreview'); w3call('clearHighlight'); callout(null);
     wlSet(patch);
+    confirmPick(o);
   }
   function pick(oid) {
     const o = optById(oid); if (!o || shared) return;
@@ -13204,6 +13301,7 @@ const CFG = (() => {
 
   
   function previewOpt(o, via) {
+    if (o && nowTok && $('#vp-now') && !$('#vp-now').hidden) hideNow();
     if (!o || curMode !== 'parts') return;
     const st = ctx();
     if (qtyIn(st, o) > 0) { clearPreview(); return; }
@@ -13417,7 +13515,41 @@ const CFG = (() => {
   
 
   let camState = 'fit'; 
-  function modeChanged() { if (camState === 'auto') fit(); }
+  function modeChanged() { orderKeep = null; anchor = null; hideNow(); if (camState === 'auto') fit(); }
+  let orderKeep = null; 
+
+  
+  let nowTok = 0;
+  function hideNow() { nowTok++; const el = $('#vp-now'); if (el) { el.classList.remove('is-in'); el.hidden = true; } }
+  function confirmPick(o) {
+    if (!o) return;
+    const tok = ++nowTok, el = $('#vp-now'); if (el) { el.classList.remove('is-in'); el.hidden = true; }
+    setTimeout(() => {
+      if (tok !== nowTok || (curMode !== 'parts' && curMode !== 'light')) return;
+      if (w3call('focus', o.cat, { ms: 280 })) camState = 'auto';
+      setTimeout(() => nowLabel(o, tok), reduceMotion ? 20 : 320);
+    }, 30);
+  }
+  function nowLabel(o, tok) {
+    const el = $('#vp-now'), vp = $('#viewport'); if (!el || !vp || tok !== nowTok) return;
+    let at = null;
+    try {
+      const api = window.WL3D, env = api && typeof api.envelopes === 'function' ? api.envelopes().filter(e => e.slot === o.cat && e.box) : [];
+      if (env.length && typeof api.project === 'function') {
+        const x0 = Math.min(...env.map(e => e.box.x[0])), x1 = Math.max(...env.map(e => e.box.x[1])), y0 = Math.min(...env.map(e => e.box.y[0])), z1 = Math.max(...env.map(e => e.box.z[1]));
+        at = api.project([(x0 + x1) / 2, y0, z1]); 
+      }
+    } catch (e) { at = null; }
+    const w = vp.clientWidth, h = vp.clientHeight;
+    if (!at || !isFinite(at[0]) || !isFinite(at[1])) at = [w / 2, h * 0.3];
+    el.textContent = 'Now: ' + shortName(o);
+    el.hidden = false;
+    const hw = Math.min(el.offsetWidth / 2, w / 2 - 8), ht = el.offsetHeight;
+    el.style.left = Math.round(Math.max(8 + hw, Math.min(w - 8 - hw, at[0]))) + 'px';
+    el.style.top = Math.round(Math.max(8 + ht, Math.min(h - 8, at[1] - 8))) + 'px';
+    requestAnimationFrame(() => { if (tok === nowTok) el.classList.add('is-in'); });
+    setTimeout(() => { if (tok !== nowTok) return; el.classList.remove('is-in'); setTimeout(() => { if (tok === nowTok) el.hidden = true; }, reduceMotion ? 0 : 220); }, 2000);
+  }
   
   function cam(name) { w3call('view', name); markCam(name); camState = 'user'; }
   function markCam(name) { $$('[data-cam]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.cam === name))); }
@@ -13467,8 +13599,19 @@ const CFG = (() => {
     const cardOf = el => (el && el.closest ? el.closest('.oc-pick, .rc[data-slot][data-oid]') : null);
     const kbFocused = () => { const a = document.activeElement; return a && a.matches && a.matches('.oc-pick:focus-visible') ? a : null; };
     const backToFocus = () => { clearPreview(); const k = kbFocused(); if (k) previewOpt(optById(k.dataset.oid), 'focus'); };
+    
+    
+    
+    document.addEventListener('click', e => { const b = e.target.closest && e.target.closest('[data-cmp]'); if (!b) return; e.preventDefault(); clearPreview(); openCompare(optById(b.dataset.cmp)); });
+    { const dlg = $('#cmp-dlg'); if (dlg) { $('#cmp-close').addEventListener('click', closeCompare); dlg.addEventListener('cancel', e => { e.preventDefault(); closeCompare(); }); dlg.addEventListener('click', e => { if (e.target === dlg) closeCompare(); }); } }
+    let ptr = null, hoverGate = null;
+    
+    ['wheel', 'touchstart'].forEach(ev => document.addEventListener(ev, () => { anchor = null; }, { passive: true }));
+    document.addEventListener('pointermove', e => { ptr = [e.clientX, e.clientY]; if (hoverGate && Math.hypot(e.clientX - hoverGate[0], e.clientY - hoverGate[1]) > 4) hoverGate = null; }, { passive: true });
+    WL_EVT.change.push(() => { hoverGate = ptr ? ptr.slice() : null; });
     document.addEventListener('mouseover', e => {
       const c = cardOf(e.target);
+      if (c && hoverGate) return;
       if (c) { previewOpt(optById(c.dataset.oid), 'hover'); return; }
       if (prevVia === 'hover') backToFocus();
     });
@@ -13506,12 +13649,12 @@ const CFG = (() => {
     if (api && typeof api.on === 'function') {
       try { api.on('pick', p => { if (p && p.slot && !shared && B.optionCats.some(c => c.id === p.slot)) { if (curMode !== 'parts') { UI.slot = p.slot; saveUI(); location.hash = '#parts'; } else openSlot(p.slot); } }); } catch (e) {  }
       try { api.on('ready', () => { push3D(ctx()); renderAmbience(); }); } catch (e) {  }
-      try { api.on('view', v => { if (v && v.user) camState = 'user'; if (v && v.mode === 'persp' && v.user) markCam(null); }); } catch (e) {  }
+      try { api.on('view', v => { if (v && v.user) { camState = 'user'; hideNow(); } if (v && v.mode === 'persp' && v.user) markCam(null); }); } catch (e) {  }
     }
   }
 
   function clickCommit(o) { commit(o, coupledOf(WLS, o)); }
-  return { modeChanged, camOf: () => camState, isMultiSlot: isMulti, wcCompute, syncEst, wiCompute, wiPatch, clickPatch, clickCommit, coupledOf, stampWord, rowVerdict, estNote, estText, init, isOut, qtyIn, slotItems, litBuilds, litPatch, litPlan, headers, applyLitBuildById: applyLitBuild, headerItems, countersHtml, renderParts, renderLight, push3D, fit, cam, clearPreview, hlSlot, hlClear, marksHtml, partnerOf, openSlot, rgbSpec, verdictOf, consequence, criteriaOf, tagsOf, slotOrder, SLOT_PARTS };
+  return { openCompare, closeCompare, hideNow, modeChanged, camOf: () => camState, isMultiSlot: isMulti, wcCompute, syncEst, wiCompute, wiPatch, clickPatch, clickCommit, coupledOf, stampWord, rowVerdict, estNote, estText, init, isOut, qtyIn, slotItems, litBuilds, litPatch, litPlan, headers, applyLitBuildById: applyLitBuild, headerItems, countersHtml, renderParts, renderLight, push3D, fit, cam, clearPreview, hlSlot, hlClear, marksHtml, partnerOf, openSlot, rgbSpec, verdictOf, consequence, criteriaOf, tagsOf, slotOrder, SLOT_PARTS };
 })();
 
 
@@ -13865,6 +14008,12 @@ function photoTile(o, cls) {
   if (!im && th) return '<span class="photo is-thumb' + c + '"><img src="' + esc(th) + '" alt="" width="320" height="200" loading="lazy" decoding="async">' + tag + '</span>';
   if (!im) return '<span class="photo is-empty' + c + '"><span class="ph-miss">Photo unavailable</span></span>';
   return '<span class="photo' + c + '"><img src="' + esc(im.src) + '"' + (th ? ' data-thumb="' + esc(th) + '"' : '') + ' alt="" width="320" height="200" loading="lazy" decoding="async" referrerpolicy="no-referrer">' + tag + '</span>';
+}
+
+function photoOnly(o, cls) {
+  const im = o && photoOf(o), c = cls ? ' ' + cls : '';
+  if (!im) return '<span class="photo is-empty' + c + '"><span class="ph-miss">Photo unavailable</span></span>';
+  return '<span class="photo' + c + '"><img src="' + esc(im.src) + '" alt="" width="320" height="200" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="ph-miss">Photo unavailable</span></span>';
 }
 function withPart(st, slot, id) { const s2 = clone(st); if (id == null || id === defaultPart(s2.preset, slot)) delete s2.parts[slot]; else s2.parts[slot] = id; return normaliseState(stripMirrors(s2)).state; }
 
@@ -14786,6 +14935,7 @@ document.addEventListener('mouseout', e => { const li = e.target.closest && e.ta
 
 document.addEventListener('error', e => {
   const img = e.target; if (!img || img.tagName !== 'IMG') return;
+  const t3 = img.closest('.oc-3d, .cmp-3d'); if (t3) { t3.classList.add('is-none'); t3.innerHTML = '<span class="ph-miss">No 3D model</span>'; return; }
   const tile = img.closest('.photo'); if (!tile) return;
   if (img.dataset.thumb && img.getAttribute('src') !== img.dataset.thumb) { img.src = img.dataset.thumb; img.removeAttribute('referrerpolicy'); tile.classList.add('is-thumb'); return; }
   tile.classList.remove('is-thumb'); tile.classList.add('is-missing');
