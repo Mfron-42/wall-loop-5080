@@ -1,0 +1,1745 @@
+{
+ "radiators:alphacool-hpe30-360-x2": {
+  "gen": "radiator",
+  "part": "rad-360",
+  "params": {
+   "len": 391.5,
+   "width": 124,
+   "thick": 30,
+   "fans": 3,
+   "fanPitch": 120,
+   "fanCentresY": [
+    83,
+    203,
+    323
+   ],
+   "core": {
+    "fpi": 18,
+    "finish": "matte-black",
+    "rect": [
+     2,
+     23,
+     122,
+     383
+    ],
+    "tubes": 13
+   },
+   "endTanks": {
+    "top": {
+     "len": 23,
+     "shape": "split",
+     "split": true,
+     "finish": "satin-black",
+     "mark": null,
+     "gap": 2.5,
+     "finishHex": "#1c1d20"
+    },
+    "bottom": {
+     "len": 8.5,
+     "shape": "rounded"
+    }
+   },
+   "ports": [
+    {
+     "id": "a",
+     "at": [
+      32,
+      11.5
+     ],
+     "face": "front"
+    },
+    {
+     "id": "b",
+     "at": [
+      92,
+      11.5
+     ],
+     "face": "front"
+    },
+    {
+     "id": "c",
+     "at": [
+      32,
+      11.5
+     ],
+     "face": "back"
+    },
+    {
+     "id": "d",
+     "at": [
+      92,
+      11.5
+     ],
+     "face": "back"
+    },
+    {
+     "id": "fill",
+     "at": [
+      15,
+      391.5
+     ],
+     "face": "end-bottom",
+     "z": 15
+    }
+   ],
+   "fanHoles": {
+    "x": [
+     9.5,
+     114.5
+    ],
+    "y": [
+     30.5,
+     135.5,
+     150.5,
+     255.5,
+     270.5,
+     375.5
+    ],
+    "thread": "M3x0.5"
+   },
+   "thread": "M3",
+   "marks": [
+    {
+     "text": "ACOOL",
+     "face": "side",
+     "side": "left",
+     "up": "back",
+     "at": [
+      363,
+      17
+     ],
+     "h": 5,
+     "weight": 600,
+     "font": "wide",
+     "letterSpacing": 0.06,
+     "finish": "print-white",
+     "finishHex": "#3f8ad8"
+    },
+    {
+     "text": "HPE",
+     "face": "side",
+     "side": "left",
+     "up": "back",
+     "at": [
+      354,
+      7.5
+     ],
+     "h": 3,
+     "weight": 500,
+     "font": "wide",
+     "finish": "print-white",
+     "finishHex": "#3f8ad8"
+    }
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#1c1d20",
+    "border": 3.5,
+    "tab": 14
+   }
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "ACOOL",
+    "face": "side",
+    "side": "left",
+    "up": "back",
+    "at": [
+     363,
+     17
+    ],
+    "h": 5,
+    "weight": 600,
+    "font": "wide",
+    "letterSpacing": 0.06,
+    "finish": "print-white",
+    "finishHex": "#3f8ad8"
+   },
+   {
+    "text": "HPE",
+    "face": "side",
+    "side": "left",
+    "up": "back",
+    "at": [
+     354,
+     7.5
+    ],
+    "h": 3,
+    "weight": 500,
+    "font": "wide",
+    "finish": "print-white",
+    "finishHex": "#3f8ad8"
+   }
+  ],
+  "envelope": {
+   "x": [
+    8.3,
+    132.3
+   ],
+   "y": [
+    73.4,
+    464.9
+   ],
+   "z": [
+    0,
+    30
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:alphacool-hpe45-360-x2": {
+  "gen": "radiator",
+  "part": "rad-hpe45-360",
+  "params": {
+   "len": 391.5,
+   "width": 124,
+   "thick": 45,
+   "fans": 3,
+   "fanPitch": 120,
+   "fanCentresY": [
+    83,
+    203,
+    323
+   ],
+   "core": {
+    "fpi": 16,
+    "finish": "matte-black",
+    "rect": [
+     2,
+     23,
+     122,
+     383
+    ],
+    "tubes": 13
+   },
+   "endTanks": {
+    "top": {
+     "len": 23,
+     "shape": "split",
+     "split": true,
+     "finish": "satin-black",
+     "mark": null,
+     "gap": 2.5,
+     "finishHex": "#1c1d20"
+    },
+    "bottom": {
+     "len": 8.5,
+     "shape": "rounded"
+    }
+   },
+   "ports": [
+    {
+     "id": "a",
+     "at": [
+      32,
+      11.5
+     ],
+     "face": "front"
+    },
+    {
+     "id": "b",
+     "at": [
+      92,
+      11.5
+     ],
+     "face": "front"
+    },
+    {
+     "id": "c",
+     "at": [
+      32,
+      11.5
+     ],
+     "face": "back"
+    },
+    {
+     "id": "d",
+     "at": [
+      92,
+      11.5
+     ],
+     "face": "back"
+    },
+    {
+     "id": "fill",
+     "at": [
+      15,
+      391.5
+     ],
+     "face": "end-bottom",
+     "z": 22.5
+    }
+   ],
+   "fanHoles": {
+    "x": [
+     9.5,
+     114.5
+    ],
+    "y": [
+     30.5,
+     135.5,
+     150.5,
+     255.5,
+     270.5,
+     375.5
+    ],
+    "thread": "M3x0.5"
+   },
+   "thread": "M3",
+   "marks": [
+    {
+     "text": "ACOOL",
+     "face": "side",
+     "side": "left",
+     "up": "back",
+     "at": [
+      363,
+      26
+     ],
+     "h": 5.5,
+     "weight": 600,
+     "font": "wide",
+     "letterSpacing": 0.06,
+     "finish": "print-white",
+     "finishHex": "#3f8ad8"
+    },
+    {
+     "text": "HPE",
+     "face": "side",
+     "side": "left",
+     "up": "back",
+     "at": [
+      354,
+      13
+     ],
+     "h": 3.2,
+     "weight": 500,
+     "font": "wide",
+     "finish": "print-white",
+     "finishHex": "#3f8ad8"
+    }
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#1c1d20",
+    "border": 3.5,
+    "tab": 14
+   }
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "ACOOL",
+    "face": "side",
+    "side": "left",
+    "up": "back",
+    "at": [
+     363,
+     26
+    ],
+    "h": 5.5,
+    "weight": 600,
+    "font": "wide",
+    "letterSpacing": 0.06,
+    "finish": "print-white",
+    "finishHex": "#3f8ad8"
+   },
+   {
+    "text": "HPE",
+    "face": "side",
+    "side": "left",
+    "up": "back",
+    "at": [
+     354,
+     13
+    ],
+    "h": 3.2,
+    "weight": 500,
+    "font": "wide",
+    "finish": "print-white",
+    "finishHex": "#3f8ad8"
+   }
+  ],
+  "envelope": {
+   "x": [
+    8.3,
+    132.3
+   ],
+   "y": [
+    73.4,
+    464.9
+   ],
+   "z": [
+    0,
+    45
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:alphacool-hpe30-360-white-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 391.5,
+   "width": 124,
+   "thick": 30,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": 18,
+    "finish": "matte-black",
+    "rect": [
+     2,
+     23,
+     122,
+     383
+    ],
+    "tubes": 13
+   },
+   "endTanks": {
+    "top": {
+     "len": 23,
+     "shape": "split",
+     "gap": 2.5,
+     "finish": "white",
+     "finishHex": "#e9e8e4"
+    },
+    "bottom": {
+     "len": 8.5,
+     "shape": "rounded",
+     "finish": "white",
+     "finishHex": "#e9e8e4"
+    }
+   },
+   "ports": [
+    {
+     "id": "a",
+     "at": [
+      32,
+      11.5
+     ],
+     "face": "front"
+    },
+    {
+     "id": "b",
+     "at": [
+      92,
+      11.5
+     ],
+     "face": "front"
+    },
+    {
+     "id": "c",
+     "at": [
+      32,
+      11.5
+     ],
+     "face": "back"
+    },
+    {
+     "id": "d",
+     "at": [
+      92,
+      11.5
+     ],
+     "face": "back"
+    },
+    {
+     "id": "fill",
+     "at": [
+      15,
+      391.5
+     ],
+     "face": "end-bottom",
+     "z": 15
+    }
+   ],
+   "thread": "M3",
+   "fanCentresY": [
+    83,
+    203,
+    323
+   ],
+   "frame": {
+    "finish": "white",
+    "finishHex": "#e9e8e4",
+    "border": 3.5,
+    "tab": 14
+   },
+   "fanHoles": {
+    "x": [
+     9.5,
+     114.5
+    ],
+    "y": [
+     30.5,
+     135.5,
+     150.5,
+     255.5,
+     270.5,
+     375.5
+    ],
+    "thread": "M3x0.5"
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    8.3,
+    132.3
+   ],
+   "y": [
+    73.4,
+    464.9
+   ],
+   "z": [
+    0,
+    30
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:alphacool-nexxxos-hpe20-360-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 390,
+   "width": 120,
+   "thick": 20,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": 15,
+    "finish": "matte-black",
+    "tubes": 12
+   },
+   "endTanks": {
+    "top": {
+     "len": 30,
+     "shape": "split",
+     "finish": "satin-black",
+     "mark": null,
+     "gap": 2.5,
+     "finishHex": "#1c1d20"
+    },
+    "bottom": {
+     "len": 12,
+     "shape": "rounded"
+    }
+   },
+   "ports": [
+    {
+     "id": "o",
+     "at": [
+      40,
+      8
+     ],
+     "face": "front"
+    },
+    {
+     "id": "i",
+     "at": [
+      80,
+      8
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M3",
+   "fanCentresY": [
+    84,
+    204,
+    324
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#1c1d20",
+    "border": 3.5,
+    "tab": 14
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    10.3,
+    130.3
+   ],
+   "y": [
+    72.4,
+    462.4
+   ],
+   "z": [
+    0,
+    20
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:alphacool-core-xt45-360-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 417,
+   "width": 133.4,
+   "thick": 50,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": 16,
+    "finish": "matte-black",
+    "tubes": 16
+   },
+   "endTanks": {
+    "top": {
+     "len": 40,
+     "shape": "rounded",
+     "finish": "satin-black",
+     "mark": null,
+     "r": 4,
+     "finishHex": "#232427"
+    },
+    "bottom": {
+     "len": 20,
+     "shape": "rounded"
+    }
+   },
+   "ports": [
+    {
+     "id": "o",
+     "at": [
+      46.7,
+      12
+     ],
+     "face": "front"
+    },
+    {
+     "id": "i",
+     "at": [
+      86.7,
+      12
+     ],
+     "face": "front"
+    },
+    {
+     "id": "f",
+     "at": [
+      66.7,
+      407
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M3",
+   "sidePanels": {
+    "finish": "satin-black",
+    "finishHex": "#26272a",
+    "lit": true,
+    "t": 2.5
+   },
+   "fanCentresY": [
+    98.5,
+    218.5,
+    338.5
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#2a2b2e",
+    "border": 4.5,
+    "tab": 15
+   }
+  },
+  "ledZones": [
+   {
+    "id": "side-outer",
+    "kind": "bar",
+    "group": "strips",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 18,
+    "fixedHex": null,
+    "geom": {
+     "outline": [
+      45,
+      380,
+      17,
+      37
+     ],
+     "w": 1.2,
+     "r": 4,
+     "side": "left",
+     "offHex": "#8d8f92"
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": {
+   "x": [
+    3.6,
+    137
+   ],
+   "y": [
+    57.9,
+    474.9
+   ],
+   "z": [
+    0,
+    50
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:watercool-heatkiller-rad-360-s-stainless-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 398,
+   "width": 120,
+   "thick": 30,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": null,
+    "finish": "matte-black"
+   },
+   "endTanks": {
+    "top": {
+     "len": 32,
+     "shape": "square",
+     "finish": "brushed-steel",
+     "mark": {
+      "text": "HEATKILLER",
+      "h": 4
+     },
+     "finishHex": "#c3c5c6",
+     "rough": 0.55
+    },
+    "bottom": {
+     "len": 20,
+     "shape": "square",
+     "finish": "brushed-steel",
+     "finishHex": "#c3c5c6",
+     "rough": 0.55
+    }
+   },
+   "ports": [
+    {
+     "id": "o",
+     "at": [
+      40,
+      12
+     ],
+     "face": "front"
+    },
+    {
+     "id": "i",
+     "at": [
+      80,
+      12
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M3",
+   "housing": {
+    "finish": {
+     "finish": "brushed-steel",
+     "hex": "#C3C5C6"
+    },
+    "rough": 0.55
+   },
+   "fanCentresY": [
+    85,
+    205,
+    325
+   ],
+   "frame": {
+    "finish": "brushed-steel",
+    "finishHex": "#c3c5c6",
+    "border": 4,
+    "tab": 13,
+    "rough": 0.55
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    10.3,
+    130.3
+   ],
+   "y": [
+    71.4,
+    469.4
+   ],
+   "z": [
+    0,
+    30
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:watercool-heatkiller-rad-360-l-stainless-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 398,
+   "width": 120,
+   "thick": 48,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": null,
+    "finish": "matte-black"
+   },
+   "endTanks": {
+    "top": {
+     "len": 32,
+     "shape": "square",
+     "finish": "brushed-steel",
+     "mark": {
+      "text": "HEATKILLER",
+      "h": 4
+     },
+     "finishHex": "#c3c5c6",
+     "rough": 0.55
+    },
+    "bottom": {
+     "len": 20,
+     "shape": "square",
+     "finish": "brushed-steel",
+     "finishHex": "#c3c5c6",
+     "rough": 0.55
+    }
+   },
+   "ports": [
+    {
+     "id": "o",
+     "at": [
+      40,
+      12
+     ],
+     "face": "front"
+    },
+    {
+     "id": "i",
+     "at": [
+      80,
+      12
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M3",
+   "housing": {
+    "finish": {
+     "finish": "brushed-steel",
+     "hex": "#C3C5C6"
+    },
+    "rough": 0.55
+   },
+   "fanCentresY": [
+    85,
+    205,
+    325
+   ],
+   "frame": {
+    "finish": "brushed-steel",
+    "finishHex": "#c3c5c6",
+    "border": 4,
+    "tab": 13,
+    "rough": 0.55
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    10.3,
+    130.3
+   ],
+   "y": [
+    71.4,
+    469.4
+   ],
+   "z": [
+    0,
+    48
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:hwl-nemesis-gts-360-x2": {
+  "gen": "radiator",
+  "part": "rad-hwl-gts-360",
+  "params": {
+   "len": 398,
+   "width": 133,
+   "thick": 29.6,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": 16,
+    "finish": "matte-black",
+    "tubes": 14
+   },
+   "endTanks": {
+    "top": {
+     "len": 19,
+     "shape": "chamfer",
+     "finish": "satin-black",
+     "mark": null,
+     "finishHex": "#2b2c2f",
+     "r": 3.5
+    },
+    "bottom": {
+     "len": 19,
+     "shape": "chamfer",
+     "r": 3.5
+    }
+   },
+   "ports": [
+    {
+     "id": "a",
+     "at": [
+      41.5,
+      9.5
+     ],
+     "face": "front"
+    },
+    {
+     "id": "b",
+     "at": [
+      91.5,
+      9.5
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M4",
+   "marks": [
+    {
+     "text": "BLACK ICE NEMESIS",
+     "face": "side",
+     "at": [
+      60,
+      14.8
+     ],
+     "h": 5,
+     "finish": "print-white"
+    }
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#46474b",
+    "border": 3.5,
+    "tab": 15
+   },
+   "portStyle": {
+    "insert": "brass"
+   }
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "BLACK ICE NEMESIS",
+    "face": "side",
+    "at": [
+     60,
+     14.8
+    ],
+    "h": 5,
+    "finish": "print-white"
+   }
+  ],
+  "envelope": {
+   "x": [
+    3.799999999999997,
+    136.8
+   ],
+   "y": [
+    77.30000000000001,
+    475.3
+   ],
+   "z": [
+    0,
+    29.6
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:hwl-nemesis-gtx-360-x2": {
+  "gen": "radiator",
+  "part": "rad-hwl-gts-360",
+  "params": {
+   "len": 398,
+   "width": 133,
+   "thick": 54,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": 16,
+    "finish": "matte-black",
+    "tubes": 14
+   },
+   "endTanks": {
+    "top": {
+     "len": 19,
+     "shape": "chamfer",
+     "finish": "satin-black",
+     "mark": null,
+     "finishHex": "#2b2c2f",
+     "r": 3.5
+    },
+    "bottom": {
+     "len": 19,
+     "shape": "chamfer",
+     "r": 3.5
+    }
+   },
+   "ports": [
+    {
+     "id": "a",
+     "at": [
+      41.5,
+      9.5
+     ],
+     "face": "front"
+    },
+    {
+     "id": "b",
+     "at": [
+      91.5,
+      9.5
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M4",
+   "marks": [
+    {
+     "text": "BLACK ICE NEMESIS",
+     "face": "side",
+     "at": [
+      60,
+      27
+     ],
+     "h": 5,
+     "finish": "print-white"
+    }
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#46474b",
+    "border": 3.5,
+    "tab": 15
+   },
+   "portStyle": {
+    "insert": "brass"
+   }
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "BLACK ICE NEMESIS",
+    "face": "side",
+    "at": [
+     60,
+     27
+    ],
+    "h": 5,
+    "finish": "print-white"
+   }
+  ],
+  "envelope": {
+   "x": [
+    3.799999999999997,
+    136.8
+   ],
+   "y": [
+    77.30000000000001,
+    475.3
+   ],
+   "z": [
+    0,
+    54
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:ek-quantum-surface-p360m-x2": {
+  "gen": "radiator",
+  "part": "rad-ek-p360m",
+  "params": {
+   "len": 405,
+   "width": 130,
+   "thick": 44,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": 18,
+    "finish": "matte-black",
+    "tubes": 13
+   },
+   "endTanks": {
+    "top": {
+     "len": 22.5,
+     "shape": "rounded",
+     "finish": "anodised-silver",
+     "mark": null,
+     "shroud": true,
+     "finishHex": "#c4c6c9",
+     "r": 3
+    },
+    "bottom": {
+     "len": 22.5,
+     "shape": "rounded",
+     "finish": "anodised-silver",
+     "shroud": true,
+     "finishHex": "#c4c6c9",
+     "r": 3
+    }
+   },
+   "sidePlates": {
+    "finish": "matte-black",
+    "material": "stainless steel"
+   },
+   "ports": [
+    {
+     "id": "a",
+     "at": [
+      45,
+      11
+     ],
+     "face": "front"
+    },
+    {
+     "id": "b",
+     "at": [
+      94,
+      11
+     ],
+     "face": "front"
+    },
+    {
+     "id": "c",
+     "at": [
+      44,
+      0
+     ],
+     "face": "end-top",
+     "z": 22
+    },
+    {
+     "id": "d",
+     "at": [
+      97,
+      0
+     ],
+     "face": "end-top",
+     "z": 22
+    },
+    {
+     "id": "drain",
+     "at": [
+      65,
+      405
+     ],
+     "face": "end-bottom",
+     "z": 22
+    }
+   ],
+   "thread": "M4",
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#17181a",
+    "border": 3,
+    "tab": 14
+   },
+   "portStyle": {
+    "ring": "chrome"
+   },
+   "marks": [
+    {
+     "text": "EK",
+     "face": "front",
+     "at": [
+      22,
+      11
+     ],
+     "h": 3.6,
+     "weight": 600,
+     "finish": "print-white",
+     "finishHex": "#8d9094"
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "EK",
+    "face": "front",
+    "at": [
+     22,
+     11
+    ],
+    "h": 3.6,
+    "weight": 600,
+    "finish": "print-white",
+    "finishHex": "#8d9094"
+   }
+  ],
+  "envelope": {
+   "x": [
+    5.3,
+    135.3
+   ],
+   "y": [
+    73.8,
+    478.8
+   ],
+   "z": [
+    0,
+    44
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:ek-quantum-surface-p360m-xflow-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 420,
+   "width": 130,
+   "thick": 44,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": 18,
+    "finish": "matte-black"
+   },
+   "endTanks": {
+    "top": {
+     "len": 30,
+     "shape": "rounded",
+     "finish": "anodised-silver",
+     "mark": null,
+     "finishHex": "#c4c6c9"
+    },
+    "bottom": {
+     "len": 30,
+     "shape": "rounded",
+     "finish": "anodised-silver",
+     "finishHex": "#c4c6c9"
+    }
+   },
+   "ports": [
+    {
+     "id": "i",
+     "at": [
+      65,
+      12
+     ],
+     "face": "front"
+    },
+    {
+     "id": "o",
+     "at": [
+      65,
+      408
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M4",
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#17181a",
+    "border": 3,
+    "tab": 14
+   },
+   "portStyle": {
+    "ring": "chrome"
+   },
+   "fanCentresY": [
+    90,
+    210,
+    330
+   ]
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    5.3,
+    135.3
+   ],
+   "y": [
+    66.4,
+    486.4
+   ],
+   "z": [
+    0,
+    44
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:bykski-rc360-d30-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 395.5,
+   "width": 122,
+   "thick": 30,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": 14,
+    "finish": "matte-black"
+   },
+   "endTanks": {
+    "top": {
+     "len": 30,
+     "shape": "square",
+     "finish": "satin-black",
+     "mark": null,
+     "finishHex": "#222326"
+    },
+    "bottom": {
+     "len": 15,
+     "shape": "square"
+    }
+   },
+   "ports": [
+    {
+     "id": "o",
+     "at": [
+      41,
+      10
+     ],
+     "face": "front"
+    },
+    {
+     "id": "i",
+     "at": [
+      81,
+      10
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M3",
+   "fanCentresY": [
+    85.2,
+    205.2,
+    325.2
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#2a2b2e",
+    "border": 3.5,
+    "tab": 14
+   },
+   "portStyle": {
+    "insert": "brass"
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    9.3,
+    131.3
+   ],
+   "y": [
+    71.2,
+    466.7
+   ],
+   "z": [
+    0,
+    30
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:granzon-gh360n-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 400,
+   "width": 125,
+   "thick": 30,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": null,
+    "finish": "matte-black"
+   },
+   "endTanks": {
+    "top": {
+     "len": 35,
+     "shape": "square",
+     "finish": "clear-acrylic",
+     "mark": null
+    },
+    "bottom": {
+     "len": 35,
+     "shape": "square",
+     "finish": "satin-black"
+    }
+   },
+   "ports": [],
+   "thread": null,
+   "fanCentresY": [
+    80,
+    200,
+    320
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#1c1d20",
+    "border": 3.5,
+    "tab": 14
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    7.8,
+    132.8
+   ],
+   "y": [
+    76.4,
+    476.4
+   ],
+   "z": [
+    0,
+    30
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:barrowch-fbcfrx-360p-v2-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 400,
+   "width": 124,
+   "thick": 30,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": null,
+    "finish": "matte-black"
+   },
+   "endTanks": {
+    "top": {
+     "len": 45,
+     "shape": "square",
+     "finish": "satin-black",
+     "mark": null,
+     "finishHex": "#18191b"
+    },
+    "bottom": {
+     "len": 12,
+     "shape": "square"
+    }
+   },
+   "ports": [],
+   "thread": null,
+   "screen": {
+    "on": "side",
+    "rect": [
+     300,
+     8,
+     342,
+     22
+    ],
+    "z": 15
+   },
+   "fanCentresY": [
+    96.5,
+    216.5,
+    336.5
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#1c1d20",
+    "border": 3.5,
+    "tab": 14
+   }
+  },
+  "ledZones": [
+   {
+    "id": "display",
+    "kind": "screen",
+    "group": "screens",
+    "addressable": false,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "rect": [
+      20,
+      5,
+      100,
+      35
+     ]
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": {
+   "x": [
+    8.3,
+    132.3
+   ],
+   "y": [
+    59.9,
+    459.9
+   ],
+   "z": [
+    0,
+    30
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:alphacool-nexxxos-ut60-360-x2": {
+  "gen": "radiator",
+  "part": null,
+  "params": {
+   "len": 397,
+   "width": 124,
+   "thick": 60,
+   "fans": 3,
+   "fanPitch": 120,
+   "core": {
+    "fpi": null,
+    "finish": "matte-black",
+    "tubes": 18
+   },
+   "endTanks": {
+    "top": {
+     "len": 33,
+     "shape": "split",
+     "finish": "satin-black",
+     "mark": null,
+     "gap": 3,
+     "finishHex": "#1c1d20"
+    },
+    "bottom": {
+     "len": 33,
+     "shape": "rounded"
+    }
+   },
+   "ports": [
+    {
+     "id": "o",
+     "at": [
+      42,
+      12
+     ],
+     "face": "front"
+    },
+    {
+     "id": "i",
+     "at": [
+      82,
+      12
+     ],
+     "face": "front"
+    },
+    {
+     "id": "f",
+     "at": [
+      62,
+      385
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": "M3",
+   "fanCentresY": [
+    78.5,
+    198.5,
+    318.5
+   ],
+   "frame": {
+    "finish": "satin-black",
+    "finishHex": "#1c1d20",
+    "border": 3.5,
+    "tab": 14
+   },
+   "marks": [
+    {
+     "text": "ACOOL",
+     "face": "side",
+     "side": "left",
+     "up": "back",
+     "at": [
+      370,
+      33
+     ],
+     "h": 5.5,
+     "weight": 600,
+     "font": "wide",
+     "letterSpacing": 0.06,
+     "finish": "print-white",
+     "finishHex": "#3f8ad8"
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "ACOOL",
+    "face": "side",
+    "side": "left",
+    "up": "back",
+    "at": [
+     370,
+     33
+    ],
+    "h": 5.5,
+    "weight": 600,
+    "font": "wide",
+    "letterSpacing": 0.06,
+    "finish": "print-white",
+    "finishHex": "#3f8ad8"
+   }
+  ],
+  "envelope": {
+   "x": [
+    8.3,
+    132.3
+   ],
+   "y": [
+    77.9,
+    474.9
+   ],
+   "z": [
+    0,
+    60
+   ]
+  },
+  "no3d": false
+ },
+ "radiators:tt-pacific-sr360-slim-x2": {
+  "gen": "radiator",
+  "part": "rad-tt-sr360-slim",
+  "params": {
+   "len": 398.6,
+   "width": 120,
+   "thick": 30.7,
+   "core": {
+    "fpi": 17,
+    "thick": 28,
+    "tubes": 12,
+    "finish": "matte-black"
+   },
+   "fans": 3,
+   "fanPitch": 120,
+   "endTanks": {
+    "top": {
+     "len": 19.3,
+     "shape": "split",
+     "finish": "satin-black",
+     "mark": null,
+     "gap": 3,
+     "finishHex": "#1c1d20"
+    },
+    "bottom": {
+     "len": 19.3,
+     "shape": "rounded"
+    }
+   },
+   "sidePanels": {
+    "removable": true,
+    "finish": "matte-black"
+   },
+   "ports": [
+    {
+     "id": "a",
+     "at": [
+      35,
+      10
+     ],
+     "face": "front"
+    },
+    {
+     "id": "b",
+     "at": [
+      85,
+      10
+     ],
+     "face": "front"
+    }
+   ],
+   "thread": null,
+   "marks": [
+    {
+     "text": "thermaltake",
+     "face": "side",
+     "side": "right",
+     "up": "front",
+     "at": [
+      190,
+      15
+     ],
+     "h": 4,
+     "weight": 500,
+     "finish": "print-white",
+     "finishHex": "#c9cbce"
+    }
+   ],
+   "frame": {
+    "finish": "gunmetal",
+    "finishHex": "#646669",
+    "border": 3.5,
+    "tab": 14
+   },
+   "portStyle": {
+    "insert": "brass"
+   }
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "thermaltake",
+    "face": "side",
+    "side": "right",
+    "up": "front",
+    "at": [
+     190,
+     15
+    ],
+    "h": 4,
+    "weight": 500,
+    "finish": "print-white",
+    "finishHex": "#c9cbce"
+   }
+  ],
+  "envelope": {
+   "x": [
+    10.3,
+    130.3
+   ],
+   "y": [
+    77,
+    475.6
+   ],
+   "z": [
+    0,
+    30.7
+   ]
+  },
+  "no3d": false
+ }
+}

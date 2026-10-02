@@ -1,0 +1,244 @@
+{
+ "pump:alphacool-vpp655-pwm-x2": {
+  "gen": "d5Motor",
+  "part": null,
+  "params": {
+   "d": 65,
+   "h": 57,
+   "behind_plate_mm": 15,
+   "flange": {
+    "finish": "brushed-steel",
+    "hex": "#cfd1d2"
+   },
+   "rotor": {
+    "finish": "satin-black",
+    "hex": "#141416"
+   },
+   "wires": [
+    "#c8272c",
+    "#1d8a4e"
+   ],
+   "logo": {
+    "text": "alphacool",
+    "h": 3.2,
+    "hex": "#3c3d40"
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "pump:alphacool-vpp655-single-edition-x2": {
+  "gen": "d5Motor",
+  "part": null,
+  "params": {
+   "d": 65,
+   "h": 57,
+   "behind_plate_mm": 15,
+   "flange": {
+    "finish": "brushed-steel",
+    "hex": "#cfd1d2"
+   },
+   "rotor": {
+    "finish": "satin-black",
+    "hex": "#141416"
+   },
+   "wires": [
+    "#c8272c",
+    "#2a5bc4"
+   ],
+   "logo": {
+    "text": "alphacool",
+    "h": 3.2,
+    "hex": "#3c3d40"
+   },
+   "back": {
+    "dial": true
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "pump:aquacomputer-d5-pwm-motor-x2": {
+  "gen": "d5Motor",
+  "part": null,
+  "params": {
+   "d": 66,
+   "h": 57,
+   "behind_plate_mm": 15,
+   "flange": {
+    "finish": "brushed-steel",
+    "hex": "#cfd1d2"
+   },
+   "rotor": {
+    "finish": "satin-black",
+    "hex": "#141416"
+   },
+   "wires": [
+    "#2a6fd1",
+    "#18a3a8",
+    "#1f9d55",
+    "#d13a2a"
+   ],
+   "back": {
+    "label": {
+     "hex": "#f2d33a",
+     "text": "TYPE D5  PWM",
+     "sub": "aquacomputer"
+    }
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "pump:watercool-heatkiller-d5-pwm-x2": {
+  "gen": "d5Motor",
+  "part": null,
+  "params": {
+   "d": 65,
+   "h": 57,
+   "behind_plate_mm": 15,
+   "flange": {
+    "finish": "brushed-steel",
+    "hex": "#cfd1d2"
+   },
+   "rotor": {
+    "finish": "satin-black",
+    "hex": "#141416"
+   },
+   "wires": [],
+   "back": {
+    "plate": {
+     "finish": "brushed-alu",
+     "hex": "#c9cbcd",
+     "text": "D5  PWM"
+    }
+   }
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "pump:ek-loop-d5-g3-pwm-x2": {
+  "gen": "d5Motor",
+  "part": null,
+  "params": {
+   "d": 65,
+   "h": 57,
+   "behind_plate_mm": 15,
+   "flange": {
+    "finish": "brushed-steel",
+    "hex": "#dcdedf"
+   },
+   "rotor": {
+    "finish": "satin-black",
+    "hex": "#141416"
+   },
+   "wires": [
+    "#111214",
+    "#111214"
+   ]
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "pump:alphacool-vpp-apex-x2": {
+  "gen": "d5Motor",
+  "part": null,
+  "params": {
+   "d": 65,
+   "h": 41,
+   "behind_plate_mm": 0,
+   "flange": {
+    "finish": "satin-black",
+    "hex": "#161719"
+   },
+   "rotor": {
+    "finish": "satin-black",
+    "hex": "#121214",
+    "ceramic": true
+   },
+   "wires": [
+    "#111214"
+   ]
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "pump:aquacomputer-d5-next-x2": {
+  "gen": "d5Motor",
+  "part": null,
+  "params": {
+   "d": 66,
+   "h": 75,
+   "behind_plate_mm": 33,
+   "flange": {
+    "finish": "brushed-steel",
+    "hex": "#cfd1d2"
+   },
+   "rotor": {
+    "finish": "satin-black",
+    "hex": "#141416"
+   },
+   "wires": [],
+   "module": {
+    "h": 26,
+    "w": 66,
+    "oled": [
+     24,
+     12
+    ],
+    "buttons": 3,
+    "text": "D5"
+   }
+  },
+  "ledZones": [
+   {
+    "id": "rgbpx",
+    "kind": "edge",
+    "group": "fittings",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "band": "module foot",
+     "h": 4.6
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "oled",
+    "kind": "screen",
+    "group": "screens",
+    "addressable": false,
+    "control": "usb",
+    "leds": null,
+    "fixedHex": "#FFFFFF",
+    "geom": {
+     "rect": [
+      0,
+      0,
+      24,
+      12
+     ],
+     "face": "front of the controller module"
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ }
+}

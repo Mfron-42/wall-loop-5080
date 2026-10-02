@@ -1,0 +1,92 @@
+{
+ "riser:delock-81593-pcie5-300-90": {
+  "gen": "riser",
+  "part": "riser-delock",
+  "params": {
+   "length": 300,
+   "width": 45,
+   "male": {
+    "mark": null,
+    "len": 104,
+    "depth": 26,
+    "thick": 10,
+    "ridges": 0,
+    "fingers": [
+     20,
+     102
+    ],
+    "bracket": false
+   },
+   "ribbons": [
+    {
+     "w": 30,
+     "at": 20
+    },
+    {
+     "w": 30,
+     "at": 54
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "riser:hyte-pcie5-hyper-riser-200-black": {
+  "gen": "riser",
+  "part": "riser-hyte",
+  "params": {
+   "length": 200,
+   "width": 45,
+   "male": {
+    "len": 140,
+    "depth": 46,
+    "thick": 14,
+    "fingers": [
+     48,
+     130
+    ]
+   },
+   "female": {
+    "len": 92,
+    "board": [
+     11,
+     9.5
+    ],
+    "boardW": 22
+   },
+   "ribbons": [
+    {
+     "w": 14,
+     "at": 49
+    },
+    {
+     "w": 21,
+     "at": 70
+    },
+    {
+     "w": 21,
+     "at": 103
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    288,
+    431
+   ],
+   "y": [
+    203,
+    311
+   ],
+   "z": [
+    18,
+    94
+   ]
+  },
+  "no3d": false
+ }
+}

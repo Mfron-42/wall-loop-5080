@@ -1,0 +1,137 @@
+[
+ {
+  "id": "beautiful",
+  "name": "The beautiful one",
+  "sub": "looks first",
+  "focus": "looks",
+  "total": 7416.94,
+  "layout": "L1",
+  "picks": {
+   "cpu": "cpu:r7-9800x3d",
+   "motherboard": "motherboard:asus-crosshair-x870e-dark-hero",
+   "ram": "ram:gskill-trident-z5-neo-rgb-2x16-6000-cl36",
+   "gpu": "gpu:inno3d-rtx5080-frostbite-pro",
+   "cpu_block": "cpu_block:granzon-gamsc",
+   "radiators": "radiators:alphacool-hpe30-360-x2",
+   "fans": "fans:noctua-nf-a12x25-g2-chromax-x6",
+   "fittings": "fittings:alphacool-eiszapfen-pro-black",
+   "tube": "tube:alphacool-acrylic-16-13-60cm",
+   "coolant": "coolant:alphacool-tec-protect-2-clear-3l",
+   "psu": "psu:bequiet-dark-power-14-1000",
+   "cables": "cables:cablemod-pro-modflex-ext-black-silver",
+   "lighting": "lighting:glow",
+   "screens": "screens:balanced",
+   "plate": "plate:black",
+   "glass": "glass:tinted",
+   "pump": "pump:alphacool-vpp655-pwm-x2",
+   "qd": "qd:alphacool-eiszapfen-qd-x2",
+   "drain": "drain:barrow-ttlpfg-v2-silver-x2",
+   "loop_meter": "loop_meter:no-inline-meter",
+   "reservoir_arch": "reservoir_arch:pinions-stock",
+   "riser": "riser:hyte-pcie5-hyper-riser-200-black",
+   "thermal": "thermal:thermalright-tf7-1g",
+   "tools": "tools:toolkit-cooledcase-essentials",
+   "rgb_control": "rgb_control:board-argb-headers",
+   "plugs": "plugs:alphacool-hf-plug-chrome"
+  },
+  "reasons": [
+   "Every visible element follows one rule: black surface, satin-silver structure and service points, clear glass-like coolant, one warm-white light",
+   "Glow turns the clear Pinions into lit panels and floats the frame on a wall halo; tinted glass keeps it calm by day",
+   "Three dashboards on ONE app (AIDA64): GAMSC on the CPU, flow/water-quality NEXT on the crossbar, an 8.8 in bar below the frame like a museum label"
+  ],
+  "weak": [
+   "+€884 over Best value for nothing that adds fps; the black/tinted Crow has 1 unit in stock",
+   "All 3 ARGB and all 3 USB 2.0 headers of the Dark Hero are used: nothing left for later; more leads in the wall gap"
+  ]
+ },
+ {
+  "id": "powerful",
+  "name": "The powerful one",
+  "sub": "performance first",
+  "focus": "performance",
+  "total": 8109.81,
+  "layout": "L1",
+  "picks": {
+   "cpu": "cpu:r7-9850x3d",
+   "motherboard": "motherboard:asus-crosshair-x870e-dark-hero",
+   "ram": "ram:kingston-fury-beast-rgb-2x32-6000-cl30",
+   "gpu": "gpu:inno3d-rtx5080-frostbite-pro",
+   "cpu_block": "cpu_block:granzon-gamsc",
+   "radiators": "radiators:alphacool-hpe45-360-x2",
+   "fans": "fans:noctua-nf-a12x25-g2-chromax-x6",
+   "fittings": "fittings:alphacool-eiszapfen-pro-black",
+   "tube": "tube:alphacool-acrylic-16-13-60cm",
+   "coolant": "coolant:alphacool-tec-protect-2-clear-3l",
+   "psu": "psu:bequiet-dark-power-14-1000",
+   "cables": "cables:bequiet-bc073",
+   "lighting": "lighting:static-ram-gamsc",
+   "screens": "screens:balanced",
+   "plate": "plate:black",
+   "glass": "glass:clear",
+   "pump": "pump:alphacool-vpp655-pwm-x2",
+   "qd": "qd:alphacool-eiszapfen-qd-x2",
+   "drain": "drain:barrow-ttlpfg-v2-silver-x2",
+   "loop_meter": "loop_meter:no-inline-meter",
+   "reservoir_arch": "reservoir_arch:pinions-stock",
+   "riser": "riser:hyte-pcie5-hyper-riser-200-black",
+   "thermal": "thermal:thermalright-tf7-1g",
+   "tools": "tools:toolkit-cooledcase-essentials",
+   "rgb_control": "rgb_control:board-argb-headers",
+   "plugs": "plugs:alphacool-hf-plug-black"
+  },
+  "reasons": [
+   "Fastest AM5 gaming CPU on sale (9850X3D) with 64 GB DDR5-6000 CL30: no CPU or RAM limit for years",
+   "Dark Hero VRM (20 stages, 51–57 °C with a 9900X) and HPE-45 radiators give headroom for PBO, a 390 W GPU limit and 30 °C summers",
+   "Flow + coolant temperature + water quality on the NEXT, with a flow alarm into a fan header"
+  ],
+  "weak": [
+   "+€1,577 over Best value for about 1% fps at 1440p (the 64 GB alone is +€768 at autumn-2026 DRAM prices)",
+   "HPE-45: +0.9 kg and fans 19 mm proud of the Pinions for at most 0.5 K, and only above ~1200 rpm"
+  ]
+ },
+ {
+  "id": "value",
+  "name": "Best value",
+  "sub": "quality for price",
+  "focus": "value",
+  "total": 6533.1,
+  "layout": "L1",
+  "picks": {
+   "cpu": "cpu:r7-9800x3d",
+   "motherboard": "motherboard:msi-mpg-x870e-carbon",
+   "ram": "ram:gskill-trident-z5-neo-rgb-2x16-6000-cl36",
+   "gpu": "gpu:inno3d-rtx5080-frostbite-pro",
+   "cpu_block": "cpu_block:granzon-gamsc",
+   "radiators": "radiators:alphacool-hpe30-360-x2",
+   "fans": "fans:tt-toughfan-ex12-pro-x6",
+   "fittings": "fittings:alphacool-eiszapfen-pro-black",
+   "tube": "tube:alphacool-acrylic-16-13-60cm",
+   "coolant": "coolant:alphacool-tec-protect-2-clear-3l",
+   "psu": "psu:corsair-rm1000x-2024",
+   "cables": "cables:corsair-type4-90-12v2x6",
+   "lighting": "lighting:static-ram-gamsc",
+   "screens": "screens:gamsc-only",
+   "plate": "plate:black",
+   "glass": "glass:clear",
+   "pump": "pump:alphacool-vpp655-pwm-x2",
+   "qd": "qd:alphacool-eiszapfen-qd-x2",
+   "drain": "drain:barrow-ttlpfg-v2-silver-x2",
+   "loop_meter": "loop_meter:no-inline-meter",
+   "reservoir_arch": "reservoir_arch:pinions-stock",
+   "riser": "riser:hyte-pcie5-hyper-riser-200-black",
+   "thermal": "thermal:thermalright-tf7-1g",
+   "tools": "tools:toolkit-cooledcase-essentials",
+   "rgb_control": "rgb_control:board-argb-headers",
+   "plugs": "plugs:alphacool-hf-plug-black"
+  },
+  "reasons": [
+   "Same fps as Powerful within ~1% and the same loop quality: Alphacool fittings, HPE-30 with drains, QDs, two drain valves, clear acrylic",
+   "TOUGHFAN EX12 Pro: Noctua-class airflow at 20 dBA (Hardware Busters, 12 Pro twin) for €53.54 less, 2 cables for 6 fans",
+   "Gen5 T710 at the price of an SN850X; the GAMSC screen shows CPU and H2O (coolant probe on T_SEN1) with free InfoPanel; 9800X3D at 369 while the deal lasts"
+  ],
+  "weak": [
+   "MSI Carbon: dragon logo, 2 USB 2.0 headers, M2_2 halves the GPU slot, less VRM margin (no backplate)",
+   "Gold RM1000x (~15 W more at the wall than the Titanium DP14, 90-degree 12V-2x6 from Corsair, Style A/B) and a single 2.9 in dashboard: no flow reading or second screen"
+  ]
+ }
+]

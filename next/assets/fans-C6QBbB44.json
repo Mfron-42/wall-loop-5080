@@ -1,0 +1,2437 @@
+{
+ "fans:noctua-nf-a12x25-g2-chromax-x6": {
+  "gen": "fan",
+  "part": "fan-noctua-120",
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "frame": {
+    "style": "pads",
+    "corner": "square",
+    "cornerR": 6,
+    "finish": "matte-black",
+    "pads": {
+     "size": 15,
+     "thick": 2.4,
+     "finish": "rubber"
+    },
+    "holePitch": 105,
+    "throatD": 117,
+    "finishHex": "#26272a",
+    "lip": 1
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 58,
+    "twist": 26,
+    "chordRoot": 9,
+    "chordTip": 44,
+    "tipGap": 0.5,
+    "finish": "matte-black",
+    "translucent": false,
+    "winglets": true,
+    "finishHex": "#3c3e43",
+    "lead": 0.25,
+    "sweepPow": 2.2,
+    "bend": 12
+   },
+   "hub": {
+    "d": 38,
+    "cap": "ridged",
+    "finish": "matte-black",
+    "ridges": true,
+    "mark": null,
+    "finishHex": "#3a3c40",
+    "labelPatch": {
+     "at": [
+      60,
+      47.5
+     ],
+     "w": 5.5,
+     "h": 5.5,
+     "hex": "#7a3b2e"
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 5,
+    "side": "back",
+    "angles": [
+     62,
+     155,
+     240,
+     335
+    ]
+   },
+   "lit": false,
+   "marks": [
+    {
+     "text": "CHROMAX",
+     "face": "back",
+     "at": [
+      60,
+      55.5
+     ],
+     "h": 4.2,
+     "weight": 700,
+     "finish": "print-white"
+    },
+    {
+     "text": "NF-A12x25 G2 PWM chromax.black",
+     "face": "back",
+     "at": [
+      60,
+      60.6
+     ],
+     "h": 1.25,
+     "weight": 500,
+     "finish": "print-white"
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "CHROMAX",
+    "face": "back",
+    "at": [
+     60,
+     55.5
+    ],
+    "h": 4.2,
+    "weight": 700,
+    "finish": "print-white"
+   },
+   {
+    "text": "NF-A12x25 G2 PWM chromax.black",
+    "face": "back",
+    "at": [
+     60,
+     60.6
+    ],
+    "h": 1.25,
+    "weight": 500,
+    "finish": "print-white"
+   }
+  ],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:tt-toughfan-ex12-pro-x6": {
+  "gen": "fan",
+  "part": "fan-tt-ex12-pro",
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "frame": {
+    "style": "closed",
+    "corner": "round",
+    "cornerR": 5,
+    "finish": "matte-black",
+    "pads": {
+     "size": 20,
+     "thick": 1.5,
+     "chamfer": 14,
+     "finish": "rubber",
+     "finishHex": "#1d1e20"
+    },
+    "holePitch": 105,
+    "throatD": 116,
+    "magnetic": "MagForce 2.0 side links",
+    "finishHex": "#303134",
+    "lip": 0.8,
+    "contacts": [
+     {
+      "side": "right",
+      "at": 18,
+      "n": 4,
+      "pitch": 3.4
+     },
+     {
+      "side": "top",
+      "at": 104,
+      "n": 4,
+      "pitch": 3.4,
+      "pins": true
+     }
+    ]
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 66,
+    "twist": 26,
+    "chordRoot": 22,
+    "chordTip": 30,
+    "tipGap": 1,
+    "finish": "matte-black",
+    "finishHex": "#4b4c50",
+    "translucent": false,
+    "swappable": true,
+    "lead": 0.55,
+    "sweepPow": 1.4
+   },
+   "hub": {
+    "d": 46,
+    "cap": "label",
+    "finish": "matte-black",
+    "centre": "copper",
+    "mark": {
+     "text": "TOUGHFAN EX12 Pro",
+     "h": 1.9,
+     "weight": 600,
+     "y": 14.2,
+     "lines": [
+      {
+       "text": "Standard Fan Blade",
+       "h": 1.7,
+       "y": -14.6
+      }
+     ]
+    },
+    "labelFinish": "gloss-black",
+    "centreD": 5.5,
+    "centreRing": {
+     "d": 15,
+     "finish": "white"
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": false,
+   "marks": [
+    {
+     "text": "thermaltake",
+     "face": "side",
+     "side": "top",
+     "at": [
+      62,
+      12.5
+     ],
+     "h": 4.2,
+     "weight": 500,
+     "finish": "print-white",
+     "finishHex": "#46474b"
+    },
+    {
+     "text": "thermaltake",
+     "face": "side",
+     "side": "right",
+     "at": [
+      60,
+      12.5
+     ],
+     "h": 4.2,
+     "weight": 500,
+     "finish": "print-white",
+     "finishHex": "#46474b"
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "thermaltake",
+    "face": "side",
+    "side": "top",
+    "at": [
+     62,
+     12.5
+    ],
+    "h": 4.2,
+    "weight": 500,
+    "finish": "print-white",
+    "finishHex": "#46474b"
+   },
+   {
+    "text": "thermaltake",
+    "face": "side",
+    "side": "right",
+    "at": [
+     60,
+     12.5
+    ],
+    "h": 4.2,
+    "weight": 500,
+    "finish": "print-white",
+    "finishHex": "#46474b"
+   }
+  ],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:alphacool-apex-stealth-metal-black-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "frame": {
+    "style": "plate",
+    "corner": "square",
+    "cornerR": 4,
+    "finish": "matte-black",
+    "pads": null,
+    "holePitch": 105,
+    "throatD": 116,
+    "plateFinish": "satin-black",
+    "plateFinishHex": "#141517",
+    "plateT": 3,
+    "finishHex": "#101113"
+   },
+   "blades": {
+    "count": 11,
+    "sweep": 58,
+    "twist": 25,
+    "chordRoot": 11,
+    "chordTip": 17,
+    "tipGap": 1.5,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.45,
+    "finishHex": "#151618",
+    "sweepPow": 1.6
+   },
+   "hub": {
+    "d": 52,
+    "cap": "flat",
+    "finish": "matte-black",
+    "mark": null
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": false
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:alphacool-apex-stealth-metal-chrome-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "frame": {
+    "style": "plate",
+    "corner": "square",
+    "cornerR": 4,
+    "finish": "chrome",
+    "pads": null,
+    "holePitch": 105,
+    "throatD": 116,
+    "plateFinish": "chrome",
+    "plateT": 3,
+    "backPlate": true,
+    "throatFinish": "matte-black",
+    "finishHex": null,
+    "plateFinishHex": null
+   },
+   "blades": {
+    "count": 11,
+    "sweep": 58,
+    "twist": 25,
+    "chordRoot": 11,
+    "chordTip": 17,
+    "tipGap": 1.5,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.45,
+    "finishHex": "#151618",
+    "sweepPow": 1.6
+   },
+   "hub": {
+    "d": 52,
+    "cap": "flat",
+    "finish": "matte-black",
+    "mark": null
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": false
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:alphacool-apex-stealth-metal-white-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "frame": {
+    "style": "plate",
+    "corner": "square",
+    "cornerR": 4,
+    "finish": "white",
+    "pads": null,
+    "holePitch": 105,
+    "throatD": 116,
+    "plateFinish": "white",
+    "plateT": 3,
+    "backPlate": true,
+    "throatFinish": "matte-black",
+    "finishHex": "#e9e8e4",
+    "plateFinishHex": "#e9e8e4"
+   },
+   "blades": {
+    "count": 11,
+    "sweep": 58,
+    "twist": 25,
+    "chordRoot": 11,
+    "chordTip": 17,
+    "tipGap": 1.5,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.45,
+    "finishHex": "#151618",
+    "sweepPow": 1.6
+   },
+   "hub": {
+    "d": 52,
+    "cap": "flat",
+    "finish": "matte-black",
+    "mark": null
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": false
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:phanteks-t30-120-x6": {
+  "gen": "fan",
+  "part": "fan-phanteks-t30",
+  "params": {
+   "size": 120,
+   "thickness": 30,
+   "frame": {
+    "style": "pads",
+    "corner": "square",
+    "cornerR": 5,
+    "finish": "matte-black",
+    "pads": {
+     "size": 16,
+     "thick": 2,
+     "finish": "rubber",
+     "finishHex": "#7d8084",
+     "chamfer": 7
+    },
+    "holePitch": 105,
+    "throatD": 117,
+    "finishHex": "#2a2b2e",
+    "lip": 1.2
+   },
+   "blades": {
+    "count": 7,
+    "sweep": 48,
+    "twist": 28,
+    "chordRoot": 20,
+    "chordTip": 46,
+    "tipGap": 0.5,
+    "finish": "satin-black",
+    "finishHex": "#6d7074",
+    "translucent": false,
+    "texture": "fibre",
+    "lead": 0.35
+   },
+   "hub": {
+    "d": 48,
+    "cap": "flat",
+    "finish": "white",
+    "finishHex": "#85888c",
+    "centre": "gold",
+    "centreD": 4
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": false,
+   "marks": [
+    {
+     "text": "PHANTEKS",
+     "face": "back",
+     "at": [
+      60,
+      58
+     ],
+     "h": 3.4,
+     "weight": 600,
+     "finish": "print-white"
+    },
+    {
+     "text": "T30",
+     "face": "back",
+     "at": [
+      60,
+      52
+     ],
+     "h": 2.2,
+     "weight": 600,
+     "finish": "print-white"
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "PHANTEKS",
+    "face": "back",
+    "at": [
+     60,
+     58
+    ],
+    "h": 3.4,
+    "weight": 600,
+    "finish": "print-white"
+   },
+   {
+    "text": "T30",
+    "face": "back",
+    "at": [
+     60,
+     52
+    ],
+    "h": 2.2,
+    "weight": 600,
+    "finish": "print-white"
+   }
+  ],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:phanteks-d30-120-drgb-x6": {
+  "gen": "fan",
+  "part": "alt-fan-phanteks-d30",
+  "params": {
+   "size": 120,
+   "thickness": 30,
+   "frame": {
+    "style": "pads",
+    "corner": "square",
+    "cornerR": 4,
+    "finish": "matte-black",
+    "pads": {
+     "size": 16,
+     "thick": 2,
+     "finish": "rubber"
+    },
+    "holePitch": 105,
+    "throatD": 117,
+    "cornerBars": true,
+    "finishHex": "#141517",
+    "cornerPlates": {
+     "size": 26,
+     "chamfer": 16,
+     "thick": 1.2,
+     "finish": "satin-black",
+     "finishHex": "#232427",
+     "back": true
+    }
+   },
+   "blades": {
+    "count": 7,
+    "sweep": 46,
+    "twist": 28,
+    "chordRoot": 18,
+    "chordTip": 30,
+    "tipGap": 0.5,
+    "finish": "frosted-acrylic",
+    "finishHex": "#e6e8eb",
+    "translucent": true,
+    "lead": 0.4
+   },
+   "hub": {
+    "d": 44,
+    "cap": "mirror",
+    "finish": "satin-black",
+    "inset": 3
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true,
+   "outline": [
+    120,
+    120
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "frame",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "all",
+     "len": 480,
+     "face": "front",
+     "inset": 3.5,
+     "w": 1.6
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "r": 55,
+     "face": "both"
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:lian-li-uni-fan-sl-inf-flex-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 28,
+   "outline": [
+    120,
+    124
+   ],
+   "frame": {
+    "style": "infinity",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 46,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 1.2,
+    "finish": "matte-black",
+    "translucent": true,
+    "lead": 0.35
+   },
+   "hub": {
+    "d": 40,
+    "cap": "mirror",
+    "finish": "satin-black"
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "r": 50,
+     "face": "front"
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "infinity",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "r": 57,
+     "depth": 6,
+     "face": "both"
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "edge",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "left+right",
+     "len": 120,
+     "z": 14
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:lian-li-uni-fan-tl-flex-x6": {
+  "gen": "fan",
+  "part": "fan-lianli-tl-flex",
+  "params": {
+   "size": 120,
+   "thickness": 28,
+   "frame": {
+    "style": "infinity",
+    "corner": "square",
+    "cornerR": 2,
+    "finish": "gloss-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "infinity": {
+     "faces": "both",
+     "depth": 8
+    },
+    "interlock": "UNI clips on the 124 mm sides",
+    "finishHex": "#232427",
+    "cornerPlates": {
+     "size": 34,
+     "chamfer": 32,
+     "thick": 0.8,
+     "finish": "satin-black",
+     "finishHex": "#0f1012",
+     "back": true
+    }
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 50,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 0.6,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.4,
+    "finishHex": "#232427"
+   },
+   "hub": {
+    "d": 42,
+    "cap": "mirror",
+    "finish": "satin-black",
+    "module": "LED FLEX receiver",
+    "ring": {
+     "finish": "satin-black",
+     "finishHex": "#2a2b2e"
+    },
+    "finishHex": "#1d1e20"
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true,
+   "sizeY": 124,
+   "outline": [
+    120,
+    124
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "infinity",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 26,
+    "fixedHex": null,
+    "geom": {
+     "r": 58,
+     "depth": 8,
+     "face": "front",
+     "shape": "octagon",
+     "chamfer": 30
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "side",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "left+right",
+     "len": 76,
+     "z": 13,
+     "h": 10
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:tt-ct120-ex-argb-sync-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "closed",
+    "corner": "square",
+    "cornerR": 3,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "holePads": {
+     "d": 10,
+     "thick": 0.8,
+     "finish": "rubber",
+     "finishHex": "#0d0e0f"
+    },
+    "contacts": [
+     {
+      "side": "top",
+      "at": 60,
+      "n": 8,
+      "pitch": 2.6,
+      "pins": true
+     },
+     {
+      "side": "bottom",
+      "at": 60,
+      "n": 8,
+      "pitch": 2.6
+     }
+    ]
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 44,
+    "twist": 26,
+    "chordRoot": 17,
+    "chordTip": 36,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true,
+    "finishHex": "#eceef0"
+   },
+   "hub": {
+    "d": 44,
+    "cap": "logo",
+    "finish": "matte-black",
+    "mark": {
+     "text": "thermaltake",
+     "h": 2.2,
+     "weight": 500,
+     "y": -7.5
+    },
+    "logo": {
+     "kind": "tt",
+     "d": 14,
+     "y": 3.2
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "ring",
+    "kind": "hub",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 9,
+    "fixedHex": null,
+    "geom": {
+     "d": 46
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {},
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:tt-ct120-argb-sync-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "closed",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "holePads": {
+     "d": 10,
+     "thick": 0.8,
+     "finish": "rubber",
+     "finishHex": "#0d0e0f"
+    }
+   },
+   "blades": {
+    "count": 7,
+    "sweep": 46,
+    "twist": 26,
+    "chordRoot": 21,
+    "chordTip": 46,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true,
+    "finishHex": "#eceef0"
+   },
+   "hub": {
+    "d": 48,
+    "cap": "logo",
+    "finish": "matte-black",
+    "mark": {
+     "text": "thermaltake",
+     "h": 2.4,
+     "weight": 500,
+     "y": -8
+    },
+    "logo": {
+     "kind": "tt",
+     "d": 15,
+     "y": 3.5
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "ring",
+    "kind": "hub",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 9,
+    "fixedHex": null,
+    "geom": {
+     "d": 50
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {},
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:lian-li-uni-fan-p28-black-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 28,
+   "frame": {
+    "style": "closed",
+    "corner": "square",
+    "cornerR": 4,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "finishHex": "#2c2d30"
+   },
+   "blades": {
+    "count": 9,
+    "finish": "matte-black",
+    "translucent": false,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "sweep": 46,
+    "lead": 0.35,
+    "finishHex": "#25262a"
+   },
+   "hub": {
+    "d": 42,
+    "cap": "mirror",
+    "finish": "satin-black",
+    "logo": {
+     "kind": "lianli",
+     "d": 13,
+     "y": 0
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": false
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:lian-li-uni-fan-p28-argb-kit-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 28,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "closed",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "finishHex": "#2c2d30"
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 46,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 1.2,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.35,
+    "finishHex": "#25262a"
+   },
+   "hub": {
+    "d": 40,
+    "cap": "mirror",
+    "finish": "satin-black",
+    "logo": {
+     "kind": "lianli",
+     "d": 13,
+     "y": 0
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "side-outer",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 10,
+    "fixedHex": null,
+    "geom": {
+     "side": "outer",
+     "len": 119.6,
+     "z": 14,
+     "h": 27.85,
+     "out": 9
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:arctic-p12-pro-pst-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "frame": {
+    "style": "open",
+    "corner": "round",
+    "cornerR": 6,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "finishHex": "#1a1b1d",
+    "lip": 1.2
+   },
+   "blades": {
+    "count": 7,
+    "finish": "matte-black",
+    "translucent": false,
+    "chordRoot": 20,
+    "chordTip": 44,
+    "sweep": 45,
+    "lead": 0.35,
+    "finishHex": "#1d1e20"
+   },
+   "hub": {
+    "d": 44,
+    "cap": "logo",
+    "finish": "matte-black",
+    "mark": {
+     "text": "ARCTIC",
+     "h": 3.4,
+     "weight": 500,
+     "y": -6
+    },
+    "finishHex": "#1d1e20",
+    "logo": {
+     "kind": "arctic",
+     "d": 12,
+     "y": 3.5
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 5,
+    "side": "back"
+   },
+   "lit": false
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:arctic-p12-pro-argb-x6": {
+  "gen": "fan",
+  "part": "fan-arctic-120",
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "open",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "lip": 1.2
+   },
+   "blades": {
+    "count": 7,
+    "sweep": 45,
+    "twist": 26,
+    "chordRoot": 20,
+    "chordTip": 44,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true,
+    "finishHex": "#e8eaec",
+    "lead": 0.35
+   },
+   "hub": {
+    "d": 44,
+    "cap": "flat",
+    "finish": "matte-black",
+    "mark": {
+     "text": "ARCTIC",
+     "h": 3.4,
+     "weight": 500,
+     "y": -6
+    },
+    "logo": {
+     "kind": "arctic",
+     "d": 12,
+     "y": 3.5
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "hub-ring",
+    "kind": "hub",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 12,
+    "fixedHex": null,
+    "geom": {
+     "d": 46,
+     "z": 25
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {},
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:bequiet-silent-wings-pro-4-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "frame": {
+    "style": "pads",
+    "corner": "square",
+    "cornerR": 6,
+    "finish": "matte-black",
+    "pads": {
+     "size": 15,
+     "thick": 2,
+     "finish": "rubber"
+    },
+    "holePitch": 105,
+    "throatD": 116,
+    "finishHex": "#131416"
+   },
+   "blades": {
+    "count": 7,
+    "finish": "matte-black",
+    "translucent": false,
+    "chordRoot": 20,
+    "chordTip": 40,
+    "sweep": 40,
+    "lead": 0.4,
+    "finishHex": "#141517"
+   },
+   "hub": {
+    "d": 46,
+    "cap": "logo",
+    "finish": "matte-black",
+    "mark": {
+     "text": "be quiet!",
+     "h": 4.6,
+     "weight": 600,
+     "finish": "gloss-black",
+     "finishHex": "#3a3c40"
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": false
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:ek-vardar-x3m-120er-black-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 27.5,
+   "frame": {
+    "style": "pads",
+    "corner": "square",
+    "cornerR": 5,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "finishHex": "#141517",
+    "lip": 1,
+    "pads": {
+     "size": 17,
+     "thick": 2.6,
+     "finish": "rubber",
+     "finishHex": "#101112"
+    }
+   },
+   "blades": {
+    "count": 7,
+    "finish": "matte-black",
+    "translucent": false,
+    "chordRoot": 18,
+    "chordTip": 34,
+    "sweep": 42,
+    "lead": 0.4,
+    "finishHex": "#16171a"
+   },
+   "hub": {
+    "d": 44,
+    "cap": "flat",
+    "finish": "matte-black",
+    "slots": {
+     "n": 12,
+     "r": 15.5,
+     "w": 1.8,
+     "l": 4.2,
+     "finish": "satin-black",
+     "finishHex": "#55575b"
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": false
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:tt-toughfan-ex-120-argb-x6": {
+  "gen": "fan",
+  "part": "fan-tt-ex120-argb",
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "frame": {
+    "style": "ring",
+    "corner": "square",
+    "cornerR": 6,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 114,
+    "ringFrame": {
+     "outer": 120,
+     "innerD": 114,
+     "w": 3,
+     "faces": "both"
+    },
+    "finishHex": "#151618"
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 48,
+    "twist": 26,
+    "chordRoot": 18,
+    "chordTip": 36,
+    "tipGap": 1,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.35,
+    "finishHex": "#2a2b2e"
+   },
+   "hub": {
+    "d": 46,
+    "cap": "logo",
+    "finish": "matte-black",
+    "mark": {
+     "text": "thermaltake",
+     "h": 2.6,
+     "weight": 500,
+     "y": -8
+    },
+    "finishHex": "#151618",
+    "logo": {
+     "kind": "tt",
+     "d": 17,
+     "y": 4
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true,
+   "outline": [
+    120,
+    120
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "ring",
+    "kind": "ring",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "fill": "face",
+     "corner": 22,
+     "cornerShape": "square",
+     "face": "front"
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:lian-li-uni-fan-tl-lcd-flex-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 28,
+   "outline": [
+    120,
+    124
+   ],
+   "frame": {
+    "style": "infinity",
+    "corner": "square",
+    "cornerR": 2,
+    "finish": "gloss-black",
+    "finishHex": "#232427",
+    "holePitch": 105,
+    "throatD": 116,
+    "cornerPlates": {
+     "size": 34,
+     "chamfer": 32,
+     "thick": 0.8,
+     "finish": "satin-black",
+     "finishHex": "#0f1012",
+     "back": true
+    }
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 46,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 1.2,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.35
+   },
+   "hub": {
+    "d": 40,
+    "cap": "mirror",
+    "finish": "satin-black"
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "infinity",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "r": 58,
+     "depth": 8,
+     "face": "front",
+     "shape": "octagon",
+     "chamfer": 30
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "side",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "left+right",
+     "len": 76,
+     "z": 13,
+     "h": 10
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "lcd",
+    "kind": "screen",
+    "group": "screens",
+    "addressable": false,
+    "control": "usb",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "rect": [
+      41,
+      43,
+      79,
+      81
+     ],
+     "diag_in": 1.8,
+     "px": 400
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:lian-li-uni-fan-sl-infinity-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    122.1
+   ],
+   "frame": {
+    "style": "infinity",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 46,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 1.2,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.35
+   },
+   "hub": {
+    "d": 40,
+    "cap": "flat",
+    "finish": "matte-black"
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "infinity-front",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "r": 56,
+     "rIn": 20.6,
+     "fill": true,
+     "depth": 4,
+     "face": "front"
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "infinity-back",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "r": 56,
+     "rIn": 20.6,
+     "fill": true,
+     "depth": 4,
+     "face": "back"
+    },
+    "defaultOn": false
+   },
+   {
+    "id": "corners",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "shape": "corners",
+     "chamfer": 9,
+     "face": "front"
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:lian-li-uni-fan-sl120-wireless-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 28,
+   "outline": [
+    120,
+    124.5
+   ],
+   "frame": {
+    "style": "closed",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 46,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 1.2,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.35
+   },
+   "hub": {
+    "d": 40,
+    "cap": "mirror",
+    "finish": "satin-black"
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "bar-left",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "left",
+     "len": 120,
+     "face": "front",
+     "inset": 3,
+     "w": 4.5
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar-right",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "right",
+     "len": 120,
+     "face": "front",
+     "inset": 3,
+     "w": 4.5
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:lian-li-uni-fan-sl120-v2-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 28,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "closed",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 46,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 1.2,
+    "finish": "matte-black",
+    "translucent": false,
+    "lead": 0.35
+   },
+   "hub": {
+    "d": 40,
+    "cap": "mirror",
+    "finish": "satin-black"
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "bar-left",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "left",
+     "len": 120,
+     "face": "front",
+     "inset": 3,
+     "w": 4.5
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar-right",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "right",
+     "len": 120,
+     "face": "front",
+     "inset": 3,
+     "w": 4.5
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:corsair-icue-link-qx120-rgb-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "ring",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116
+   },
+   "blades": {
+    "count": 7,
+    "sweep": 42,
+    "twist": 26,
+    "chordRoot": 18,
+    "chordTip": 34,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true,
+    "finishHex": "#e3e5e8"
+   },
+   "hub": {
+    "d": 40,
+    "cap": "flat",
+    "finish": "matte-black",
+    "mark": null,
+    "logo": {
+     "kind": "corsair",
+     "d": 13,
+     "y": 0
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "ring-front",
+    "kind": "ring",
+    "group": "fans",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "r": 53.5,
+     "w": 7,
+     "band": true,
+     "face": "front"
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "ring-front-inner",
+    "kind": "hub",
+    "group": "fans",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "d": 42,
+     "z": 25
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {},
+    "defaultOn": true
+   },
+   {
+    "id": "ring-back",
+    "kind": "ring",
+    "group": "fans",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "r": 53.5,
+     "w": 7,
+     "band": true,
+     "face": "back"
+    },
+    "defaultOn": false
+   },
+   {
+    "id": "ring-back-inner",
+    "kind": "hub",
+    "group": "fans",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "d": 42,
+     "z": 0
+    },
+    "defaultOn": false
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:corsair-icue-link-rx120-rgb-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "closed",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116
+   },
+   "blades": {
+    "count": 7,
+    "sweep": 44,
+    "twist": 26,
+    "chordRoot": 18,
+    "chordTip": 36,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true,
+    "finishHex": "#e3e5e8"
+   },
+   "hub": {
+    "d": 44,
+    "cap": "flat",
+    "finish": "matte-black",
+    "logo": {
+     "kind": "corsair",
+     "d": 13,
+     "y": 0
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "hub-ring",
+    "kind": "hub",
+    "group": "fans",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "d": 46,
+     "z": 25
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {},
+    "defaultOn": true
+   },
+   {
+    "id": "side-window",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "left+right",
+     "len": 90,
+     "z": 12.5,
+     "h": 16
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "CORSAIR",
+    "face": "side",
+    "side": "left",
+    "at": [
+     60,
+     12.5
+    ],
+    "h": 5,
+    "weight": 600,
+    "finish": "print-white",
+    "finishHex": "#3a3b3e"
+   }
+  ],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:tt-swafan-ex12-argb-sync-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "ring",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 44,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true,
+    "finishHex": "#e4e6e9"
+   },
+   "hub": {
+    "d": 40,
+    "cap": "label",
+    "finish": "matte-black",
+    "labelFinish": "white",
+    "mark": {
+     "text": "thermaltake",
+     "h": 2.2,
+     "weight": 500,
+     "y": -5,
+     "colour": "#1b1c1e"
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "ring-inner",
+    "kind": "hub",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 6,
+    "fixedHex": null,
+    "geom": {
+     "d": 44,
+     "z": 25
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "ring-outer",
+    "kind": "ring",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 14,
+    "fixedHex": null,
+    "geom": {
+     "r": 57,
+     "w": 3,
+     "z": 25,
+     "face": "front"
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:tt-swafan-ex12-infinity-argb-sync-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 28,
+   "outline": [
+    124,
+    120
+   ],
+   "frame": {
+    "style": "infinity",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 44,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 32,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true,
+    "finishHex": "#e4e6e9"
+   },
+   "hub": {
+    "d": 40,
+    "cap": "flat",
+    "finish": "matte-black"
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "inner-white",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": false,
+    "control": "white",
+    "leds": null,
+    "fixedHex": "#F4F1EA",
+    "geom": {
+     "r": 16,
+     "depth": 10,
+     "fill": true
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "outer-argb",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "shape": "octagon",
+     "chamfer": 26,
+     "face": "front"
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "rotor",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {},
+    "defaultOn": true
+   },
+   {
+    "id": "sides",
+    "kind": "edge",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "side": "left+right",
+     "len": 110,
+     "z": 14,
+     "h": 22
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:phanteks-m25g2-120-drgb-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "infinity",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "cornerPlates": {
+     "size": 24,
+     "chamfer": 14,
+     "thick": 0.8,
+     "finish": "satin-black",
+     "finishHex": "#1d1e21",
+     "back": true
+    }
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 40,
+    "twist": 26,
+    "chordRoot": 17,
+    "chordTip": 34,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true,
+    "finishHex": "#e6e8eb"
+   },
+   "hub": {
+    "d": 48,
+    "cap": "flat",
+    "finish": "matte-black"
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "infinity",
+    "kind": "infinity",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 12,
+    "fixedHex": null,
+    "geom": {
+     "r": 21,
+     "depth": 12,
+     "fill": true,
+     "face": "front"
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {},
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "PHANTEKS",
+    "face": "side",
+    "side": "right",
+    "at": [
+     60,
+     12.5
+    ],
+    "h": 4,
+    "weight": 600,
+    "finish": "print-white",
+    "finishHex": "#4a4b4e"
+   }
+  ],
+  "envelope": null,
+  "no3d": false
+ },
+ "fans:bequiet-light-wings-lx-120-x6": {
+  "gen": "fan",
+  "part": null,
+  "params": {
+   "size": 120,
+   "thickness": 25,
+   "outline": [
+    120,
+    120
+   ],
+   "frame": {
+    "style": "closed",
+    "corner": "round",
+    "cornerR": 7,
+    "finish": "matte-black",
+    "holePitch": 105,
+    "throatD": 116,
+    "cornerPlates": {
+     "size": 26,
+     "chamfer": 16,
+     "thick": 1,
+     "finish": "satin-black",
+     "finishHex": "#1b1c1f",
+     "back": true
+    }
+   },
+   "blades": {
+    "count": 9,
+    "sweep": 40,
+    "twist": 26,
+    "chordRoot": 16,
+    "chordTip": 30,
+    "tipGap": 1.2,
+    "finish": "frosted-acrylic",
+    "translucent": true
+   },
+   "hub": {
+    "d": 44,
+    "cap": "flat",
+    "finish": "matte-black",
+    "mark": {
+     "text": "be quiet!",
+     "h": 4,
+     "weight": 600
+    }
+   },
+   "struts": {
+    "count": 4,
+    "width": 4,
+    "side": "back"
+   },
+   "lit": true
+  },
+  "ledZones": [
+   {
+    "id": "blades",
+    "kind": "blades",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": 16,
+    "fixedHex": null,
+    "geom": {
+     "r": 55,
+     "face": "front"
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "hub-ring",
+    "kind": "hub",
+    "group": "fans",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "d": 46,
+     "z": 25
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "be quiet!",
+    "face": "side",
+    "side": "left",
+    "at": [
+     60,
+     12.5
+    ],
+    "h": 4.2,
+    "weight": 600,
+    "finish": "print-white",
+    "finishHex": "#5a5b5e"
+   }
+  ],
+  "envelope": null,
+  "no3d": false
+ }
+}

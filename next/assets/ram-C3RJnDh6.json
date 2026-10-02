@@ -1,0 +1,4395 @@
+{
+ "ram:gskill-trident-z5-neo-rgb-2x16-6000-cl30": {
+  "gen": "ramKit",
+  "part": "ram-trident",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 44,
+   "thick": 8.1,
+   "spreader": {
+    "profile": "trident-z5",
+    "finish": "satin-black",
+    "finishHex": "#26272a",
+    "top": [
+     [
+      1.8,
+      39
+     ],
+     [
+      44,
+      39
+     ],
+     [
+      51.4,
+      38.6
+     ],
+     [
+      70.9,
+      38.3
+     ],
+     [
+      87.7,
+      43.8
+     ],
+     [
+      129.3,
+      44
+     ]
+    ],
+    "bottom": 3,
+    "lines": [
+     {
+      "pts": [
+       [
+        2.2,
+        26.3
+       ],
+       [
+        45.2,
+        26.8
+       ],
+       [
+        51.4,
+        28.6
+       ],
+       [
+        70.9,
+        40.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     },
+     {
+      "pts": [
+       [
+        22.6,
+        4.4
+       ],
+       [
+        32.8,
+        6.6
+       ],
+       [
+        127.5,
+        6.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      2.5,
+      74
+     ],
+     "top": [
+      [
+       2.5,
+       42.7
+      ],
+      [
+       44.3,
+       42.7
+      ],
+      [
+       51.4,
+       40.6
+      ],
+      [
+       62,
+       39.6
+      ],
+      [
+       74,
+       38.4
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 8,
+     "inset": 0.4
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "TRIDENT Z5",
+     "face": "side",
+     "at": [
+      50.6,
+      21.4
+     ],
+     "h": 3.4,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.02
+    },
+    {
+     "text": "NEO RGB",
+     "face": "side",
+     "at": [
+      64,
+      25.4
+     ],
+     "h": 1.6,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.06
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "TRIDENT Z5",
+    "face": "side",
+    "at": [
+     50.6,
+     21.4
+    ],
+    "h": 3.4,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.02
+   },
+   {
+    "text": "NEO RGB",
+    "face": "side",
+    "at": [
+     64,
+     25.4
+    ],
+    "h": 1.6,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.06
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:gskill-trident-z5-neo-rgb-2x16-6000-cl36": {
+  "gen": "ramKit",
+  "part": "ram-trident",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 44,
+   "thick": 8.1,
+   "spreader": {
+    "profile": "trident-z5",
+    "finish": "satin-black",
+    "finishHex": "#26272a",
+    "top": [
+     [
+      1.8,
+      39
+     ],
+     [
+      44,
+      39
+     ],
+     [
+      51.4,
+      38.6
+     ],
+     [
+      70.9,
+      38.3
+     ],
+     [
+      87.7,
+      43.8
+     ],
+     [
+      129.3,
+      44
+     ]
+    ],
+    "bottom": 3,
+    "lines": [
+     {
+      "pts": [
+       [
+        2.2,
+        26.3
+       ],
+       [
+        45.2,
+        26.8
+       ],
+       [
+        51.4,
+        28.6
+       ],
+       [
+        70.9,
+        40.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     },
+     {
+      "pts": [
+       [
+        22.6,
+        4.4
+       ],
+       [
+        32.8,
+        6.6
+       ],
+       [
+        127.5,
+        6.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      2.5,
+      74
+     ],
+     "top": [
+      [
+       2.5,
+       42.7
+      ],
+      [
+       44.3,
+       42.7
+      ],
+      [
+       51.4,
+       40.6
+      ],
+      [
+       62,
+       39.6
+      ],
+      [
+       74,
+       38.4
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 8,
+     "inset": 0.4
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "TRIDENT Z5",
+     "face": "side",
+     "at": [
+      50.6,
+      21.4
+     ],
+     "h": 3.4,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.02
+    },
+    {
+     "text": "NEO RGB",
+     "face": "side",
+     "at": [
+      64,
+      25.4
+     ],
+     "h": 1.6,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.06
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "TRIDENT Z5",
+    "face": "side",
+    "at": [
+     50.6,
+     21.4
+    ],
+    "h": 3.4,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.02
+   },
+   {
+    "text": "NEO RGB",
+    "face": "side",
+    "at": [
+     64,
+     25.4
+    ],
+    "h": 1.6,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.06
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:gskill-trident-z5-neo-rgb-2x32-6000-cl30": {
+  "gen": "ramKit",
+  "part": "ram-trident",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 44,
+   "thick": 8.1,
+   "spreader": {
+    "profile": "trident-z5",
+    "finish": "satin-black",
+    "finishHex": "#26272a",
+    "top": [
+     [
+      1.8,
+      39
+     ],
+     [
+      44,
+      39
+     ],
+     [
+      51.4,
+      38.6
+     ],
+     [
+      70.9,
+      38.3
+     ],
+     [
+      87.7,
+      43.8
+     ],
+     [
+      129.3,
+      44
+     ]
+    ],
+    "bottom": 3,
+    "lines": [
+     {
+      "pts": [
+       [
+        2.2,
+        26.3
+       ],
+       [
+        45.2,
+        26.8
+       ],
+       [
+        51.4,
+        28.6
+       ],
+       [
+        70.9,
+        40.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     },
+     {
+      "pts": [
+       [
+        22.6,
+        4.4
+       ],
+       [
+        32.8,
+        6.6
+       ],
+       [
+        127.5,
+        6.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      2.5,
+      74
+     ],
+     "top": [
+      [
+       2.5,
+       42.7
+      ],
+      [
+       44.3,
+       42.7
+      ],
+      [
+       51.4,
+       40.6
+      ],
+      [
+       62,
+       39.6
+      ],
+      [
+       74,
+       38.4
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 8,
+     "inset": 0.4
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "TRIDENT Z5",
+     "face": "side",
+     "at": [
+      50.6,
+      21.4
+     ],
+     "h": 3.4,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.02
+    },
+    {
+     "text": "NEO RGB",
+     "face": "side",
+     "at": [
+      64,
+      25.4
+     ],
+     "h": 1.6,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.06
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "TRIDENT Z5",
+    "face": "side",
+    "at": [
+     50.6,
+     21.4
+    ],
+    "h": 3.4,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.02
+   },
+   {
+    "text": "NEO RGB",
+    "face": "side",
+    "at": [
+     64,
+     25.4
+    ],
+    "h": 1.6,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.06
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:corsair-vengeance-rgb-2x16-6000-cl30-grey": {
+  "gen": "ramKit",
+  "part": "ram-vengeance-rgb",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 135,
+   "height": 44,
+   "thick": 8,
+   "spreader": {
+    "profile": "vengeance",
+    "finish": "satin-black",
+    "finishHex": "#141517",
+    "top": [
+     [
+      0.4,
+      38.8
+     ],
+     [
+      134.6,
+      38.8
+     ]
+    ],
+    "bottom": 3,
+    "panels": [
+     {
+      "pts": [
+       [
+        50.5,
+        38.6
+       ],
+       [
+        86.5,
+        38.6
+       ],
+       [
+        82.5,
+        9.6
+       ],
+       [
+        54.5,
+        9.6
+       ]
+      ],
+      "finish": "gunmetal",
+      "finishHex": "#6b6e73"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.6,
+      134.4
+     ],
+     "top": [
+      [
+       0.6,
+       41
+      ],
+      [
+       5,
+       43.5
+      ],
+      [
+       134.4,
+       43.5
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 10,
+     "inset": 0.3
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "VENGEANCE",
+     "face": "side",
+     "at": [
+      53.2,
+      15
+     ],
+     "h": 2.6,
+     "weight": 500,
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.22
+    },
+    {
+     "text": "DDR5",
+     "face": "side",
+     "at": [
+      64.5,
+      24
+     ],
+     "h": 2.4,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#55575b"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 10,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 10,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "VENGEANCE",
+    "face": "side",
+    "at": [
+     53.2,
+     15
+    ],
+    "h": 2.6,
+    "weight": 500,
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.22
+   },
+   {
+    "text": "DDR5",
+    "face": "side",
+    "at": [
+     64.5,
+     24
+    ],
+    "h": 2.4,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#55575b"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:corsair-vengeance-rgb-2x16-6000-cl38-black": {
+  "gen": "ramKit",
+  "part": "ram-vengeance-rgb",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 135,
+   "height": 44,
+   "thick": 8,
+   "spreader": {
+    "profile": "vengeance",
+    "finish": "satin-black",
+    "finishHex": "#141517",
+    "top": [
+     [
+      0.4,
+      38.8
+     ],
+     [
+      134.6,
+      38.8
+     ]
+    ],
+    "bottom": 3,
+    "panels": [
+     {
+      "pts": [
+       [
+        50.5,
+        38.6
+       ],
+       [
+        86.5,
+        38.6
+       ],
+       [
+        82.5,
+        9.6
+       ],
+       [
+        54.5,
+        9.6
+       ]
+      ],
+      "finish": "gunmetal",
+      "finishHex": "#2a2b2e"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.6,
+      134.4
+     ],
+     "top": [
+      [
+       0.6,
+       41
+      ],
+      [
+       5,
+       43.5
+      ],
+      [
+       134.4,
+       43.5
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 10,
+     "inset": 0.3
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "VENGEANCE",
+     "face": "side",
+     "at": [
+      53.2,
+      15
+     ],
+     "h": 2.6,
+     "weight": 500,
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.22
+    },
+    {
+     "text": "DDR5",
+     "face": "side",
+     "at": [
+      64.5,
+      24
+     ],
+     "h": 2.4,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#55575b"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 10,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 10,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "VENGEANCE",
+    "face": "side",
+    "at": [
+     53.2,
+     15
+    ],
+    "h": 2.6,
+    "weight": 500,
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.22
+   },
+   {
+    "text": "DDR5",
+    "face": "side",
+    "at": [
+     64.5,
+     24
+    ],
+    "h": 2.4,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#55575b"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:corsair-vengeance-rgb-2x32-6000-cl30-black": {
+  "gen": "ramKit",
+  "part": "ram-vengeance-rgb",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 135,
+   "height": 44,
+   "thick": 8,
+   "spreader": {
+    "profile": "vengeance",
+    "finish": "satin-black",
+    "finishHex": "#141517",
+    "top": [
+     [
+      0.4,
+      38.8
+     ],
+     [
+      134.6,
+      38.8
+     ]
+    ],
+    "bottom": 3,
+    "panels": [
+     {
+      "pts": [
+       [
+        50.5,
+        38.6
+       ],
+       [
+        86.5,
+        38.6
+       ],
+       [
+        82.5,
+        9.6
+       ],
+       [
+        54.5,
+        9.6
+       ]
+      ],
+      "finish": "gunmetal",
+      "finishHex": "#2a2b2e"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.6,
+      134.4
+     ],
+     "top": [
+      [
+       0.6,
+       41
+      ],
+      [
+       5,
+       43.5
+      ],
+      [
+       134.4,
+       43.5
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 10,
+     "inset": 0.3
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "VENGEANCE",
+     "face": "side",
+     "at": [
+      53.2,
+      15
+     ],
+     "h": 2.6,
+     "weight": 500,
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.22
+    },
+    {
+     "text": "DDR5",
+     "face": "side",
+     "at": [
+      64.5,
+      24
+     ],
+     "h": 2.4,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#55575b"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 10,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 10,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "VENGEANCE",
+    "face": "side",
+    "at": [
+     53.2,
+     15
+    ],
+    "h": 2.6,
+    "weight": 500,
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.22
+   },
+   {
+    "text": "DDR5",
+    "face": "side",
+    "at": [
+     64.5,
+     24
+    ],
+    "h": 2.4,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#55575b"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:kingston-fury-beast-rgb-2x16-6000-cl30-black": {
+  "gen": "ramKit",
+  "part": "ram-fury-beast-rgb-2x32",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 42.23,
+   "thick": 7.11,
+   "spreader": {
+    "profile": "fury-beast",
+    "finish": "satin-black",
+    "finishHex": "#1c1d20",
+    "top": [
+     [
+      0.5,
+      36
+     ],
+     [
+      72,
+      34.5
+     ],
+     [
+      75,
+      41.9
+     ],
+     [
+      117,
+      42.2
+     ],
+     [
+      118.5,
+      38.7
+     ],
+     [
+      133,
+      38.7
+     ]
+    ],
+    "bottom": 3.2
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.7,
+      74
+     ],
+     "top": [
+      [
+       0.7,
+       39.4
+      ],
+      [
+       70,
+       39.4
+      ],
+      [
+       74,
+       37.6
+      ]
+     ],
+     "diffuser": "frosted",
+     "inset": 0.4
+    },
+    {
+     "s": [
+      123,
+      131
+     ],
+     "top": [
+      [
+       123,
+       39.6
+      ],
+      [
+       131,
+       39.6
+      ]
+     ],
+     "diffuser": "frosted",
+     "inset": 0.6
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "KINGSTON",
+     "face": "side",
+     "at": [
+      11,
+      14.4
+     ],
+     "h": 1.9,
+     "weight": 600,
+     "finish": "print-silver",
+     "letterSpacing": 0.45
+    },
+    {
+     "text": "FURY",
+     "face": "side",
+     "at": [
+      11.2,
+      17.9
+     ],
+     "h": 8.2,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#b8babd"
+    },
+    {
+     "text": "BEAST",
+     "face": "side",
+     "at": [
+      76,
+      24.5
+     ],
+     "h": 3.3,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white"
+    },
+    {
+     "text": "DDR5",
+     "face": "side",
+     "at": [
+      106,
+      9.2
+     ],
+     "h": 2.6,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-white"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "KINGSTON",
+    "face": "side",
+    "at": [
+     11,
+     14.4
+    ],
+    "h": 1.9,
+    "weight": 600,
+    "finish": "print-silver",
+    "letterSpacing": 0.45
+   },
+   {
+    "text": "FURY",
+    "face": "side",
+    "at": [
+     11.2,
+     17.9
+    ],
+    "h": 8.2,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#b8babd"
+   },
+   {
+    "text": "BEAST",
+    "face": "side",
+    "at": [
+     76,
+     24.5
+    ],
+    "h": 3.3,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white"
+   },
+   {
+    "text": "DDR5",
+    "face": "side",
+    "at": [
+     106,
+     9.2
+    ],
+    "h": 2.6,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-white"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    60.2
+   ]
+  },
+  "no3d": false
+ },
+ "ram:kingston-fury-beast-rgb-2x32-6000-cl30": {
+  "gen": "ramKit",
+  "part": "ram-fury-beast-rgb-2x32",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 42.23,
+   "thick": 7.11,
+   "spreader": {
+    "profile": "fury-beast",
+    "finish": "satin-black",
+    "finishHex": "#1c1d20",
+    "top": [
+     [
+      0.5,
+      36
+     ],
+     [
+      72,
+      34.5
+     ],
+     [
+      75,
+      41.9
+     ],
+     [
+      117,
+      42.2
+     ],
+     [
+      118.5,
+      38.7
+     ],
+     [
+      133,
+      38.7
+     ]
+    ],
+    "bottom": 3.2
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.7,
+      74
+     ],
+     "top": [
+      [
+       0.7,
+       39.4
+      ],
+      [
+       70,
+       39.4
+      ],
+      [
+       74,
+       37.6
+      ]
+     ],
+     "diffuser": "frosted",
+     "inset": 0.4
+    },
+    {
+     "s": [
+      123,
+      131
+     ],
+     "top": [
+      [
+       123,
+       39.6
+      ],
+      [
+       131,
+       39.6
+      ]
+     ],
+     "diffuser": "frosted",
+     "inset": 0.6
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "KINGSTON",
+     "face": "side",
+     "at": [
+      11,
+      14.4
+     ],
+     "h": 1.9,
+     "weight": 600,
+     "finish": "print-silver",
+     "letterSpacing": 0.45
+    },
+    {
+     "text": "FURY",
+     "face": "side",
+     "at": [
+      11.2,
+      17.9
+     ],
+     "h": 8.2,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#b8babd"
+    },
+    {
+     "text": "BEAST",
+     "face": "side",
+     "at": [
+      76,
+      24.5
+     ],
+     "h": 3.3,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white"
+    },
+    {
+     "text": "DDR5",
+     "face": "side",
+     "at": [
+      106,
+      9.2
+     ],
+     "h": 2.6,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-white"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "KINGSTON",
+    "face": "side",
+    "at": [
+     11,
+     14.4
+    ],
+    "h": 1.9,
+    "weight": 600,
+    "finish": "print-silver",
+    "letterSpacing": 0.45
+   },
+   {
+    "text": "FURY",
+    "face": "side",
+    "at": [
+     11.2,
+     17.9
+    ],
+    "h": 8.2,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#b8babd"
+   },
+   {
+    "text": "BEAST",
+    "face": "side",
+    "at": [
+     76,
+     24.5
+    ],
+    "h": 3.3,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white"
+   },
+   {
+    "text": "DDR5",
+    "face": "side",
+    "at": [
+     106,
+     9.2
+    ],
+    "h": 2.6,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-white"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    60.2
+   ]
+  },
+  "no3d": false
+ },
+ "ram:gskill-trident-z5-royal-neo-2x16-6000-cl28": {
+  "gen": "ramKit",
+  "part": "ram-trident-royal-neo",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 44,
+   "thick": 8.1,
+   "spreader": {
+    "profile": "royal",
+    "finish": "white",
+    "finishHex": "#f1f1ef",
+    "top": [
+     [
+      1.5,
+      36.1
+     ],
+     [
+      73.4,
+      36.1
+     ],
+     [
+      93,
+      43.5
+     ],
+     [
+      130.5,
+      43.5
+     ]
+    ],
+    "bottom": 3,
+    "lines": [
+     {
+      "pts": [
+       [
+        3.4,
+        31
+       ],
+       [
+        73.4,
+        31
+       ],
+       [
+        93,
+        40.8
+       ],
+       [
+        131,
+        40.8
+       ]
+      ],
+      "w": 0.8,
+      "finish": "satin-black",
+      "finishHex": "#2a2b2e"
+     },
+     {
+      "pts": [
+       [
+        64,
+        3.8
+       ],
+       [
+        81.6,
+        9.8
+       ],
+       [
+        131,
+        9.8
+       ]
+      ],
+      "w": 0.8,
+      "finish": "satin-black",
+      "finishHex": "#2a2b2e"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      3.4,
+      80
+     ],
+     "top": [
+      [
+       3.4,
+       40.4
+      ],
+      [
+       6.6,
+       41.6
+      ],
+      [
+       9.8,
+       40.4
+      ],
+      [
+       13,
+       41.6
+      ],
+      [
+       16.2,
+       40.4
+      ],
+      [
+       19.4,
+       41.6
+      ],
+      [
+       22.6,
+       40.4
+      ],
+      [
+       25.8,
+       41.6
+      ],
+      [
+       29,
+       40.4
+      ],
+      [
+       32.2,
+       41.6
+      ],
+      [
+       35.4,
+       40.4
+      ],
+      [
+       38.6,
+       41.6
+      ],
+      [
+       41.8,
+       40.4
+      ],
+      [
+       45,
+       41.6
+      ],
+      [
+       48.2,
+       40.4
+      ],
+      [
+       51.4,
+       41.6
+      ],
+      [
+       54.6,
+       40.4
+      ],
+      [
+       57.8,
+       41.6
+      ],
+      [
+       61,
+       40.4
+      ],
+      [
+       64.2,
+       41.6
+      ],
+      [
+       67.4,
+       40.4
+      ],
+      [
+       70.6,
+       41.6
+      ],
+      [
+       73.8,
+       40.4
+      ],
+      [
+       74,
+       40.4
+      ],
+      [
+       80,
+       37.5
+      ]
+     ],
+     "diffuser": "crystal",
+     "leds": 8,
+     "inset": 0.3
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "Trident Z5",
+     "face": "side",
+     "at": [
+      94.6,
+      13.8
+     ],
+     "h": 3.2,
+     "weight": "italic 400",
+     "font": "Georgia, \"Times New Roman\", serif",
+     "finish": "print-white",
+     "colour": "#1d1e20"
+    },
+    {
+     "text": "Royal NEO",
+     "face": "side",
+     "at": [
+      102.8,
+      18.6
+     ],
+     "h": 3.2,
+     "weight": "italic 400",
+     "font": "Georgia, \"Times New Roman\", serif",
+     "finish": "print-white",
+     "colour": "#1d1e20"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "Trident Z5",
+    "face": "side",
+    "at": [
+     94.6,
+     13.8
+    ],
+    "h": 3.2,
+    "weight": "italic 400",
+    "font": "Georgia, \"Times New Roman\", serif",
+    "finish": "print-white",
+    "colour": "#1d1e20"
+   },
+   {
+    "text": "Royal NEO",
+    "face": "side",
+    "at": [
+     102.8,
+     18.6
+    ],
+    "h": 3.2,
+    "weight": "italic 400",
+    "font": "Georgia, \"Times New Roman\", serif",
+    "finish": "print-white",
+    "colour": "#1d1e20"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:gskill-trident-z5-rgb-2x16-6000-cl30-black": {
+  "gen": "ramKit",
+  "part": "ram-trident-z5-rgb",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 44,
+   "thick": 8.1,
+   "spreader": {
+    "profile": "trident-z5",
+    "finish": "satin-black",
+    "finishHex": "#1a1b1e",
+    "top": [
+     [
+      1.8,
+      39
+     ],
+     [
+      44,
+      39
+     ],
+     [
+      51.4,
+      38.6
+     ],
+     [
+      70.9,
+      38.3
+     ],
+     [
+      87.7,
+      43.8
+     ],
+     [
+      129.3,
+      44
+     ]
+    ],
+    "bottom": 3,
+    "lines": [
+     {
+      "pts": [
+       [
+        2.2,
+        26.3
+       ],
+       [
+        45.2,
+        26.8
+       ],
+       [
+        51.4,
+        28.6
+       ],
+       [
+        70.9,
+        40.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     },
+     {
+      "pts": [
+       [
+        22.6,
+        4.4
+       ],
+       [
+        32.8,
+        6.6
+       ],
+       [
+        127.5,
+        6.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      2.5,
+      74
+     ],
+     "top": [
+      [
+       2.5,
+       42.7
+      ],
+      [
+       44.3,
+       42.7
+      ],
+      [
+       51.4,
+       40.6
+      ],
+      [
+       62,
+       39.6
+      ],
+      [
+       74,
+       38.4
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 8,
+     "inset": 0.4
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "TRIDENT Z5",
+     "face": "side",
+     "at": [
+      50.6,
+      21.4
+     ],
+     "h": 3.4,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.02
+    },
+    {
+     "text": "RGB",
+     "face": "side",
+     "at": [
+      64,
+      25.4
+     ],
+     "h": 1.6,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.06
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "TRIDENT Z5",
+    "face": "side",
+    "at": [
+     50.6,
+     21.4
+    ],
+    "h": 3.4,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.02
+   },
+   {
+    "text": "RGB",
+    "face": "side",
+    "at": [
+     64,
+     25.4
+    ],
+    "h": 1.6,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.06
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:gskill-trident-z5-rgb-2x32-6000-cl30-silver": {
+  "gen": "ramKit",
+  "part": "ram-trident-z5-rgb-silver",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 44,
+   "thick": 8.1,
+   "spreader": {
+    "profile": "trident-z5",
+    "finish": "anodised-silver",
+    "finishHex": "#c9cbce",
+    "top": [
+     [
+      1.8,
+      39
+     ],
+     [
+      44,
+      39
+     ],
+     [
+      51.4,
+      38.6
+     ],
+     [
+      70.9,
+      38.3
+     ],
+     [
+      87.7,
+      43.8
+     ],
+     [
+      129.3,
+      44
+     ]
+    ],
+    "bottom": 3,
+    "lines": [
+     {
+      "pts": [
+       [
+        2.2,
+        26.3
+       ],
+       [
+        45.2,
+        26.8
+       ],
+       [
+        51.4,
+        28.6
+       ],
+       [
+        70.9,
+        40.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     },
+     {
+      "pts": [
+       [
+        22.6,
+        4.4
+       ],
+       [
+        32.8,
+        6.6
+       ],
+       [
+        127.5,
+        6.9
+       ]
+      ],
+      "w": 0.6,
+      "finish": "print-white"
+     }
+    ],
+    "panels": [
+     {
+      "pts": [
+       [
+        2,
+        9
+       ],
+       [
+        131,
+        9
+       ],
+       [
+        131,
+        31
+       ],
+       [
+        72,
+        31
+       ],
+       [
+        62,
+        36.5
+       ],
+       [
+        2,
+        36.5
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#121315"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      2.5,
+      74
+     ],
+     "top": [
+      [
+       2.5,
+       42.7
+      ],
+      [
+       44.3,
+       42.7
+      ],
+      [
+       51.4,
+       40.6
+      ],
+      [
+       62,
+       39.6
+      ],
+      [
+       74,
+       38.4
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 8,
+     "inset": 0.4
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "TRIDENT Z5",
+     "face": "side",
+     "at": [
+      50.6,
+      21.4
+     ],
+     "h": 3.4,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.02
+    },
+    {
+     "text": "RGB",
+     "face": "side",
+     "at": [
+      64,
+      25.4
+     ],
+     "h": 1.6,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.06
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 8,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "TRIDENT Z5",
+    "face": "side",
+    "at": [
+     50.6,
+     21.4
+    ],
+    "h": 3.4,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.02
+   },
+   {
+    "text": "RGB",
+    "face": "side",
+    "at": [
+     64,
+     25.4
+    ],
+    "h": 1.6,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.06
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:corsair-dominator-titanium-rgb-2x16-6400-cl32-black": {
+  "gen": "ramKit",
+  "part": "alt-ram-dominator",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 135.9,
+   "height": 56.75,
+   "thick": 7.7,
+   "spreader": {
+    "profile": "dominator",
+    "finish": "satin-black",
+    "finishHex": "#1f2023",
+    "top": [
+     [
+      0.4,
+      45.65
+     ],
+     [
+      135.5,
+      45.65
+     ]
+    ],
+    "bottom": 3,
+    "trims": [
+     {
+      "s": [
+       0.4,
+       135.5
+      ],
+      "z": [
+       46.95,
+       51.25
+      ],
+      "inset": 0
+     },
+     {
+      "s": [
+       0.4,
+       135.5
+      ],
+      "z": [
+       52.55,
+       56.75
+      ],
+      "inset": 0
+     }
+    ],
+    "lines": [
+     {
+      "pts": [
+       [
+        0.6,
+        41.6
+       ],
+       [
+        135.3,
+        41.6
+       ]
+      ],
+      "w": 0.5,
+      "finish": "satin-black",
+      "finishHex": "#08090a"
+     }
+    ],
+    "panels": [
+     {
+      "id": "screw",
+      "pts": [
+       [
+        13.6,
+        35.05
+       ],
+       [
+        13.51,
+        35.64
+       ],
+       [
+        13.24,
+        36.17
+       ],
+       [
+        12.82,
+        36.59
+       ],
+       [
+        12.29,
+        36.86
+       ],
+       [
+        11.7,
+        36.95
+       ],
+       [
+        11.11,
+        36.86
+       ],
+       [
+        10.58,
+        36.59
+       ],
+       [
+        10.16,
+        36.17
+       ],
+       [
+        9.89,
+        35.64
+       ],
+       [
+        9.8,
+        35.05
+       ],
+       [
+        9.89,
+        34.46
+       ],
+       [
+        10.16,
+        33.93
+       ],
+       [
+        10.58,
+        33.51
+       ],
+       [
+        11.11,
+        33.24
+       ],
+       [
+        11.7,
+        33.15
+       ],
+       [
+        12.29,
+        33.24
+       ],
+       [
+        12.82,
+        33.51
+       ],
+       [
+        13.24,
+        33.93
+       ],
+       [
+        13.51,
+        34.46
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#050506"
+     },
+     {
+      "id": "screw",
+      "pts": [
+       [
+        126.1,
+        35.05
+       ],
+       [
+        126.01,
+        35.64
+       ],
+       [
+        125.74,
+        36.17
+       ],
+       [
+        125.32,
+        36.59
+       ],
+       [
+        124.79,
+        36.86
+       ],
+       [
+        124.2,
+        36.95
+       ],
+       [
+        123.61,
+        36.86
+       ],
+       [
+        123.08,
+        36.59
+       ],
+       [
+        122.66,
+        36.17
+       ],
+       [
+        122.39,
+        35.64
+       ],
+       [
+        122.3,
+        35.05
+       ],
+       [
+        122.39,
+        34.46
+       ],
+       [
+        122.66,
+        33.93
+       ],
+       [
+        123.08,
+        33.51
+       ],
+       [
+        123.61,
+        33.24
+       ],
+       [
+        124.2,
+        33.15
+       ],
+       [
+        124.79,
+        33.24
+       ],
+       [
+        125.32,
+        33.51
+       ],
+       [
+        125.74,
+        33.93
+       ],
+       [
+        126.01,
+        34.46
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#050506"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.6,
+      135.3
+     ],
+     "top": [
+      [
+       0.6,
+       52.55
+      ],
+      [
+       135.3,
+       52.55
+      ]
+     ],
+     "diffuser": "diffused",
+     "leds": 11,
+     "inset": 0.1
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "DOMINATOR",
+     "face": "side",
+     "at": [
+      52.5,
+      31
+     ],
+     "h": 2.2,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.55
+    },
+    {
+     "text": "TITANIUM",
+     "face": "side",
+     "at": [
+      58,
+      34.6
+     ],
+     "h": 1.2,
+     "weight": 500,
+     "font": "wide",
+     "finish": "print-silver",
+     "letterSpacing": 0.6
+    },
+    {
+     "text": "DDR5",
+     "face": "side",
+     "at": [
+      64,
+      43.5
+     ],
+     "h": 1.7,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#6a6c70"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 11,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 11,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "DOMINATOR",
+    "face": "side",
+    "at": [
+     52.5,
+     31
+    ],
+    "h": 2.2,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.55
+   },
+   {
+    "text": "TITANIUM",
+    "face": "side",
+    "at": [
+     58,
+     34.6
+    ],
+    "h": 1.2,
+    "weight": 500,
+    "font": "wide",
+    "finish": "print-silver",
+    "letterSpacing": 0.6
+   },
+   {
+    "text": "DDR5",
+    "face": "side",
+    "at": [
+     64,
+     43.5
+    ],
+    "h": 1.7,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#6a6c70"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    74.8
+   ]
+  },
+  "no3d": false
+ },
+ "ram:corsair-dominator-titanium-rgb-2x32-6000-cl30-grey": {
+  "gen": "ramKit",
+  "part": "alt-ram-dominator",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 135.9,
+   "height": 56.75,
+   "thick": 7.7,
+   "spreader": {
+    "profile": "dominator",
+    "finish": "gunmetal",
+    "finishHex": "#7d8085",
+    "top": [
+     [
+      0.4,
+      45.65
+     ],
+     [
+      135.5,
+      45.65
+     ]
+    ],
+    "bottom": 3,
+    "trims": [
+     {
+      "s": [
+       0.4,
+       135.5
+      ],
+      "z": [
+       46.95,
+       51.25
+      ],
+      "inset": 0
+     },
+     {
+      "s": [
+       0.4,
+       135.5
+      ],
+      "z": [
+       52.55,
+       56.75
+      ],
+      "inset": 0
+     }
+    ],
+    "lines": [
+     {
+      "pts": [
+       [
+        0.6,
+        41.6
+       ],
+       [
+        135.3,
+        41.6
+       ]
+      ],
+      "w": 0.5,
+      "finish": "satin-black",
+      "finishHex": "#08090a"
+     }
+    ],
+    "panels": [
+     {
+      "id": "screw",
+      "pts": [
+       [
+        13.6,
+        35.05
+       ],
+       [
+        13.51,
+        35.64
+       ],
+       [
+        13.24,
+        36.17
+       ],
+       [
+        12.82,
+        36.59
+       ],
+       [
+        12.29,
+        36.86
+       ],
+       [
+        11.7,
+        36.95
+       ],
+       [
+        11.11,
+        36.86
+       ],
+       [
+        10.58,
+        36.59
+       ],
+       [
+        10.16,
+        36.17
+       ],
+       [
+        9.89,
+        35.64
+       ],
+       [
+        9.8,
+        35.05
+       ],
+       [
+        9.89,
+        34.46
+       ],
+       [
+        10.16,
+        33.93
+       ],
+       [
+        10.58,
+        33.51
+       ],
+       [
+        11.11,
+        33.24
+       ],
+       [
+        11.7,
+        33.15
+       ],
+       [
+        12.29,
+        33.24
+       ],
+       [
+        12.82,
+        33.51
+       ],
+       [
+        13.24,
+        33.93
+       ],
+       [
+        13.51,
+        34.46
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#050506"
+     },
+     {
+      "id": "screw",
+      "pts": [
+       [
+        126.1,
+        35.05
+       ],
+       [
+        126.01,
+        35.64
+       ],
+       [
+        125.74,
+        36.17
+       ],
+       [
+        125.32,
+        36.59
+       ],
+       [
+        124.79,
+        36.86
+       ],
+       [
+        124.2,
+        36.95
+       ],
+       [
+        123.61,
+        36.86
+       ],
+       [
+        123.08,
+        36.59
+       ],
+       [
+        122.66,
+        36.17
+       ],
+       [
+        122.39,
+        35.64
+       ],
+       [
+        122.3,
+        35.05
+       ],
+       [
+        122.39,
+        34.46
+       ],
+       [
+        122.66,
+        33.93
+       ],
+       [
+        123.08,
+        33.51
+       ],
+       [
+        123.61,
+        33.24
+       ],
+       [
+        124.2,
+        33.15
+       ],
+       [
+        124.79,
+        33.24
+       ],
+       [
+        125.32,
+        33.51
+       ],
+       [
+        125.74,
+        33.93
+       ],
+       [
+        126.01,
+        34.46
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#050506"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.6,
+      135.3
+     ],
+     "top": [
+      [
+       0.6,
+       52.55
+      ],
+      [
+       135.3,
+       52.55
+      ]
+     ],
+     "diffuser": "diffused",
+     "leds": 11,
+     "inset": 0.1
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "DOMINATOR",
+     "face": "side",
+     "at": [
+      52.5,
+      31
+     ],
+     "h": 2.2,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.55
+    },
+    {
+     "text": "TITANIUM",
+     "face": "side",
+     "at": [
+      58,
+      34.6
+     ],
+     "h": 1.2,
+     "weight": 500,
+     "font": "wide",
+     "finish": "print-silver",
+     "letterSpacing": 0.6
+    },
+    {
+     "text": "DDR5",
+     "face": "side",
+     "at": [
+      64,
+      43.5
+     ],
+     "h": 1.7,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#6a6c70"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 11,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": 11,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "DOMINATOR",
+    "face": "side",
+    "at": [
+     52.5,
+     31
+    ],
+    "h": 2.2,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.55
+   },
+   {
+    "text": "TITANIUM",
+    "face": "side",
+    "at": [
+     58,
+     34.6
+    ],
+    "h": 1.2,
+    "weight": 500,
+    "font": "wide",
+    "finish": "print-silver",
+    "letterSpacing": 0.6
+   },
+   {
+    "text": "DDR5",
+    "face": "side",
+    "at": [
+     64,
+     43.5
+    ],
+    "h": 1.7,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#6a6c70"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    74.8
+   ]
+  },
+  "no3d": false
+ },
+ "ram:kingston-fury-beast-2x16-6000-cl30-black": {
+  "gen": "ramKit",
+  "part": "alt-ram-fury-beast",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 34.9,
+   "thick": 7,
+   "spreader": {
+    "profile": "fury-beast",
+    "finish": "satin-black",
+    "finishHex": "#121315",
+    "bottom": 3.2,
+    "top": [
+     [
+      0.5,
+      33.6
+     ],
+     [
+      40,
+      33.6
+     ],
+     [
+      44,
+      31.6
+     ],
+     [
+      96,
+      31.6
+     ],
+     [
+      99.5,
+      34.9
+     ],
+     [
+      124,
+      34.9
+     ],
+     [
+      127,
+      32.4
+     ],
+     [
+      133,
+      32.4
+     ]
+    ]
+   },
+   "lightBars": [],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "KINGSTON",
+     "face": "side",
+     "at": [
+      11,
+      9.5
+     ],
+     "h": 1.9,
+     "weight": 600,
+     "finish": "print-silver",
+     "letterSpacing": 0.45
+    },
+    {
+     "text": "FURY",
+     "face": "side",
+     "at": [
+      11.2,
+      12.8
+     ],
+     "h": 8.2,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#b8babd"
+    },
+    {
+     "text": "BEAST",
+     "face": "side",
+     "at": [
+      76,
+      18.5
+     ],
+     "h": 3.3,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white"
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [
+   {
+    "text": "KINGSTON",
+    "face": "side",
+    "at": [
+     11,
+     9.5
+    ],
+    "h": 1.9,
+    "weight": 600,
+    "finish": "print-silver",
+    "letterSpacing": 0.45
+   },
+   {
+    "text": "FURY",
+    "face": "side",
+    "at": [
+     11.2,
+     12.8
+    ],
+    "h": 8.2,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#b8babd"
+   },
+   {
+    "text": "BEAST",
+    "face": "side",
+    "at": [
+     76,
+     18.5
+    ],
+    "h": 3.3,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white"
+   }
+  ],
+  "envelope": null,
+  "no3d": false
+ },
+ "ram:kingston-fury-renegade-rgb-2x16-6400-cl32": {
+  "gen": "ramKit",
+  "part": "ram-fury-renegade-rgb",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 133.35,
+   "height": 44,
+   "thick": 8.6,
+   "spreader": {
+    "profile": "renegade",
+    "finish": "anodised-silver",
+    "finishHex": "#c3c5c8",
+    "bottom": 3,
+    "top": [
+     [
+      0.4,
+      44
+     ],
+     [
+      6.5,
+      44
+     ],
+     [
+      7.5,
+      37
+     ],
+     [
+      118,
+      36.4
+     ],
+     [
+      119,
+      41.2
+     ],
+     [
+      133,
+      41.2
+     ]
+    ],
+    "panels": [
+     {
+      "pts": [
+       [
+        22,
+        34.5
+       ],
+       [
+        100,
+        34.5
+       ],
+       [
+        104,
+        26
+       ],
+       [
+        96,
+        13
+       ],
+       [
+        30,
+        13
+       ],
+       [
+        22,
+        22
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#111214"
+     },
+     {
+      "pts": [
+       [
+        8,
+        31
+       ],
+       [
+        16,
+        31
+       ],
+       [
+        12,
+        16
+       ],
+       [
+        8,
+        16
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#111214"
+     },
+     {
+      "pts": [
+       [
+        108,
+        31
+       ],
+       [
+        117,
+        31
+       ],
+       [
+        121,
+        18
+       ],
+       [
+        110,
+        14
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#111214"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      7.5,
+      118
+     ],
+     "top": [
+      [
+       7.5,
+       43.8
+      ],
+      [
+       26,
+       42.6
+      ],
+      [
+       118,
+       41
+      ]
+     ],
+     "diffuser": "frosted",
+     "inset": 0.4
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "KINGSTON",
+     "face": "side",
+     "at": [
+      36,
+      11.5
+     ],
+     "h": 1.7,
+     "weight": 600,
+     "finish": "print-silver",
+     "letterSpacing": 0.45
+    },
+    {
+     "text": "FURY",
+     "face": "side",
+     "at": [
+      36,
+      14.6
+     ],
+     "h": 7.5,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#b8babd"
+    },
+    {
+     "text": "RENEGADE",
+     "face": "side",
+     "at": [
+      40,
+      25.5
+     ],
+     "h": 2.3,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.1
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "KINGSTON",
+    "face": "side",
+    "at": [
+     36,
+     11.5
+    ],
+    "h": 1.7,
+    "weight": 600,
+    "finish": "print-silver",
+    "letterSpacing": 0.45
+   },
+   {
+    "text": "FURY",
+    "face": "side",
+    "at": [
+     36,
+     14.6
+    ],
+    "h": 7.5,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-silver",
+    "colour": "#b8babd"
+   },
+   {
+    "text": "RENEGADE",
+    "face": "side",
+    "at": [
+     40,
+     25.5
+    ],
+    "h": 2.3,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.1
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    62
+   ]
+  },
+  "no3d": false
+ },
+ "ram:teamgroup-tforce-delta-rgb-2x16-6000-cl38": {
+  "gen": "ramKit",
+  "part": "ram-tforce-delta-rgb",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 144.2,
+   "height": 46.1,
+   "thick": 7,
+   "spreader": {
+    "profile": "delta",
+    "finish": "satin-black",
+    "finishHex": "#121315",
+    "bottom": 3.2,
+    "top": [
+     [
+      0,
+      33
+     ],
+     [
+      27,
+      42
+     ],
+     [
+      37,
+      42
+     ],
+     [
+      72.9,
+      34.4
+     ],
+     [
+      113,
+      42
+     ],
+     [
+      120,
+      42
+     ],
+     [
+      144.2,
+      33.4
+     ]
+    ],
+    "lines": [
+     {
+      "pts": [
+       [
+        9,
+        30
+       ],
+       [
+        40,
+        26
+       ],
+       [
+        57,
+        21
+       ],
+       [
+        73,
+        16.5
+       ],
+       [
+        89,
+        21
+       ],
+       [
+        106,
+        26
+       ],
+       [
+        136,
+        30
+       ]
+      ],
+      "w": 0.5,
+      "finish": "print-silver"
+     },
+     {
+      "pts": [
+       [
+        9,
+        26
+       ],
+       [
+        9,
+        7
+       ],
+       [
+        136,
+        7
+       ],
+       [
+        136,
+        26
+       ]
+      ],
+      "w": 0.5,
+      "finish": "print-silver"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.2,
+      144
+     ],
+     "top": [
+      [
+       0,
+       39.2
+      ],
+      [
+       27,
+       46.1
+      ],
+      [
+       37,
+       46.1
+      ],
+      [
+       72.9,
+       38.4
+      ],
+      [
+       113,
+       46.1
+      ],
+      [
+       120,
+       46.1
+      ],
+      [
+       144.2,
+       39.6
+      ]
+     ],
+     "diffuser": "frosted",
+     "inset": 0.3
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "T-FORCE",
+     "face": "side",
+     "at": [
+      60.6,
+      21.8
+     ],
+     "h": 3,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-white"
+    },
+    {
+     "text": "DELTA",
+     "face": "side",
+     "at": [
+      87,
+      21.1
+     ],
+     "h": 3.4,
+     "weight": "italic 600",
+     "font": "wide",
+     "finish": "print-white"
+    },
+    {
+     "text": "DDR5 RGB",
+     "face": "side",
+     "at": [
+      21,
+      16.5
+     ],
+     "h": 1.8,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-white"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "T-FORCE",
+    "face": "side",
+    "at": [
+     60.6,
+     21.8
+    ],
+    "h": 3,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-white"
+   },
+   {
+    "text": "DELTA",
+    "face": "side",
+    "at": [
+     87,
+     21.1
+    ],
+    "h": 3.4,
+    "weight": "italic 600",
+    "font": "wide",
+    "finish": "print-white"
+   },
+   {
+    "text": "DDR5 RGB",
+    "face": "side",
+    "at": [
+     21,
+     16.5
+    ],
+    "h": 1.8,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-white"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    64.1
+   ]
+  },
+  "no3d": false
+ },
+ "ram:teamgroup-tforce-xtreem-argb-2x16-6000-cl30": {
+  "gen": "ramKit",
+  "part": "ram-tforce-xtreem-argb",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 134.5,
+   "height": 48.5,
+   "thick": 8.2,
+   "spreader": {
+    "profile": "xtreem",
+    "finish": "gloss-black",
+    "finishHex": "#0d0d0e",
+    "top": [
+     [
+      0.4,
+      40.5
+     ],
+     [
+      134.1,
+      40.5
+     ]
+    ],
+    "bottom": 3.2
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.8,
+      133.7
+     ],
+     "top": [
+      [
+       0.8,
+       48.5
+      ],
+      [
+       133.7,
+       48.5
+      ]
+     ],
+     "diffuser": "crystal",
+     "inset": 0.3
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "T-FORCE XTREEM",
+     "face": "side",
+     "at": [
+      44,
+      22
+     ],
+     "h": 3,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-silver"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "T-FORCE XTREEM",
+    "face": "side",
+    "at": [
+     44,
+     22
+    ],
+    "h": 3,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-silver"
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    66.5
+   ]
+  },
+  "no3d": false
+ },
+ "ram:lexar-ares-rgb-2x16-6000-cl30": {
+  "gen": "ramKit",
+  "part": "ram-lexar-ares-rgb",
+  "params": {
+   "modules": 2,
+   "slots": [
+    -13.95,
+    -4.65,
+    4.65,
+    13.95
+   ],
+   "populated": [
+    1,
+    3
+   ],
+   "length": 140,
+   "height": 43.3,
+   "thick": 7.9,
+   "spreader": {
+    "profile": "ares",
+    "finish": "gunmetal",
+    "finishHex": "#4f5257",
+    "top": [
+     [
+      0.4,
+      37.3
+     ],
+     [
+      139.6,
+      37.3
+     ]
+    ],
+    "bottom": 3.2,
+    "panels": [
+     {
+      "pts": [
+       [
+        30,
+        33.5
+       ],
+       [
+        110,
+        33.5
+       ],
+       [
+        104,
+        13
+       ],
+       [
+        36,
+        13
+       ]
+      ],
+      "finish": "satin-black",
+      "finishHex": "#2a2c2f"
+     },
+     {
+      "pts": [
+       [
+        1.5,
+        36.5
+       ],
+       [
+        12,
+        36.5
+       ],
+       [
+        7.5,
+        27
+       ],
+       [
+        1.5,
+        27
+       ]
+      ],
+      "finish": "anodised-silver",
+      "finishHex": "#a9adb2"
+     },
+     {
+      "pts": [
+       [
+        138.5,
+        36.5
+       ],
+       [
+        128,
+        36.5
+       ],
+       [
+        132.5,
+        27
+       ],
+       [
+        138.5,
+        27
+       ]
+      ],
+      "finish": "anodised-silver",
+      "finishHex": "#a9adb2"
+     },
+     {
+      "pts": [
+       [
+        14,
+        36.5
+       ],
+       [
+        20,
+        36.5
+       ],
+       [
+        16.5,
+        29
+       ],
+       [
+        12.5,
+        29
+       ]
+      ],
+      "finish": "anodised-silver",
+      "finishHex": "#a9adb2"
+     },
+     {
+      "pts": [
+       [
+        126,
+        36.5
+       ],
+       [
+        120,
+        36.5
+       ],
+       [
+        123.5,
+        29
+       ],
+       [
+        127.5,
+        29
+       ]
+      ],
+      "finish": "anodised-silver",
+      "finishHex": "#a9adb2"
+     }
+    ]
+   },
+   "lightBars": [
+    {
+     "s": [
+      0.8,
+      139.2
+     ],
+     "top": [
+      [
+       0.8,
+       43.3
+      ],
+      [
+       139.2,
+       43.3
+      ]
+     ],
+     "diffuser": "frosted",
+     "leds": 8,
+     "inset": 0.4
+    }
+   ],
+   "lightBar": null,
+   "marks": [
+    {
+     "text": "LEXAR",
+     "face": "side",
+     "at": [
+      10,
+      20
+     ],
+     "h": 2.6,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-silver",
+     "letterSpacing": 0.3
+    },
+    {
+     "text": "ARES",
+     "face": "side",
+     "at": [
+      60,
+      18
+     ],
+     "h": 4,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-white",
+     "letterSpacing": 0.2
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "bar1",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 0
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "bar2",
+    "kind": "bar",
+    "group": "ram",
+    "addressable": true,
+    "control": "software",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "module": 1
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [
+   {
+    "text": "LEXAR",
+    "face": "side",
+    "at": [
+     10,
+     20
+    ],
+    "h": 2.6,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-silver",
+    "letterSpacing": 0.3
+   },
+   {
+    "text": "ARES",
+    "face": "side",
+    "at": [
+     60,
+     18
+    ],
+    "h": 4,
+    "weight": 600,
+    "font": "wide",
+    "finish": "print-white",
+    "letterSpacing": 0.2
+   }
+  ],
+  "envelope": {
+   "x": [
+    460,
+    505
+   ],
+   "y": [
+    36,
+    169
+   ],
+   "z": [
+    18.6,
+    61.3
+   ]
+  },
+  "no3d": false
+ }
+}

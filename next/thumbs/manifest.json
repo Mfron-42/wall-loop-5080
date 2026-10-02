@@ -1,0 +1,561 @@
+{
+ "slots": {
+  "ram": {
+   "ram:gskill-trident-z5-neo-rgb-2x16-6000-cl30": {
+    "base": "ram/gskill-trident-z5-neo-rgb-2x16-6000-cl30.webp",
+    "leds": "ram/gskill-trident-z5-neo-rgb-2x16-6000-cl30-leds.webp",
+    "screen": false
+   },
+   "ram:gskill-trident-z5-neo-rgb-2x16-6000-cl36": {
+    "base": "ram/gskill-trident-z5-neo-rgb-2x16-6000-cl36.webp",
+    "leds": "ram/gskill-trident-z5-neo-rgb-2x16-6000-cl36-leds.webp",
+    "screen": false
+   },
+   "ram:gskill-trident-z5-neo-rgb-2x32-6000-cl30": {
+    "base": "ram/gskill-trident-z5-neo-rgb-2x32-6000-cl30.webp",
+    "leds": "ram/gskill-trident-z5-neo-rgb-2x32-6000-cl30-leds.webp",
+    "screen": false
+   },
+   "ram:corsair-vengeance-rgb-2x16-6000-cl30-grey": {
+    "base": "ram/corsair-vengeance-rgb-2x16-6000-cl30-grey.webp",
+    "leds": "ram/corsair-vengeance-rgb-2x16-6000-cl30-grey-leds.webp",
+    "screen": false
+   },
+   "ram:corsair-vengeance-rgb-2x16-6000-cl38-black": {
+    "base": "ram/corsair-vengeance-rgb-2x16-6000-cl38-black.webp",
+    "leds": "ram/corsair-vengeance-rgb-2x16-6000-cl38-black-leds.webp",
+    "screen": false
+   },
+   "ram:corsair-vengeance-rgb-2x32-6000-cl30-black": {
+    "base": "ram/corsair-vengeance-rgb-2x32-6000-cl30-black.webp",
+    "leds": "ram/corsair-vengeance-rgb-2x32-6000-cl30-black-leds.webp",
+    "screen": false
+   },
+   "ram:kingston-fury-beast-rgb-2x16-6000-cl30-black": {
+    "base": "ram/kingston-fury-beast-rgb-2x16-6000-cl30-black.webp",
+    "leds": "ram/kingston-fury-beast-rgb-2x16-6000-cl30-black-leds.webp",
+    "screen": false
+   },
+   "ram:kingston-fury-beast-rgb-2x32-6000-cl30": {
+    "base": "ram/kingston-fury-beast-rgb-2x32-6000-cl30.webp",
+    "leds": "ram/kingston-fury-beast-rgb-2x32-6000-cl30-leds.webp",
+    "screen": false
+   },
+   "ram:gskill-trident-z5-royal-neo-2x16-6000-cl28": {
+    "base": "ram/gskill-trident-z5-royal-neo-2x16-6000-cl28.webp",
+    "leds": "ram/gskill-trident-z5-royal-neo-2x16-6000-cl28-leds.webp",
+    "screen": false
+   },
+   "ram:gskill-trident-z5-rgb-2x16-6000-cl30-black": {
+    "base": "ram/gskill-trident-z5-rgb-2x16-6000-cl30-black.webp",
+    "leds": "ram/gskill-trident-z5-rgb-2x16-6000-cl30-black-leds.webp",
+    "screen": false
+   },
+   "ram:gskill-trident-z5-rgb-2x32-6000-cl30-silver": {
+    "base": "ram/gskill-trident-z5-rgb-2x32-6000-cl30-silver.webp",
+    "leds": "ram/gskill-trident-z5-rgb-2x32-6000-cl30-silver-leds.webp",
+    "screen": false
+   },
+   "ram:corsair-dominator-titanium-rgb-2x16-6400-cl32-black": {
+    "base": "ram/corsair-dominator-titanium-rgb-2x16-6400-cl32-black.webp",
+    "leds": "ram/corsair-dominator-titanium-rgb-2x16-6400-cl32-black-leds.webp",
+    "screen": false
+   },
+   "ram:corsair-dominator-titanium-rgb-2x32-6000-cl30-grey": {
+    "base": "ram/corsair-dominator-titanium-rgb-2x32-6000-cl30-grey.webp",
+    "leds": "ram/corsair-dominator-titanium-rgb-2x32-6000-cl30-grey-leds.webp",
+    "screen": false
+   },
+   "ram:kingston-fury-beast-2x16-6000-cl30-black": {
+    "base": "ram/kingston-fury-beast-2x16-6000-cl30-black.webp",
+    "leds": null,
+    "screen": false
+   },
+   "ram:kingston-fury-renegade-rgb-2x16-6400-cl32": {
+    "base": "ram/kingston-fury-renegade-rgb-2x16-6400-cl32.webp",
+    "leds": "ram/kingston-fury-renegade-rgb-2x16-6400-cl32-leds.webp",
+    "screen": false
+   },
+   "ram:teamgroup-tforce-delta-rgb-2x16-6000-cl38": {
+    "base": "ram/teamgroup-tforce-delta-rgb-2x16-6000-cl38.webp",
+    "leds": "ram/teamgroup-tforce-delta-rgb-2x16-6000-cl38-leds.webp",
+    "screen": false
+   },
+   "ram:teamgroup-tforce-xtreem-argb-2x16-6000-cl30": {
+    "base": "ram/teamgroup-tforce-xtreem-argb-2x16-6000-cl30.webp",
+    "leds": "ram/teamgroup-tforce-xtreem-argb-2x16-6000-cl30-leds.webp",
+    "screen": false
+   },
+   "ram:lexar-ares-rgb-2x16-6000-cl30": {
+    "base": "ram/lexar-ares-rgb-2x16-6000-cl30.webp",
+    "leds": "ram/lexar-ares-rgb-2x16-6000-cl30-leds.webp",
+    "screen": false
+   }
+  },
+  "cpu_block": {
+   "cpu_block:granzon-gamsc": {
+    "base": "cpu_block/granzon-gamsc.webp",
+    "leds": null,
+    "screen": true
+   },
+   "cpu_block:alphacool-core-1-aurora-black": {
+    "base": "cpu_block/alphacool-core-1-aurora-black.webp",
+    "leds": "cpu_block/alphacool-core-1-aurora-black-leds.webp",
+    "screen": false
+   },
+   "cpu_block:alphacool-core-1-aurora-carbon": {
+    "base": "cpu_block/alphacool-core-1-aurora-carbon.webp",
+    "leds": "cpu_block/alphacool-core-1-aurora-carbon-leds.webp",
+    "screen": false
+   },
+   "cpu_block:alphacool-core-1-black": {
+    "base": "cpu_block/alphacool-core-1-black.webp",
+    "leds": null,
+    "screen": false
+   },
+   "cpu_block:alphacool-core-1-silver": {
+    "base": "cpu_block/alphacool-core-1-silver.webp",
+    "leds": null,
+    "screen": false
+   },
+   "cpu_block:alphacool-apex-1-am5-black": {
+    "base": "cpu_block/alphacool-apex-1-am5-black.webp",
+    "leds": "cpu_block/alphacool-apex-1-am5-black-leds.webp",
+    "screen": false
+   },
+   "cpu_block:ek-quantum-velocity3-acetal": {
+    "base": "cpu_block/ek-quantum-velocity3-acetal.webp",
+    "leds": "cpu_block/ek-quantum-velocity3-acetal-leds.webp",
+    "screen": false
+   },
+   "cpu_block:ek-quantum-velocity2-drgb-am5-nickel-plexi": {
+    "base": "cpu_block/ek-quantum-velocity2-drgb-am5-nickel-plexi.webp",
+    "leds": "cpu_block/ek-quantum-velocity2-drgb-am5-nickel-plexi-leds.webp",
+    "screen": false
+   },
+   "cpu_block:ek-quantum-velocity2-drgb-am5-nickel-acetal": {
+    "base": "cpu_block/ek-quantum-velocity2-drgb-am5-nickel-acetal.webp",
+    "leds": "cpu_block/ek-quantum-velocity2-drgb-am5-nickel-acetal-leds.webp",
+    "screen": false
+   },
+   "cpu_block:ek-quantum-velocity2-am5-full-nickel": {
+    "base": "cpu_block/ek-quantum-velocity2-am5-full-nickel.webp",
+    "leds": "cpu_block/ek-quantum-velocity2-am5-full-nickel-leds.webp",
+    "screen": false
+   },
+   "cpu_block:aquacomputer-cuplex-kryos-next-vision-am5": {
+    "base": "cpu_block/aquacomputer-cuplex-kryos-next-vision-am5.webp",
+    "leds": null,
+    "screen": true
+   },
+   "cpu_block:corsair-xc7-rgb-elite-lcd": {
+    "base": "cpu_block/corsair-xc7-rgb-elite-lcd.webp",
+    "leds": "cpu_block/corsair-xc7-rgb-elite-lcd-leds.webp",
+    "screen": true
+   },
+   "cpu_block:watercool-heatkiller-v-pro-amd-acryl-black": {
+    "base": "cpu_block/watercool-heatkiller-v-pro-amd-acryl-black.webp",
+    "leds": "cpu_block/watercool-heatkiller-v-pro-amd-acryl-black-leds.webp",
+    "screen": false
+   },
+   "cpu_block:watercool-heatkiller-iv-pro-amd-black-pvd": {
+    "base": "cpu_block/watercool-heatkiller-iv-pro-amd-black-pvd.webp",
+    "leds": null,
+    "screen": false
+   },
+   "cpu_block:tt-pacific-mx2-ultra-am5": {
+    "base": "cpu_block/tt-pacific-mx2-ultra-am5.webp",
+    "leds": "cpu_block/tt-pacific-mx2-ultra-am5-leds.webp",
+    "screen": true
+   },
+   "cpu_block:tryx-panorama-wb-black": {
+    "base": "cpu_block/tryx-panorama-wb-black.webp",
+    "leds": null,
+    "screen": true
+   },
+   "cpu_block:granzon-gams": {
+    "base": "cpu_block/granzon-gams.webp",
+    "leds": null,
+    "screen": true
+   },
+   "cpu_block:bykski-cpu-ray-on-m": {
+    "base": "cpu_block/bykski-cpu-ray-on-m.webp",
+    "leds": "cpu_block/bykski-cpu-ray-on-m-leds.webp",
+    "screen": true
+   },
+   "cpu_block:barrowch-fbltfha-04n-v2a": {
+    "base": "cpu_block/barrowch-fbltfha-04n-v2a.webp",
+    "leds": "cpu_block/barrowch-fbltfha-04n-v2a-leds.webp",
+    "screen": true
+   },
+   "cpu_block:barrow-kepler-lthoa-04n-black-argb": {
+    "base": "cpu_block/barrow-kepler-lthoa-04n-black-argb.webp",
+    "leds": "cpu_block/barrow-kepler-lthoa-04n-black-argb-leds.webp",
+    "screen": false
+   },
+   "cpu_block:alphacool-apex-monoblock-proart-x870e": {
+    "base": "cpu_block/alphacool-apex-monoblock-proart-x870e.webp",
+    "leds": null,
+    "screen": false
+   }
+  },
+  "motherboard": {
+   "motherboard:asus-crosshair-x870e-dark-hero": {
+    "base": "motherboard/asus-crosshair-x870e-dark-hero.webp",
+    "leds": "motherboard/asus-crosshair-x870e-dark-hero-leds.webp",
+    "screen": false
+   },
+   "motherboard:msi-mpg-x870e-carbon": {
+    "base": "motherboard/msi-mpg-x870e-carbon.webp",
+    "leds": "motherboard/msi-mpg-x870e-carbon-leds.webp",
+    "screen": false
+   },
+   "motherboard:asus-proart-x870e-creator": {
+    "base": "motherboard/asus-proart-x870e-creator.webp",
+    "leds": null,
+    "screen": false
+   },
+   "motherboard:gigabyte-x870e-aorus-master-x3d": {
+    "base": "motherboard/gigabyte-x870e-aorus-master-x3d.webp",
+    "leds": "motherboard/gigabyte-x870e-aorus-master-x3d-leds.webp",
+    "screen": false
+   },
+   "motherboard:asus-rog-strix-x870e-e": {
+    "base": "motherboard/asus-rog-strix-x870e-e.webp",
+    "leds": "motherboard/asus-rog-strix-x870e-e-leds.webp",
+    "screen": false
+   }
+  },
+  "gpu": {
+   "gpu:inno3d-rtx5080-frostbite-pro": {
+    "base": "gpu/inno3d-rtx5080-frostbite-pro.webp",
+    "leds": null,
+    "screen": false
+   },
+   "gpu:inno3d-x3-alphacool-es-1slot": {
+    "base": "gpu/inno3d-x3-alphacool-es-1slot.webp",
+    "leds": null,
+    "screen": false
+   },
+   "gpu:gigabyte-5080-gaming-oc-bykski": {
+    "base": "gpu/gigabyte-5080-gaming-oc-bykski.webp",
+    "leds": "gpu/gigabyte-5080-gaming-oc-bykski-leds.webp",
+    "screen": false
+   },
+   "gpu:asus-5080-tuf-oc-bykski": {
+    "base": "gpu/asus-5080-tuf-oc-bykski.webp",
+    "leds": "gpu/asus-5080-tuf-oc-bykski-leds.webp",
+    "screen": false
+   },
+   "gpu:inno3d-rtx5080-frostbite-nonpro": {
+    "base": "gpu/inno3d-rtx5080-frostbite-nonpro.webp",
+    "leds": "gpu/inno3d-rtx5080-frostbite-nonpro-leds.webp",
+    "screen": false
+   },
+   "gpu:gigabyte-5080-xtreme-waterforce-wb": {
+    "base": "gpu/gigabyte-5080-xtreme-waterforce-wb.webp",
+    "leds": "gpu/gigabyte-5080-xtreme-waterforce-wb-leds.webp",
+    "screen": false
+   }
+  },
+  "riser": {
+   "riser:delock-81593-pcie5-300-90": {
+    "base": "riser/delock-81593-pcie5-300-90.webp",
+    "leds": null,
+    "screen": false
+   },
+   "riser:hyte-pcie5-hyper-riser-200-black": {
+    "base": "riser/hyte-pcie5-hyper-riser-200-black.webp",
+    "leds": null,
+    "screen": false
+   }
+  },
+  "radiators": {
+   "radiators:alphacool-hpe30-360-x2": {
+    "base": "radiators/alphacool-hpe30-360-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:alphacool-hpe45-360-x2": {
+    "base": "radiators/alphacool-hpe45-360-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:alphacool-hpe30-360-white-x2": {
+    "base": "radiators/alphacool-hpe30-360-white-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:alphacool-nexxxos-hpe20-360-x2": {
+    "base": "radiators/alphacool-nexxxos-hpe20-360-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:alphacool-core-xt45-360-x2": {
+    "base": "radiators/alphacool-core-xt45-360-x2.webp",
+    "leds": "radiators/alphacool-core-xt45-360-x2-leds.webp",
+    "screen": false
+   },
+   "radiators:watercool-heatkiller-rad-360-s-stainless-x2": {
+    "base": "radiators/watercool-heatkiller-rad-360-s-stainless-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:watercool-heatkiller-rad-360-l-stainless-x2": {
+    "base": "radiators/watercool-heatkiller-rad-360-l-stainless-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:hwl-nemesis-gts-360-x2": {
+    "base": "radiators/hwl-nemesis-gts-360-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:hwl-nemesis-gtx-360-x2": {
+    "base": "radiators/hwl-nemesis-gtx-360-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:ek-quantum-surface-p360m-x2": {
+    "base": "radiators/ek-quantum-surface-p360m-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:ek-quantum-surface-p360m-xflow-x2": {
+    "base": "radiators/ek-quantum-surface-p360m-xflow-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:bykski-rc360-d30-x2": {
+    "base": "radiators/bykski-rc360-d30-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:granzon-gh360n-x2": {
+    "base": "radiators/granzon-gh360n-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:barrowch-fbcfrx-360p-v2-x2": {
+    "base": "radiators/barrowch-fbcfrx-360p-v2-x2.webp",
+    "leds": null,
+    "screen": true
+   },
+   "radiators:alphacool-nexxxos-ut60-360-x2": {
+    "base": "radiators/alphacool-nexxxos-ut60-360-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "radiators:tt-pacific-sr360-slim-x2": {
+    "base": "radiators/tt-pacific-sr360-slim-x2.webp",
+    "leds": null,
+    "screen": false
+   }
+  },
+  "fans": {
+   "fans:noctua-nf-a12x25-g2-chromax-x6": {
+    "base": "fans/noctua-nf-a12x25-g2-chromax-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:tt-toughfan-ex12-pro-x6": {
+    "base": "fans/tt-toughfan-ex12-pro-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:alphacool-apex-stealth-metal-black-x6": {
+    "base": "fans/alphacool-apex-stealth-metal-black-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:alphacool-apex-stealth-metal-chrome-x6": {
+    "base": "fans/alphacool-apex-stealth-metal-chrome-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:alphacool-apex-stealth-metal-white-x6": {
+    "base": "fans/alphacool-apex-stealth-metal-white-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:phanteks-t30-120-x6": {
+    "base": "fans/phanteks-t30-120-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:phanteks-d30-120-drgb-x6": {
+    "base": "fans/phanteks-d30-120-drgb-x6.webp",
+    "leds": "fans/phanteks-d30-120-drgb-x6-leds.webp",
+    "screen": false
+   },
+   "fans:lian-li-uni-fan-sl-inf-flex-x6": {
+    "base": "fans/lian-li-uni-fan-sl-inf-flex-x6.webp",
+    "leds": "fans/lian-li-uni-fan-sl-inf-flex-x6-leds.webp",
+    "screen": false
+   },
+   "fans:lian-li-uni-fan-tl-flex-x6": {
+    "base": "fans/lian-li-uni-fan-tl-flex-x6.webp",
+    "leds": "fans/lian-li-uni-fan-tl-flex-x6-leds.webp",
+    "screen": false
+   },
+   "fans:tt-ct120-ex-argb-sync-x6": {
+    "base": "fans/tt-ct120-ex-argb-sync-x6.webp",
+    "leds": "fans/tt-ct120-ex-argb-sync-x6-leds.webp",
+    "screen": false
+   },
+   "fans:tt-ct120-argb-sync-x6": {
+    "base": "fans/tt-ct120-argb-sync-x6.webp",
+    "leds": "fans/tt-ct120-argb-sync-x6-leds.webp",
+    "screen": false
+   },
+   "fans:lian-li-uni-fan-p28-black-x6": {
+    "base": "fans/lian-li-uni-fan-p28-black-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:lian-li-uni-fan-p28-argb-kit-x6": {
+    "base": "fans/lian-li-uni-fan-p28-argb-kit-x6.webp",
+    "leds": "fans/lian-li-uni-fan-p28-argb-kit-x6-leds.webp",
+    "screen": false
+   },
+   "fans:arctic-p12-pro-pst-x6": {
+    "base": "fans/arctic-p12-pro-pst-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:arctic-p12-pro-argb-x6": {
+    "base": "fans/arctic-p12-pro-argb-x6.webp",
+    "leds": "fans/arctic-p12-pro-argb-x6-leds.webp",
+    "screen": false
+   },
+   "fans:bequiet-silent-wings-pro-4-x6": {
+    "base": "fans/bequiet-silent-wings-pro-4-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:ek-vardar-x3m-120er-black-x6": {
+    "base": "fans/ek-vardar-x3m-120er-black-x6.webp",
+    "leds": null,
+    "screen": false
+   },
+   "fans:tt-toughfan-ex-120-argb-x6": {
+    "base": "fans/tt-toughfan-ex-120-argb-x6.webp",
+    "leds": "fans/tt-toughfan-ex-120-argb-x6-leds.webp",
+    "screen": false
+   },
+   "fans:lian-li-uni-fan-tl-lcd-flex-x6": {
+    "base": "fans/lian-li-uni-fan-tl-lcd-flex-x6.webp",
+    "leds": "fans/lian-li-uni-fan-tl-lcd-flex-x6-leds.webp",
+    "screen": true
+   },
+   "fans:lian-li-uni-fan-sl-infinity-x6": {
+    "base": "fans/lian-li-uni-fan-sl-infinity-x6.webp",
+    "leds": "fans/lian-li-uni-fan-sl-infinity-x6-leds.webp",
+    "screen": false
+   },
+   "fans:lian-li-uni-fan-sl120-wireless-x6": {
+    "base": "fans/lian-li-uni-fan-sl120-wireless-x6.webp",
+    "leds": "fans/lian-li-uni-fan-sl120-wireless-x6-leds.webp",
+    "screen": false
+   },
+   "fans:lian-li-uni-fan-sl120-v2-x6": {
+    "base": "fans/lian-li-uni-fan-sl120-v2-x6.webp",
+    "leds": "fans/lian-li-uni-fan-sl120-v2-x6-leds.webp",
+    "screen": false
+   },
+   "fans:corsair-icue-link-qx120-rgb-x6": {
+    "base": "fans/corsair-icue-link-qx120-rgb-x6.webp",
+    "leds": "fans/corsair-icue-link-qx120-rgb-x6-leds.webp",
+    "screen": false
+   },
+   "fans:corsair-icue-link-rx120-rgb-x6": {
+    "base": "fans/corsair-icue-link-rx120-rgb-x6.webp",
+    "leds": "fans/corsair-icue-link-rx120-rgb-x6-leds.webp",
+    "screen": false
+   },
+   "fans:tt-swafan-ex12-argb-sync-x6": {
+    "base": "fans/tt-swafan-ex12-argb-sync-x6.webp",
+    "leds": "fans/tt-swafan-ex12-argb-sync-x6-leds.webp",
+    "screen": false
+   },
+   "fans:tt-swafan-ex12-infinity-argb-sync-x6": {
+    "base": "fans/tt-swafan-ex12-infinity-argb-sync-x6.webp",
+    "leds": "fans/tt-swafan-ex12-infinity-argb-sync-x6-leds.webp",
+    "screen": false
+   },
+   "fans:phanteks-m25g2-120-drgb-x6": {
+    "base": "fans/phanteks-m25g2-120-drgb-x6.webp",
+    "leds": "fans/phanteks-m25g2-120-drgb-x6-leds.webp",
+    "screen": false
+   },
+   "fans:bequiet-light-wings-lx-120-x6": {
+    "base": "fans/bequiet-light-wings-lx-120-x6.webp",
+    "leds": "fans/bequiet-light-wings-lx-120-x6-leds.webp",
+    "screen": false
+   }
+  },
+  "pump": {
+   "pump:alphacool-vpp655-pwm-x2": {
+    "base": "pump/alphacool-vpp655-pwm-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "pump:alphacool-vpp655-single-edition-x2": {
+    "base": "pump/alphacool-vpp655-single-edition-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "pump:aquacomputer-d5-pwm-motor-x2": {
+    "base": "pump/aquacomputer-d5-pwm-motor-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "pump:watercool-heatkiller-d5-pwm-x2": {
+    "base": "pump/watercool-heatkiller-d5-pwm-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "pump:ek-loop-d5-g3-pwm-x2": {
+    "base": "pump/ek-loop-d5-g3-pwm-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "pump:alphacool-vpp-apex-x2": {
+    "base": "pump/alphacool-vpp-apex-x2.webp",
+    "leds": null,
+    "screen": false
+   },
+   "pump:aquacomputer-d5-next-x2": {
+    "base": "pump/aquacomputer-d5-next-x2.webp",
+    "leds": "pump/aquacomputer-d5-next-x2-leds.webp",
+    "screen": true
+   }
+  }
+ },
+ "doors": {
+  "beautiful": {
+   "x1": "doors/beautiful.webp",
+   "w": 960,
+   "h": 720
+  },
+  "powerful": {
+   "x1": "doors/powerful.webp",
+   "w": 960,
+   "h": 720
+  },
+  "value": {
+   "x1": "doors/value.webp",
+   "w": 960,
+   "h": 720
+  },
+  "bare": {
+   "x1": "doors/bare.webp",
+   "w": 960,
+   "h": 720
+  }
+ },
+ "date": "2026-10-02T20:25:38.632Z",
+ "renderer": "gpu",
+ "tile": 128,
+ "cell": 384
+}

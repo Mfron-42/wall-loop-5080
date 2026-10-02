@@ -1,0 +1,4242 @@
+{
+ "motherboard:asus-crosshair-x870e-dark-hero": {
+  "gen": "board",
+  "part": "mb-darkhero",
+  "params": {
+   "w": 244,
+   "h": 305,
+   "t": 1.6,
+   "pcb": "pcb-black",
+   "pcbHex": "#0E0F10",
+   "socket": {
+    "centre": [
+     129,
+     90.6
+    ],
+    "body": [
+     107,
+     68.4,
+     151,
+     112.8
+    ],
+    "ilm": [
+     103.1,
+     57.3,
+     168.5,
+     128.6
+    ],
+    "ilmScrews": [
+     [
+      107.4,
+      62
+     ],
+     [
+      150.6,
+      62
+     ],
+     [
+      107.4,
+      121.8
+     ],
+     [
+      150.6,
+      121.8
+     ]
+    ],
+    "coolerHoles": [
+     [
+      102,
+      45.6
+     ],
+     [
+      156,
+      45.6
+     ],
+     [
+      102,
+      135.6
+     ],
+     [
+      156,
+      135.6
+     ]
+    ],
+    "finish": "nickel"
+   },
+   "dimms": {
+    "x": [
+     184.5,
+     193.8,
+     203.1,
+     212.4
+    ],
+    "w": 7.3,
+    "y": [
+     19.1,
+     160
+    ],
+    "names": [
+     "A1",
+     "A2",
+     "B1",
+     "B2"
+    ],
+    "populated": [
+     1,
+     3
+    ],
+    "rects": [
+     [
+      180.8,
+      19.1,
+      188.2,
+      160
+     ],
+     [
+      190.2,
+      19.1,
+      197.5,
+      160
+     ],
+     [
+      199.4,
+      19.1,
+      206.8,
+      160
+     ],
+     [
+      208.8,
+      19.1,
+      216.1,
+      160
+     ]
+    ]
+   },
+   "pcie": [
+    {
+     "id": "PCIEX16(G5)_1",
+     "kind": "x16",
+     "y": 203,
+     "x": [
+      42,
+      132.1
+     ],
+     "latch": [
+      131.2,
+      147.8
+     ],
+     "rect": [
+      42,
+      198.2,
+      147.8,
+      207.8
+     ],
+     "armour": "steel",
+     "height": 11
+    },
+    {
+     "id": "PCIEX16(G5)_2",
+     "kind": "x16",
+     "y": 284.2,
+     "x": [
+      42,
+      132.1
+     ],
+     "latch": [
+      131.2,
+      147.8
+     ],
+     "rect": [
+      42,
+      279.4,
+      147.8,
+      289
+     ],
+     "armour": "none",
+     "height": 11
+    }
+   ],
+   "m2": [
+    {
+     "id": "M.2_1",
+     "rect": [
+      34,
+      171.2,
+      150.3,
+      192.7
+     ],
+     "connector": "left",
+     "len": 110,
+     "underHeatsink": "m2-1"
+    },
+    {
+     "id": "M.2_2",
+     "rect": [
+      25,
+      222.8,
+      111.1,
+      244.3
+     ],
+     "connector": "left",
+     "len": 80,
+     "underHeatsink": "chipset"
+    },
+    {
+     "id": "M.2_3",
+     "rect": [
+      25,
+      247.9,
+      111.1,
+      269.4
+     ],
+     "connector": "left",
+     "len": 80,
+     "underHeatsink": "chipset"
+    },
+    {
+     "id": "M.2_4",
+     "rect": [
+      126.2,
+      247.9,
+      204.4,
+      269.4
+     ],
+     "connector": "left",
+     "len": 80,
+     "underHeatsink": "chipset"
+    },
+    {
+     "id": "M.2_5",
+     "rect": [
+      172.5,
+      273.1,
+      213.2,
+      294.6
+     ],
+     "connector": "left",
+     "len": 30,
+     "underHeatsink": "dare-plate"
+    }
+   ],
+   "heatsinks": [
+    {
+     "id": "io-cover",
+     "rect": [
+      -9.5,
+      -8,
+      55,
+      157
+     ],
+     "height": 41,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#141518",
+     "xsec": {
+      "pts": [
+       [
+        -9.5,
+        0
+       ],
+       [
+        55,
+        0
+       ],
+       [
+        55,
+        38
+       ],
+       [
+        50,
+        41
+       ],
+       [
+        11,
+        41
+       ],
+       [
+        -9.5,
+        46.5
+       ]
+      ]
+     },
+     "panel": {
+      "id": "polymo",
+      "rect": [
+       11.5,
+       -4,
+       52,
+       151
+      ],
+      "finish": "gloss-black",
+      "finishHex": "#0b0c0e",
+      "opacity": 0.62,
+      "z": 41
+     },
+     "marks": [
+      {
+       "text": "CROSSHAIR",
+       "at": [
+        8.6,
+        4
+       ],
+       "h": 10.5,
+       "rotate": 90,
+       "tilt": 15,
+       "z": 44.3,
+       "font": "wide",
+       "weight": 500,
+       "letterSpacing": 0.55,
+       "finish": "print-silver",
+       "colour": "#3d3f43"
+      }
+     ]
+    },
+    {
+     "id": "vrm-left",
+     "rect": [
+      55,
+      24,
+      80,
+      157
+     ],
+     "height": 33,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#141518",
+     "grooves": {
+      "rect": [
+       64,
+       30,
+       80,
+       150
+      ],
+      "angle": 0,
+      "pitch": 14,
+      "width": 2.4
+     }
+    },
+    {
+     "id": "vrm-top",
+     "rect": [
+      80,
+      -2,
+      180,
+      28
+     ],
+     "height": 37,
+     "profile": "wedge",
+     "finish": "powder-black",
+     "finishHex": "#141518",
+     "fins": {
+      "angle": 38,
+      "pitch": 16,
+      "width": 11.5,
+      "base": 0.6,
+      "offset": 3
+     }
+    },
+    {
+     "id": "m2-1",
+     "rect": [
+      19,
+      173,
+      166,
+      196.5
+     ],
+     "poly": [
+      [
+       19,
+       173
+      ],
+      [
+       166,
+       173
+      ],
+      [
+       166,
+       196.5
+      ],
+      [
+       27,
+       196.5
+      ],
+      [
+       19,
+       189
+      ]
+     ],
+     "height": 13,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#1d1e21",
+     "stripes": [
+      {
+       "poly": [
+        [
+         97,
+         184.6
+        ],
+        [
+         104,
+         182.2
+        ],
+        [
+         133.5,
+         183.2
+        ],
+        [
+         133.5,
+         186.3
+        ],
+        [
+         104,
+         187.2
+        ]
+       ],
+       "finish": "chrome",
+       "h": 0.8
+      }
+     ],
+     "marks": [
+      {
+       "text": "DARK HERO",
+       "at": [
+        22.7,
+        180.5
+       ],
+       "h": 7.6,
+       "font": "wide",
+       "weight": 600,
+       "letterSpacing": 0.06,
+       "finish": "emboss",
+       "colour": "#0b0b0c"
+      },
+      {
+       "text": "3D VC M.2",
+       "at": [
+        138.5,
+        190.2
+       ],
+       "h": 2.3,
+       "finish": "print-silver",
+       "colour": "#8a8c90"
+      }
+     ]
+    },
+    {
+     "id": "audio-cover",
+     "rect": [
+      -1,
+      158,
+      24,
+      277
+     ],
+     "height": 10,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#141518"
+    },
+    {
+     "id": "chipset",
+     "rect": [
+      24,
+      213.8,
+      244.6,
+      276.7
+     ],
+     "height": 10,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#1d1e21",
+     "extra": [
+      [
+       [
+        176.7,
+        196.6
+       ],
+       [
+        244.6,
+        196.6
+       ],
+       [
+        244.6,
+        213.9
+       ],
+       [
+        162,
+        213.9
+       ]
+      ]
+     ],
+     "marks": [
+      {
+       "text": "REPUBLIC OF GAMERS",
+       "at": [
+        39.8,
+        219.6
+       ],
+       "h": 1.9,
+       "finish": "print-silver",
+       "colour": "#7d8085"
+      },
+      {
+       "text": "EST.2006",
+       "at": [
+        39.8,
+        222.6
+       ],
+       "h": 1.9,
+       "finish": "print-silver",
+       "colour": "#7d8085"
+      },
+      {
+       "text": "R",
+       "at": [
+        41,
+        231.6
+       ],
+       "h": 2.3,
+       "finish": "print-silver",
+       "colour": "#9a9da1"
+      },
+      {
+       "text": "O",
+       "at": [
+        81.6,
+        231.6
+       ],
+       "h": 2.3,
+       "finish": "print-silver",
+       "colour": "#9a9da1"
+      },
+      {
+       "text": "G",
+       "at": [
+        121,
+        231.6
+       ],
+       "h": 2.3,
+       "finish": "print-silver",
+       "colour": "#9a9da1"
+      },
+      {
+       "text": "25°07'37.0\"N 121°28'13.6\"E",
+       "at": [
+        42,
+        256.6
+       ],
+       "h": 2,
+       "finish": "print-silver",
+       "colour": "#7d8085"
+      }
+     ],
+     "tiers": [
+      {
+       "poly": [
+        [
+         163,
+         213.8
+        ],
+        [
+         244.6,
+         213.8
+        ],
+        [
+         244.6,
+         276.7
+        ],
+        [
+         118,
+         276.7
+        ]
+       ],
+       "height": 11.2,
+       "z0": 9,
+       "finish": "powder-black",
+       "finishHex": "#141518",
+       "bevel": 0.4
+      }
+     ]
+    },
+    {
+     "id": "dare-plate",
+     "rect": [
+      172,
+      279.3,
+      226,
+      297.6
+     ],
+     "height": 7,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#141518",
+     "marks": [
+      {
+       "text": "FOR THOSE WHO DARE",
+       "at": [
+        177.9,
+        282.8
+       ],
+       "h": 2.2,
+       "font": "wide",
+       "letterSpacing": 0.18,
+       "finish": "print-silver",
+       "colour": "#8a8c90"
+      }
+     ]
+    }
+   ],
+   "connectors": [
+    {
+     "id": "24pin",
+     "rect": [
+      232.8,
+      67.1,
+      242.4,
+      119.4
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-1",
+     "label": "CPU_12V_1",
+     "rect": [
+      62.1,
+      1.7,
+      80.3,
+      11.3
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-2",
+     "label": "CPU_12V_2",
+     "rect": [
+      41.8,
+      1.7,
+      60,
+      11.3
+     ],
+     "height": 14
+    },
+    {
+     "id": "pcie-8pin",
+     "label": "PCIE_8PIN_PWR",
+     "rect": [
+      232.8,
+      120.5,
+      242.4,
+      138.7
+     ],
+     "height": 14
+    },
+    {
+     "id": "qcode",
+     "rect": [
+      216.4,
+      1.5,
+      231.4,
+      11.6
+     ],
+     "height": 6
+    },
+    {
+     "id": "start-button",
+     "rect": [
+      229.8,
+      22.1,
+      244,
+      36.3
+     ],
+     "height": 8,
+     "shape": "round"
+    },
+    {
+     "id": "flexkey-button",
+     "rect": [
+      231.7,
+      36.8,
+      242.1,
+      47.1
+     ],
+     "height": 8,
+     "shape": "round"
+    },
+    {
+     "id": "retry-button",
+     "rect": [
+      234.5,
+      47.9,
+      240.4,
+      53.7
+     ],
+     "height": 5
+    },
+    {
+     "id": "fan",
+     "label": "CPU_OPT",
+     "rect": [
+      172.4,
+      0,
+      183.2,
+      6.5
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "CPU_FAN",
+     "rect": [
+      183.2,
+      0,
+      194,
+      6.5
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "AIO_PUMP",
+     "rect": [
+      194,
+      0,
+      204.9,
+      6.5
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "CHA_FAN1",
+     "rect": [
+      204.9,
+      0,
+      215.7,
+      6.5
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "CHA_FAN2",
+     "rect": [
+      234.5,
+      54.5,
+      241,
+      65.3
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "CHA_FAN4",
+     "rect": [
+      83.6,
+      297.5,
+      94.5,
+      303.9
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "CHA_FAN3",
+     "rect": [
+      95.4,
+      297.5,
+      106.2,
+      303.9
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "W_PUMP+",
+     "rect": [
+      112.9,
+      297.5,
+      123.7,
+      303.9
+     ],
+     "height": 11
+    },
+    {
+     "id": "t-sensor",
+     "label": "T_SENSOR",
+     "rect": [
+      106.9,
+      297,
+      111.5,
+      300
+     ],
+     "height": 6
+    },
+    {
+     "id": "usb2",
+     "label": "USB_1213",
+     "rect": [
+      124.3,
+      297.5,
+      138.8,
+      303.7
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb2",
+     "label": "USB_1415",
+     "rect": [
+      139.9,
+      297.5,
+      154.4,
+      303.7
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb2",
+     "label": "USB_1617",
+     "rect": [
+      155.4,
+      297.5,
+      169.9,
+      303.7
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb3",
+     "label": "U5G_E34",
+     "rect": [
+      171.9,
+      296.7,
+      194.9,
+      304.5
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb3",
+     "label": "U5G_E12",
+     "rect": [
+      233,
+      187.3,
+      244,
+      212
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb-c",
+     "label": "U20G_C6",
+     "rect": [
+      234.6,
+      141.6,
+      240.2,
+      155.8
+     ],
+     "height": 7
+    },
+    {
+     "id": "usb-c",
+     "label": "U20G_C18",
+     "rect": [
+      232.7,
+      172.7,
+      244,
+      186.1
+     ],
+     "height": 7
+    },
+    {
+     "id": "sata",
+     "rect": [
+      230.1,
+      245.6,
+      244,
+      278.4
+     ],
+     "height": 9
+    },
+    {
+     "id": "battery",
+     "rect": [
+      210.9,
+      281.1,
+      232.5,
+      304.6
+     ],
+     "height": 4,
+     "shape": "round"
+    },
+    {
+     "id": "aio-pogo",
+     "rect": [
+      168.6,
+      72.6,
+      174.6,
+      121.4
+     ],
+     "height": 2
+    },
+    {
+     "id": "rear-io",
+     "rect": [
+      -3,
+      6.3,
+      42.3,
+      151.8
+     ],
+     "height": 38
+    }
+   ],
+   "chipsets": [
+    [
+     137,
+     222,
+     156.1,
+     240.7
+    ],
+    [
+     195,
+     222,
+     214.1,
+     240.7
+    ]
+   ],
+   "marks": [],
+   "colours": {
+    "pcb": "#0E0F10",
+    "heatsinks": "#151618",
+    "accent": "#C9CCD0",
+    "qcode": "#FF3B30"
+   },
+   "mountHoles": [
+    [
+     10.2,
+     8.9
+    ],
+    [
+     164.5,
+     8.9
+    ],
+    [
+     237.5,
+     8.9
+    ],
+    [
+     10.2,
+     165
+    ],
+    [
+     164.5,
+     165
+    ],
+    [
+     237.5,
+     165
+    ],
+    [
+     10.2,
+     281.5
+    ],
+    [
+     164.5,
+     281.5
+    ],
+    [
+     237.5,
+     281.5
+    ]
+   ],
+   "components": [
+    {
+     "kind": "caps",
+     "rect": [
+      83.5,
+      46,
+      91.5,
+      128
+     ],
+     "n": 7,
+     "size": 7.6,
+     "height": 8
+    },
+    {
+     "kind": "chokes",
+     "rect": [
+      86,
+      28.5,
+      168,
+      35.5
+     ],
+     "n": 9,
+     "size": 7,
+     "height": 5.5
+    },
+    {
+     "kind": "chokes",
+     "rect": [
+      112,
+      154,
+      126,
+      160
+     ],
+     "n": 2,
+     "size": 6,
+     "height": 4.5,
+     "finish": "anodised-silver",
+     "finishHex": "#8d8f93"
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "polymo",
+    "kind": "logo",
+    "group": "board",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "rect": [
+      17,
+      20,
+      46,
+      140
+     ],
+     "z": 41.1,
+     "face": "front",
+     "pattern": "grid"
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "qcode",
+    "kind": "screen",
+    "group": "board",
+    "addressable": false,
+    "control": "white",
+    "leds": null,
+    "fixedHex": "#FF3B30",
+    "geom": {
+     "rect": [
+      216.4,
+      1.5,
+      231.4,
+      11.6
+     ]
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": {
+   "x": [
+    290,
+    534
+   ],
+   "y": [
+    21,
+    326
+   ],
+   "z": [
+    15,
+    59
+   ]
+  },
+  "no3d": false
+ },
+ "motherboard:msi-mpg-x870e-carbon": {
+  "gen": "board",
+  "part": "mb-carbon",
+  "params": {
+   "w": 244,
+   "h": 305,
+   "t": 1.6,
+   "pcb": "pcb-black",
+   "pcbHex": "#101112",
+   "socket": {
+    "centre": [
+     130.6,
+     91.3
+    ],
+    "body": [
+     105.9,
+     53.5,
+     155.1,
+     123.3
+    ],
+    "ilm": [
+     99,
+     53.2,
+     173.4,
+     128
+    ],
+    "coolerHoles": [
+     [
+      102.6,
+      45.7
+     ],
+     [
+      159.2,
+      45.7
+     ],
+     [
+      102.8,
+      137
+     ],
+     [
+      159.2,
+      137
+     ]
+    ],
+    "finish": "nickel"
+   },
+   "dimms": {
+    "x": [
+     187.3,
+     196.6,
+     205.9,
+     215.2
+    ],
+    "w": 7.2,
+    "y": [
+     21.5,
+     165.2
+    ],
+    "names": [
+     "A1",
+     "A2",
+     "B1",
+     "B2"
+    ],
+    "populated": [
+     1,
+     3
+    ],
+    "rects": [
+     [
+      183.7,
+      21.5,
+      190.9,
+      165.2
+     ],
+     [
+      193,
+      21.5,
+      200.2,
+      165.2
+     ],
+     [
+      202.3,
+      21.5,
+      209.5,
+      165.2
+     ],
+     [
+      211.6,
+      21.5,
+      218.8,
+      165.2
+     ]
+    ]
+   },
+   "pcie": [
+    {
+     "id": "PCI_E1",
+     "kind": "x16",
+     "y": 182.6,
+     "x": [
+      39.5,
+      131.1
+     ],
+     "latch": [
+      140.2,
+      144.4
+     ],
+     "rect": [
+      39.5,
+      177.5,
+      144.4,
+      187.6
+     ],
+     "armour": "steel",
+     "height": 11
+    },
+    {
+     "id": "PCI_E2",
+     "kind": "x16",
+     "y": 263.6,
+     "x": [
+      43,
+      130.9
+     ],
+     "rect": [
+      43,
+      256.2,
+      148.3,
+      271.2
+     ],
+     "armour": "steel",
+     "height": 11
+    },
+    {
+     "id": "PCI_E3",
+     "kind": "x16",
+     "y": 284.1,
+     "x": [
+      43,
+      130.9
+     ],
+     "rect": [
+      43,
+      276.6,
+      148.3,
+      291.6
+     ],
+     "armour": "none",
+     "height": 11
+    }
+   ],
+   "m2": [
+    {
+     "id": "M2_1",
+     "rect": [
+      59.8,
+      151.8,
+      144.9,
+      173
+     ],
+     "connector": "right",
+     "len": 80
+    },
+    {
+     "id": "M2_2",
+     "rect": [
+      42.2,
+      190.3,
+      127.3,
+      211.4
+     ],
+     "connector": "right",
+     "len": 80
+    },
+    {
+     "id": "M2_3",
+     "rect": [
+      25,
+      212.9,
+      140,
+      234
+     ],
+     "connector": "right",
+     "len": 110
+    },
+    {
+     "id": "M2_4",
+     "rect": [
+      47.1,
+      235.9,
+      132.3,
+      257.1
+     ],
+     "connector": "right",
+     "len": 80
+    }
+   ],
+   "heatsinks": [
+    {
+     "id": "io-cover",
+     "rect": [
+      -1,
+      -11,
+      80,
+      150
+     ],
+     "height": 42,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#141518",
+     "xsec": {
+      "pts": [
+       [
+        -1,
+        0
+       ],
+       [
+        80,
+        0
+       ],
+       [
+        80,
+        34
+       ],
+       [
+        56,
+        34
+       ],
+       [
+        52,
+        42
+       ],
+       [
+        6,
+        42
+       ],
+       [
+        -1,
+        45
+       ]
+      ]
+     },
+     "panel": {
+      "id": "dragon",
+      "rect": [
+       6,
+       -6,
+       51,
+       146
+      ],
+      "finish": "satin-black",
+      "finishHex": "#0b0c0e",
+      "z": 42
+     },
+     "grooves": {
+      "rect": [
+       57,
+       40,
+       80,
+       148
+      ],
+      "angle": -55,
+      "pitch": 6,
+      "width": 1.6
+     },
+     "marks": [
+      {
+       "text": "MSI PERFORMANCE GAMING",
+       "at": [
+        4.6,
+        148
+       ],
+       "h": 2.6,
+       "rotate": -90,
+       "tilt": -23,
+       "z": 43.4,
+       "font": "wide",
+       "letterSpacing": 0.12,
+       "finish": "print-silver",
+       "colour": "#6f7276"
+      }
+     ]
+    },
+    {
+     "id": "vrm-top",
+     "rect": [
+      55,
+      -8,
+      169,
+      30
+     ],
+     "height": 34,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#141518",
+     "marks": [
+      {
+       "text": "MPG",
+       "at": [
+        143,
+        4.5
+       ],
+       "h": 5.6,
+       "font": "wide",
+       "weight": 600,
+       "letterSpacing": 0.05,
+       "finish": "print-silver",
+       "colour": "#55585c"
+      }
+     ],
+     "stripes": [
+      {
+       "poly": [
+        [
+         96,
+         -6
+        ],
+        [
+         100,
+         -6
+        ],
+        [
+         88,
+         20
+        ],
+        [
+         84,
+         20
+        ]
+       ],
+       "finish": "print-silver",
+       "finishHex": "#4a4c50",
+       "h": 0.3
+      },
+      {
+       "poly": [
+        [
+         110,
+         -6
+        ],
+        [
+         114,
+         -6
+        ],
+        [
+         102,
+         20
+        ],
+        [
+         98,
+         20
+        ]
+       ],
+       "finish": "print-silver",
+       "finishHex": "#4a4c50",
+       "h": 0.3
+      },
+      {
+       "poly": [
+        [
+         124,
+         -6
+        ],
+        [
+         128,
+         -6
+        ],
+        [
+         116,
+         20
+        ],
+        [
+         112,
+         20
+        ]
+       ],
+       "finish": "print-silver",
+       "finishHex": "#4a4c50",
+       "h": 0.3
+      },
+      {
+       "poly": [
+        [
+         60,
+         22
+        ],
+        [
+         168,
+         22
+        ],
+        [
+         168,
+         24
+        ],
+        [
+         60,
+         24
+        ]
+       ],
+       "finish": "print-silver",
+       "finishHex": "#3a3c40",
+       "h": 0.3
+      }
+     ]
+    },
+    {
+     "id": "m2-1",
+     "rect": [
+      16,
+      149,
+      182,
+      171
+     ],
+     "poly": [
+      [
+       75,
+       149
+      ],
+      [
+       182,
+       149
+      ],
+      [
+       182,
+       171
+      ],
+      [
+       16,
+       171
+      ],
+      [
+       16,
+       165
+      ],
+      [
+       75,
+       165
+      ]
+     ],
+     "height": 12,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#141518",
+     "marks": [
+      {
+       "text": "PUSH AND LIFT",
+       "at": [
+        24,
+        165.6
+       ],
+       "h": 1.9,
+       "font": "wide",
+       "letterSpacing": 0.12,
+       "finish": "print-silver",
+       "colour": "#7d8085"
+      },
+      {
+       "text": "LIGHTNING  GEN 5  M.2",
+       "at": [
+        86,
+        165.6
+       ],
+       "h": 1.9,
+       "font": "wide",
+       "letterSpacing": 0.12,
+       "finish": "print-silver",
+       "colour": "#7d8085"
+      }
+     ]
+    },
+    {
+     "id": "chipset",
+     "rect": [
+      -0.3,
+      189,
+      200,
+      253.5
+     ],
+     "height": 10,
+     "profile": "slab",
+     "finish": "powder-black",
+     "finishHex": "#1d1e21",
+     "extra": [
+      [
+       200,
+       170,
+       243.6,
+       274
+      ],
+      [
+       -0.3,
+       189,
+       18,
+       293
+      ],
+      [
+       160,
+       253,
+       200,
+       274
+      ]
+     ],
+     "marks": [
+      {
+       "text": "MSI PERFORMANCE GAMING",
+       "at": [
+        102,
+        246.4
+       ],
+       "h": 2.6,
+       "font": "wide",
+       "letterSpacing": 0.1,
+       "finish": "print-silver",
+       "colour": "#c9cbce"
+      },
+      {
+       "text": "MPG SERIES | CARBON",
+       "at": [
+        204.5,
+        238
+       ],
+       "h": 2.2,
+       "rotate": -90,
+       "finish": "print-silver",
+       "colour": "#7d8085"
+      },
+      {
+       "text": "AUDIO BOOST 5",
+       "at": [
+        2.2,
+        262
+       ],
+       "h": 2.4,
+       "rotate": -90,
+       "font": "wide",
+       "letterSpacing": 0.15,
+       "finish": "print-silver",
+       "colour": "#6f7276"
+      },
+      {
+       "text": "MPG",
+       "at": [
+        215,
+        186
+       ],
+       "h": 15,
+       "rotate": 90,
+       "font": "wide",
+       "weight": 600,
+       "finish": "print-silver",
+       "colour": "#5d6064"
+      }
+     ]
+    }
+   ],
+   "connectors": [
+    {
+     "id": "24pin",
+     "rect": [
+      232.7,
+      75.2,
+      242.3,
+      126.3
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-1",
+     "label": "CPU_PWR1",
+     "rect": [
+      40.3,
+      2.5,
+      57.5,
+      12.1
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-2",
+     "label": "CPU_PWR2",
+     "rect": [
+      59,
+      2.5,
+      76.2,
+      12.1
+     ],
+     "height": 14
+    },
+    {
+     "id": "pcie-8pin",
+     "label": "PCIE_PWR1",
+     "rect": [
+      101.6,
+      293.6,
+      118.7,
+      303.2
+     ],
+     "height": 14
+    },
+    {
+     "id": "qcode",
+     "label": "EZ Debug LED (88)",
+     "rect": [
+      227.4,
+      58.9,
+      243.7,
+      70.2
+     ],
+     "height": 6
+    },
+    {
+     "id": "fan",
+     "label": "CPU_FAN1",
+     "rect": [
+      190.4,
+      3,
+      200.4,
+      9.3
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "PUMP_SYS1",
+     "rect": [
+      203.5,
+      3,
+      213.5,
+      9.3
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "SYS_FAN1",
+     "rect": [
+      218.5,
+      3,
+      228.4,
+      9.3
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "SYS_FAN2",
+     "rect": [
+      235.6,
+      15,
+      241.9,
+      24.9
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "SYS_FAN5",
+     "rect": [
+      75.9,
+      295.8,
+      85.8,
+      302.1
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "SYS_FAN4",
+     "rect": [
+      89.1,
+      295.8,
+      99,
+      302.1
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "SYS_FAN3",
+     "rect": [
+      120.9,
+      295.8,
+      130.9,
+      302.1
+     ],
+     "height": 11
+    },
+    {
+     "id": "t-sensor",
+     "label": "T_SEN1",
+     "rect": [
+      67,
+      296.5,
+      73.1,
+      301
+     ],
+     "height": 6
+    },
+    {
+     "id": "usb2",
+     "label": "JUSB4",
+     "rect": [
+      133.1,
+      296.2,
+      146.5,
+      301.3
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb2",
+     "label": "JUSB3",
+     "rect": [
+      150.1,
+      296.2,
+      163.5,
+      301.3
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb3",
+     "label": "JUSB1",
+     "rect": [
+      231.6,
+      227.9,
+      242.6,
+      252.6
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb3",
+     "label": "JUSB2",
+     "rect": [
+      231.6,
+      255.2,
+      242.6,
+      279.9
+     ],
+     "height": 9
+    },
+    {
+     "id": "usb-c",
+     "label": "JUSBC1",
+     "rect": [
+      232.3,
+      172.4,
+      243.3,
+      187.1
+     ],
+     "height": 7
+    },
+    {
+     "id": "sata",
+     "rect": [
+      228.9,
+      193.4,
+      244.3,
+      226.4
+     ],
+     "height": 9
+    },
+    {
+     "id": "power-button",
+     "rect": [
+      190.1,
+      293.9,
+      199.8,
+      303.6
+     ],
+     "height": 6,
+     "shape": "round",
+     "cap": "black"
+    },
+    {
+     "id": "reset-button",
+     "rect": [
+      178.3,
+      293.9,
+      188.1,
+      303.6
+     ],
+     "height": 6,
+     "shape": "round",
+     "cap": "black"
+    },
+    {
+     "id": "front-panel",
+     "label": "JFP1",
+     "rect": [
+      224.9,
+      296.1,
+      238.3,
+      301.1
+     ],
+     "height": 9
+    },
+    {
+     "id": "audio",
+     "label": "JAUD1",
+     "rect": [
+      16.8,
+      296.1,
+      30.2,
+      301.1
+     ],
+     "height": 9
+    },
+    {
+     "id": "battery",
+     "rect": [
+      19.2,
+      251.9,
+      41.2,
+      275.8
+     ],
+     "height": 4,
+     "shape": "round"
+    },
+    {
+     "id": "rear-io",
+     "rect": [
+      -1.9,
+      8.5,
+      38.9,
+      151.9
+     ],
+     "height": 38
+    }
+   ],
+   "chipsets": [
+    [
+     172.8,
+     208.4,
+     192.4,
+     228
+    ],
+    [
+     172.8,
+     246.5,
+     192.4,
+     266.1
+    ]
+   ],
+   "marks": [],
+   "colours": {
+    "pcb": "#101112",
+    "heatsinks": "#2A2C2F",
+    "cover": "#17181A",
+    "accent": "#BFC3C8"
+   },
+   "mountHoles": [
+    [
+     10.2,
+     8.9
+    ],
+    [
+     164.5,
+     8.9
+    ],
+    [
+     237.5,
+     8.9
+    ],
+    [
+     10.2,
+     165
+    ],
+    [
+     164.5,
+     165
+    ],
+    [
+     237.5,
+     165
+    ],
+    [
+     10.2,
+     281.5
+    ],
+    [
+     164.5,
+     281.5
+    ],
+    [
+     237.5,
+     281.5
+    ]
+   ],
+   "components": [
+    {
+     "kind": "caps",
+     "rect": [
+      83,
+      38,
+      90,
+      128
+     ],
+     "n": 8,
+     "size": 6.6,
+     "height": 8
+    },
+    {
+     "kind": "caps",
+     "rect": [
+      88,
+      32,
+      172,
+      38
+     ],
+     "n": 10,
+     "size": 6.6,
+     "height": 8
+    }
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "dragon",
+    "kind": "logo",
+    "group": "board",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "rect": [
+      10,
+      22,
+      48,
+      110
+     ],
+     "z": 42.3,
+     "face": "front",
+     "soft": true
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "carbon-logo",
+    "kind": "logo",
+    "group": "board",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "rect": [
+      121,
+      153,
+      162,
+      164
+     ],
+     "z": 12.2,
+     "face": "front",
+     "text": "CARBON",
+     "h": 6.4,
+     "font": "wide",
+     "weight": 600,
+     "letterSpacing": 0.06
+    },
+    "defaultOn": true,
+    "held": "light.json hold (2026-10-02): not confirmed: the CARBON letters look lit on the maker render, no text says they are"
+   },
+   {
+    "id": "debug",
+    "kind": "screen",
+    "group": "board",
+    "addressable": false,
+    "control": "white",
+    "leds": null,
+    "fixedHex": "#FF3B30",
+    "geom": {
+     "rect": [
+      227.4,
+      58.9,
+      243.7,
+      70.2
+     ]
+    },
+    "defaultOn": true,
+    "held": "light.json hold (2026-10-02): not sourced: no page read says this board has a code read-out"
+   }
+  ],
+  "marks": [],
+  "envelope": {
+   "x": [
+    290,
+    534
+   ],
+   "y": [
+    21,
+    326
+   ],
+   "z": [
+    15,
+    59
+   ]
+  },
+  "no3d": false
+ },
+ "motherboard:asus-proart-x870e-creator": {
+  "gen": "board",
+  "part": null,
+  "params": {
+   "w": 244,
+   "h": 305,
+   "t": 1.6,
+   "pcb": "pcb-black",
+   "pcbHex": "#0f1012",
+   "mountHoles": [
+    [
+     10.2,
+     8.9
+    ],
+    [
+     164.5,
+     8.9
+    ],
+    [
+     237.5,
+     8.9
+    ],
+    [
+     10.2,
+     165
+    ],
+    [
+     164.5,
+     165
+    ],
+    [
+     237.5,
+     165
+    ],
+    [
+     10.2,
+     281.5
+    ],
+    [
+     164.5,
+     281.5
+    ],
+    [
+     237.5,
+     281.5
+    ]
+   ],
+   "socket": {
+    "centre": [
+     127,
+     92
+    ],
+    "coolerHoles": [
+     [
+      100,
+      47
+     ],
+     [
+      154,
+      47
+     ],
+     [
+      100,
+      137
+     ],
+     [
+      154,
+      137
+     ]
+    ],
+    "finish": "nickel"
+   },
+   "dimms": {
+    "x": [
+     184.5,
+     193.8,
+     203.1,
+     212.4
+    ],
+    "w": 7.3,
+    "y": [
+     18,
+     160
+    ],
+    "populated": [
+     1,
+     3
+    ],
+    "rects": [
+     [
+      180.8,
+      18,
+      188.2,
+      160
+     ],
+     [
+      190.2,
+      18,
+      197.5,
+      160
+     ],
+     [
+      199.4,
+      18,
+      206.8,
+      160
+     ],
+     [
+      208.8,
+      18,
+      216.1,
+      160
+     ]
+    ]
+   },
+   "pcie": [
+    {
+     "id": "PCIEX16(G5)_1",
+     "kind": "x16",
+     "y": 183.5,
+     "rect": [
+      40,
+      178.5,
+      150,
+      188.5
+     ],
+     "latch": [
+      131,
+      150
+     ],
+     "armour": "steel",
+     "height": 11
+    },
+    {
+     "id": "PCIEX16(G5)_2",
+     "kind": "x16",
+     "y": 243.5,
+     "rect": [
+      40,
+      238.5,
+      150,
+      248.5
+     ],
+     "latch": [
+      131,
+      150
+     ],
+     "armour": "steel",
+     "height": 11
+    },
+    {
+     "id": "PCIEX16(G4)",
+     "kind": "x16",
+     "y": 276,
+     "rect": [
+      41,
+      271,
+      131,
+      281
+     ],
+     "armour": "none",
+     "height": 11
+    }
+   ],
+   "heatsinks": [
+    {
+     "id": "io-cover",
+     "rect": [
+      -10,
+      -6,
+      19,
+      151
+     ],
+     "height": 41,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#2f2c28",
+     "stripes": [
+      {
+       "poly": [
+        [
+         17,
+         -4
+        ],
+        [
+         18.2,
+         -4
+        ],
+        [
+         18.2,
+         149
+        ],
+        [
+         17,
+         149
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#b8955a",
+       "h": 0.4
+      }
+     ],
+     "marks": [
+      {
+       "text": "ProArt",
+       "at": [
+        1,
+        93
+       ],
+       "h": 6.2,
+       "rotate": -90,
+       "weight": 500,
+       "font": "wide",
+       "finish": "gold",
+       "colour": "#c8a25e"
+      }
+     ]
+    },
+    {
+     "id": "vrm-l",
+     "rect": [
+      19,
+      13.6,
+      70,
+      150
+     ],
+     "poly": [
+      [
+       19,
+       13.6
+      ],
+      [
+       54,
+       13.6
+      ],
+      [
+       54,
+       25
+      ],
+      [
+       70,
+       25
+      ],
+      [
+       70,
+       150
+      ],
+      [
+       19,
+       150
+      ]
+     ],
+     "height": 38,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#16171a",
+     "stripes": [
+      {
+       "poly": [
+        [
+         20,
+         30
+        ],
+        [
+         52,
+         64
+        ],
+        [
+         51,
+         65.4
+        ],
+        [
+         20,
+         33
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#b8955a",
+       "h": 0.3
+      },
+      {
+       "poly": [
+        [
+         20,
+         98
+        ],
+        [
+         44,
+         98
+        ],
+        [
+         44,
+         99
+        ],
+        [
+         20,
+         99
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#b8955a",
+       "h": 0.3
+      }
+     ]
+    },
+    {
+     "id": "vrm-top",
+     "rect": [
+      54,
+      13.6,
+      180,
+      37
+     ],
+     "height": 34,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#16171a",
+     "stripes": [
+      {
+       "poly": [
+        [
+         58,
+         18.8
+        ],
+        [
+         176,
+         18.8
+        ],
+        [
+         176,
+         19.8
+        ],
+        [
+         58,
+         19.8
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#b8955a",
+       "h": 0.3
+      }
+     ]
+    },
+    {
+     "id": "m2-1",
+     "rect": [
+      47,
+      154,
+      148,
+      170.5
+     ],
+     "height": 10,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#18191c",
+     "marks": [
+      {
+       "text": "M.2 Q-RELEASE",
+       "at": [
+        122,
+        163.2
+       ],
+       "h": 1.9,
+       "weight": 600,
+       "font": "wide",
+       "finish": "print-white"
+      }
+     ]
+    },
+    {
+     "id": "m2-big",
+     "rect": [
+      38.6,
+      191.4,
+      156.7,
+      222
+     ],
+     "height": 10,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#18191c",
+     "marks": [
+      {
+       "text": "Power Up Your Imagination",
+       "at": [
+        76,
+        205.6
+       ],
+       "h": 2.4,
+       "weight": 500,
+       "finish": "gold",
+       "colour": "#a8874f"
+      }
+     ]
+    },
+    {
+     "id": "chipset",
+     "rect": [
+      156,
+      174.7,
+      229,
+      220.6
+     ],
+     "height": 9,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#141518",
+     "stripes": [
+      {
+       "poly": [
+        [
+         157,
+         175.6
+        ],
+        [
+         228,
+         175.6
+        ],
+        [
+         228,
+         176.6
+        ],
+        [
+         157,
+         176.6
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#b8955a",
+       "h": 0.4
+      },
+      {
+       "poly": [
+        [
+         157,
+         218.8
+        ],
+        [
+         228,
+         218.8
+        ],
+        [
+         228,
+         219.8
+        ],
+        [
+         157,
+         219.8
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#b8955a",
+       "h": 0.4
+      },
+      {
+       "poly": [
+        [
+         157,
+         175.6
+        ],
+        [
+         158,
+         175.6
+        ],
+        [
+         158,
+         219.8
+        ],
+        [
+         157,
+         219.8
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#b8955a",
+       "h": 0.4
+      },
+      {
+       "poly": [
+        [
+         227,
+         175.6
+        ],
+        [
+         228,
+         175.6
+        ],
+        [
+         228,
+         219.8
+        ],
+        [
+         227,
+         219.8
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#b8955a",
+       "h": 0.4
+      }
+     ]
+    },
+    {
+     "id": "m2-right",
+     "rect": [
+      151,
+      223,
+      243,
+      250
+     ],
+     "height": 9,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#18191c"
+    },
+    {
+     "id": "bottom-long",
+     "rect": [
+      30,
+      250,
+      243,
+      268
+     ],
+     "height": 8,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#141518",
+     "stripes": [
+      {
+       "poly": [
+        [
+         50,
+         260.6
+        ],
+        [
+         243,
+         260.6
+        ],
+        [
+         243,
+         264.6
+        ],
+        [
+         50,
+         264.6
+        ]
+       ],
+       "finish": "gold",
+       "finishHex": "#9c7f4c",
+       "h": 0.3
+      }
+     ]
+    }
+   ],
+   "connectors": [
+    {
+     "id": "24pin",
+     "rect": [
+      234,
+      70.5,
+      243.6,
+      119
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-1",
+     "rect": [
+      36,
+      4,
+      55.5,
+      13.4
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-2",
+     "rect": [
+      57,
+      4,
+      76.5,
+      13.4
+     ],
+     "height": 14
+    },
+    {
+     "id": "battery",
+     "rect": [
+      200,
+      264,
+      219,
+      283
+     ],
+     "height": 4,
+     "shape": "round"
+    },
+    {
+     "id": "fan",
+     "label": "CPU_FAN",
+     "rect": [
+      184,
+      2.5,
+      194,
+      9
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "CPU_OPT",
+     "rect": [
+      195,
+      2.5,
+      205,
+      9
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "AIO_PUMP",
+     "rect": [
+      206,
+      2.5,
+      216,
+      9
+     ],
+     "height": 11
+    },
+    {
+     "id": "usb3",
+     "rect": [
+      233,
+      125,
+      243.6,
+      150
+     ],
+     "height": 9
+    },
+    {
+     "id": "sata",
+     "rect": [
+      229,
+      223,
+      243.6,
+      250
+     ],
+     "height": 9
+    },
+    {
+     "id": "rear-io",
+     "rect": [
+      -10,
+      6,
+      30,
+      150
+     ],
+     "height": 38
+    }
+   ],
+   "marks": [
+    {
+     "text": "ProArt X870E-CREATOR WIFI",
+     "at": [
+      171.6,
+      148
+     ],
+     "h": 4.2,
+     "rotate": -90,
+     "weight": 500,
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#6c6f73"
+    }
+   ]
+  },
+  "ledZones": [],
+  "marks": [],
+  "envelope": {
+   "x": [
+    290,
+    534
+   ],
+   "y": [
+    21,
+    326
+   ],
+   "z": [
+    15,
+    59
+   ]
+  },
+  "no3d": false
+ },
+ "motherboard:gigabyte-x870e-aorus-master-x3d": {
+  "gen": "board",
+  "part": "mb-aorus-master-x3d",
+  "params": {
+   "w": 244,
+   "h": 305,
+   "t": 1.6,
+   "pcb": "pcb-black",
+   "pcbHex": "#101113",
+   "socket": {
+    "centre": [
+     126.8,
+     92.9
+    ],
+    "body": [
+     107.8,
+     73.6,
+     146.7,
+     111.7
+    ],
+    "ilm": [
+     110.6,
+     55.6,
+     163,
+     129.9
+    ],
+    "backplate": [
+     94.4,
+     43.2,
+     164.5,
+     144
+    ],
+    "coolerHoles": [
+     [
+      100.2,
+      48.8
+     ],
+     [
+      152.4,
+      48.8
+     ],
+     [
+      100.2,
+      137.6
+     ],
+     [
+      152.4,
+      137.6
+     ]
+    ],
+    "finish": "nickel"
+   },
+   "dimms": {
+    "x": [
+     183.5,
+     192.3,
+     201,
+     209.9
+    ],
+    "w": 7.2,
+    "y": [
+     23.9,
+     174.1
+    ],
+    "names": [
+     "A1",
+     "A2",
+     "B1",
+     "B2"
+    ],
+    "populated": [
+     1,
+     3
+    ],
+    "rects": [
+     [
+      179.9,
+      23.9,
+      187.1,
+      174.1
+     ],
+     [
+      188.7,
+      23.9,
+      195.9,
+      174.1
+     ],
+     [
+      197.4,
+      23.9,
+      204.6,
+      174.1
+     ],
+     [
+      206.3,
+      23.9,
+      213.5,
+      174.1
+     ]
+    ]
+   },
+   "pcie": [
+    {
+     "id": "(G5) PCIEX16",
+     "kind": "x16",
+     "y": 181.6,
+     "x": [
+      42.5,
+      131.2
+     ],
+     "latch": [
+      131.2,
+      144.8
+     ],
+     "rect": [
+      42.5,
+      176.6,
+      144.8,
+      186.8
+     ],
+     "armour": "steel",
+     "height": 11
+    },
+    {
+     "id": "(G5) PCIEX8",
+     "kind": "x16",
+     "y": 263.8,
+     "x": [
+      42.5,
+      131.2
+     ],
+     "rect": [
+      42.5,
+      258.8,
+      144.8,
+      266.4
+     ],
+     "armour": "steel",
+     "height": 11
+    },
+    {
+     "id": "(G4) PCIEX4",
+     "kind": "x16",
+     "y": 284.2,
+     "x": [
+      42.5,
+      129.3
+     ],
+     "rect": [
+      42.5,
+      279.2,
+      144.8,
+      290.8
+     ],
+     "armour": "none",
+     "height": 11
+    }
+   ],
+   "m2": [
+    {
+     "id": "M2A_CPU",
+     "rect": [
+      62.8,
+      152.7,
+      151.3,
+      173.9
+     ],
+     "connector": "right",
+     "len": 80
+    },
+    {
+     "id": "M2C_SB",
+     "rect": [
+      56.4,
+      190.1,
+      144.9,
+      211.3
+     ],
+     "connector": "right",
+     "len": 80
+    },
+    {
+     "id": "M2D_SB",
+     "rect": [
+      56.4,
+      212.6,
+      144.9,
+      233.8
+     ],
+     "connector": "right",
+     "len": 80
+    },
+    {
+     "id": "M2B_CPU",
+     "rect": [
+      21.2,
+      235.3,
+      109.6,
+      256.5
+     ],
+     "connector": "left",
+     "len": 80
+    },
+    {
+     "id": "M2E_SB",
+     "rect": [
+      156.4,
+      261.6,
+      244,
+      282.8
+     ],
+     "connector": "left",
+     "len": 80
+    }
+   ],
+   "heatsinks": [
+    {
+     "id": "io-cover",
+     "rect": [
+      -10,
+      -10,
+      86,
+      152
+     ],
+     "height": 42,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#16181c",
+     "tiers": [
+      {
+       "rect": [
+        -10,
+        -10,
+        9,
+        152
+       ],
+       "height": 44,
+       "finish": "gunmetal",
+       "finishHex": "#3a3d42"
+      }
+     ],
+     "panel": {
+      "id": "aorus-panel",
+      "rect": [
+       11,
+       -6,
+       84,
+       148
+      ],
+      "finish": "gloss-black",
+      "finishHex": "#0e1016",
+      "z": 42
+     },
+     "marks": [
+      {
+       "text": "AORUS DESIGN LAB",
+       "at": [
+        -2.4,
+        50
+       ],
+       "h": 2.2,
+       "rotate": -90,
+       "z": 44,
+       "finish": "print-silver",
+       "colour": "#9a9da1",
+       "letterSpacing": 0.3
+      }
+     ]
+    },
+    {
+     "id": "vrm-top",
+     "rect": [
+      86,
+      -8,
+      172,
+      31
+     ],
+     "height": 34,
+     "profile": "slab",
+     "finish": "gunmetal",
+     "finishHex": "#2f3237",
+     "grooves": {
+      "rect": [
+       92,
+       12,
+       168,
+       30
+      ],
+      "angle": 0,
+      "pitch": 4,
+      "width": 1.4
+     }
+    },
+    {
+     "id": "m2-1",
+     "rect": [
+      52,
+      146,
+      170,
+      170
+     ],
+     "height": 12,
+     "profile": "slab",
+     "finish": "gunmetal",
+     "finishHex": "#3b4150",
+     "stripes": [
+      {
+       "poly": [
+        [
+         52,
+         146
+        ],
+        [
+         80,
+         146
+        ],
+        [
+         70,
+         170
+        ],
+        [
+         52,
+         170
+        ]
+       ],
+       "finish": "satin-black",
+       "finishHex": "#1a2340",
+       "h": 0.4
+      }
+     ],
+     "marks": [
+      {
+       "text": "M.2 THERMAL GUARD",
+       "at": [
+        100,
+        164
+       ],
+       "h": 1.8,
+       "finish": "print-white"
+      }
+     ]
+    },
+    {
+     "id": "audio",
+     "rect": [
+      1,
+      172,
+      20,
+      268
+     ],
+     "height": 9,
+     "profile": "slab",
+     "finish": "gunmetal",
+     "finishHex": "#5c6067"
+    },
+    {
+     "id": "chipset",
+     "rect": [
+      20,
+      188,
+      150,
+      251
+     ],
+     "height": 10,
+     "profile": "slab",
+     "finish": "gunmetal",
+     "finishHex": "#666a71",
+     "stripes": [
+      {
+       "poly": [
+        [
+         60,
+         188
+        ],
+        [
+         80,
+         188
+        ],
+        [
+         150,
+         240
+        ],
+        [
+         150,
+         251
+        ],
+        [
+         135,
+         251
+        ]
+       ],
+       "finish": "satin-black",
+       "finishHex": "#1d2a52",
+       "h": 0.4
+      }
+     ],
+     "marks": [
+      {
+       "text": "AORUS",
+       "at": [
+        24,
+        232
+       ],
+       "h": 3.2,
+       "weight": "italic 600",
+       "font": "wide",
+       "finish": "print-white"
+      },
+      {
+       "text": "TEAM UP. FIGHT ON.",
+       "at": [
+        62,
+        237.5
+       ],
+       "h": 1.8,
+       "finish": "print-white"
+      }
+     ]
+    },
+    {
+     "id": "chipset-r",
+     "rect": [
+      150,
+      188,
+      246,
+      250
+     ],
+     "height": 10.5,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#161c2c"
+    },
+    {
+     "id": "master-plate",
+     "rect": [
+      154,
+      250,
+      244,
+      271
+     ],
+     "height": 8,
+     "profile": "slab",
+     "finish": "gunmetal",
+     "finishHex": "#7b7f86",
+     "grooves": {
+      "rect": [
+       156,
+       252,
+       242,
+       270
+      ],
+      "angle": -50,
+      "pitch": 3,
+      "width": 1.1
+     },
+     "marks": [
+      {
+       "text": "MASTER",
+       "at": [
+        214,
+        253.5
+       ],
+       "h": 3.6,
+       "weight": "italic 600",
+       "font": "wide",
+       "finish": "print-white"
+      }
+     ]
+    }
+   ],
+   "connectors": [
+    {
+     "id": "24pin",
+     "rect": [
+      231.3,
+      63.4,
+      240.6,
+      118.3
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-1",
+     "label": "ATX_12V",
+     "rect": [
+      38.4,
+      1.3,
+      57.8,
+      10.4
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-2",
+     "label": "ATX_12V1",
+     "rect": [
+      58.5,
+      1.3,
+      77.1,
+      10.4
+     ],
+     "height": 14
+    },
+    {
+     "id": "aux-12v",
+     "label": "F20G_12V",
+     "rect": [
+      228.8,
+      124.7,
+      240.6,
+      138.8
+     ],
+     "height": 14
+    },
+    {
+     "id": "qcode",
+     "label": "DB_PORT",
+     "rect": [
+      224.2,
+      39.9,
+      238.3,
+      48.5
+     ],
+     "height": 6
+    },
+    {
+     "id": "hdmi-in",
+     "label": "F_HDMI",
+     "rect": [
+      224.4,
+      27.6,
+      239.5,
+      35.9
+     ],
+     "height": 7
+    },
+    {
+     "id": "fan",
+     "label": "CPU_OPT",
+     "rect": [
+      171.8,
+      2,
+      182.8,
+      8.6
+     ],
+     "height": 11
+    },
+    {
+     "id": "fan",
+     "label": "CPU_FAN",
+     "rect": [
+      184.2,
+      2,
+      195.2,
+      8.6
+     ],
+     "height": 11
+    },
+    {
+     "id": "argb",
+     "label": "ARGB_V2_2 / _4",
+     "rect": [
+      197.4,
+      3.1,
+      221.2,
+      6.4
+     ],
+     "height": 7
+    },
+    {
+     "id": "fan",
+     "label": "FAN8_PUMP",
+     "rect": [
+      233.9,
+      140.9,
+      239.8,
+      151.2
+     ],
+     "height": 11
+    },
+    {
+     "id": "bat-header",
+     "label": "BAT1",
+     "rect": [
+      31,
+      102.5,
+      34.7,
+      106.5
+     ],
+     "height": 4
+    },
+    {
+     "id": "rear-io",
+     "rect": [
+      -2,
+      6,
+      27,
+      153
+     ],
+     "height": 38
+    }
+   ],
+   "chipsets": [
+    [
+     172.9,
+     199.4,
+     191.9,
+     218.8
+    ],
+    [
+     172.9,
+     235.7,
+     191.9,
+     255
+    ]
+   ],
+   "marks": [
+    {
+     "text": "X870E AORUS MASTER X3D",
+     "at": [
+      163.6,
+      139
+     ],
+     "h": 4.4,
+     "rotate": -90,
+     "weight": 600,
+     "font": "wide",
+     "finish": "print-silver",
+     "colour": "#9fa3a8"
+    }
+   ],
+   "colours": {
+    "pcb": "#101113",
+    "heatsinks": "#2B2E33",
+    "cover": "#1A1C20",
+    "accent": "#A7B0BC"
+   },
+   "mountHoles": [
+    [
+     10.2,
+     8.9
+    ],
+    [
+     164.5,
+     8.9
+    ],
+    [
+     237.5,
+     8.9
+    ],
+    [
+     10.2,
+     165
+    ],
+    [
+     164.5,
+     165
+    ],
+    [
+     237.5,
+     165
+    ],
+    [
+     10.2,
+     281.5
+    ],
+    [
+     164.5,
+     281.5
+    ],
+    [
+     237.5,
+     281.5
+    ]
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "aorus-panel",
+    "kind": "logo",
+    "group": "board",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "rect": [
+      26,
+      14,
+      74,
+      84
+     ],
+     "z": 42.3,
+     "face": "front",
+     "soft": true
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "eagle",
+    "kind": "logo",
+    "group": "board",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "rect": [
+      175,
+      194,
+      240,
+      238
+     ],
+     "z": 10.8,
+     "face": "front",
+     "soft": true
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "debug",
+    "kind": "screen",
+    "group": "board",
+    "addressable": false,
+    "control": "white",
+    "leds": null,
+    "fixedHex": "#FF3B30",
+    "geom": {
+     "rect": [
+      224.2,
+      39.9,
+      238.3,
+      48.5
+     ]
+    },
+    "defaultOn": true,
+    "held": "light.json hold (2026-10-02): not sourced: no page read says this board has a code read-out"
+   }
+  ],
+  "marks": [],
+  "envelope": {
+   "x": [
+    290,
+    534
+   ],
+   "y": [
+    21,
+    326
+   ],
+   "z": [
+    15,
+    59
+   ]
+  },
+  "no3d": false
+ },
+ "motherboard:asus-rog-strix-x870e-e": {
+  "gen": "board",
+  "part": "mb-strix-x870e-e",
+  "params": {
+   "w": 244,
+   "h": 305,
+   "t": 1.6,
+   "pcb": "pcb-black",
+   "pcbHex": "#0F1012",
+   "socket": {
+    "centre": [
+     128.9,
+     90.6
+    ],
+    "body": [
+     106.9,
+     68.3,
+     150.9,
+     112.8
+    ],
+    "ilm": [
+     103,
+     57.2,
+     168.4,
+     128.5
+    ],
+    "coolerHoles": [
+     [
+      101.9,
+      45.6
+     ],
+     [
+      155.9,
+      45.6
+     ],
+     [
+      101.9,
+      135.6
+     ],
+     [
+      155.9,
+      135.6
+     ]
+    ],
+    "finish": "nickel"
+   },
+   "dimms": {
+    "x": [
+     184.5,
+     193.8,
+     203.2,
+     212.5
+    ],
+    "w": 7.3,
+    "y": [
+     19.2,
+     160.2
+    ],
+    "names": [
+     "A1",
+     "A2",
+     "B1",
+     "B2"
+    ],
+    "populated": [
+     1,
+     3
+    ],
+    "rects": [
+     [
+      180.8,
+      19.2,
+      188.2,
+      160.2
+     ],
+     [
+      190.2,
+      19.2,
+      197.5,
+      160.2
+     ],
+     [
+      199.5,
+      19.2,
+      206.8,
+      160.2
+     ],
+     [
+      208.8,
+      19.2,
+      216.2,
+      160.2
+     ]
+    ]
+   },
+   "pcie": [
+    {
+     "id": "PCIEX16(G5)_1",
+     "kind": "x16",
+     "y": 203,
+     "x": [
+      42.1,
+      132.2
+     ],
+     "latch": [
+      131.3,
+      147.9
+     ],
+     "rect": [
+      42.1,
+      197.7,
+      147.9,
+      208.2
+     ],
+     "armour": "steel",
+     "height": 11
+    },
+    {
+     "id": "PCIEX16_2",
+     "kind": "x16",
+     "y": 284.3,
+     "x": [
+      42.1,
+      132.2
+     ],
+     "latch": [
+      131.3,
+      147.9
+     ],
+     "rect": [
+      42.1,
+      279.1,
+      147.9,
+      289.6
+     ],
+     "armour": "none",
+     "height": 11
+    }
+   ],
+   "m2": [
+    {
+     "id": "M.2_1",
+     "rect": [
+      38.3,
+      149.2,
+      146.5,
+      170.7
+     ],
+     "connector": "right",
+     "len": 110
+    },
+    {
+     "id": "M.2_2",
+     "rect": [
+      25.5,
+      172.5,
+      116.5,
+      194
+     ],
+     "connector": "right",
+     "len": 80
+    },
+    {
+     "id": "M.2_3",
+     "rect": [
+      141.2,
+      172.5,
+      219.3,
+      194
+     ],
+     "connector": "left",
+     "len": 80
+    },
+    {
+     "id": "M.2_4",
+     "rect": [
+      27.1,
+      253.1,
+      118,
+      274.6
+     ],
+     "connector": "right",
+     "len": 80
+    },
+    {
+     "id": "M.2_5",
+     "rect": [
+      129.2,
+      253.1,
+      220.1,
+      274.6
+     ],
+     "connector": "left",
+     "len": 80
+    }
+   ],
+   "heatsinks": [
+    {
+     "id": "io-cover",
+     "rect": [
+      -10,
+      -10,
+      64,
+      148
+     ],
+     "height": 41,
+     "profile": "slab",
+     "finish": "gunmetal",
+     "finishHex": "#55585e",
+     "tiers": [
+      {
+       "rect": [
+        -10,
+        -10,
+        4,
+        148
+       ],
+       "height": 43.5,
+       "finish": "satin-black",
+       "finishHex": "#141518"
+      }
+     ],
+     "marks": [
+      {
+       "text": "REPUBLIC OF GAMERS",
+       "at": [
+        5.2,
+        74
+       ],
+       "h": 1.9,
+       "rotate": -90,
+       "finish": "print-silver",
+       "colour": "#2b2d31",
+       "letterSpacing": 0.35
+      },
+      {
+       "text": "SINCE 2006",
+       "at": [
+        5.2,
+        136
+       ],
+       "h": 1.9,
+       "rotate": -90,
+       "finish": "print-silver",
+       "colour": "#2b2d31",
+       "letterSpacing": 0.35
+      }
+     ]
+    },
+    {
+     "id": "vrm-top",
+     "rect": [
+      60,
+      -4,
+      179,
+      24
+     ],
+     "poly": [
+      [
+       60,
+       -4
+      ],
+      [
+       150,
+       -4
+      ],
+      [
+       179,
+       12
+      ],
+      [
+       179,
+       24
+      ],
+      [
+       60,
+       24
+      ]
+     ],
+     "height": 35,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#16171a",
+     "marks": [
+      {
+       "text": "FOR THOSE WHO DARE",
+       "at": [
+        100,
+        9.6
+       ],
+       "h": 3,
+       "weight": 600,
+       "font": "wide",
+       "finish": "print-white",
+       "letterSpacing": 0.06
+      }
+     ]
+    },
+    {
+     "id": "vrm-left",
+     "rect": [
+      60,
+      24,
+      82,
+      146
+     ],
+     "height": 33,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#16171a",
+     "grooves": {
+      "rect": [
+       66,
+       30,
+       82,
+       140
+      ],
+      "pitch": 12,
+      "width": 2.2
+     }
+    },
+    {
+     "id": "strix-plate",
+     "rect": [
+      37,
+      150,
+      155,
+      168
+     ],
+     "poly": [
+      [
+       37,
+       150
+      ],
+      [
+       147,
+       150
+      ],
+      [
+       155,
+       168
+      ],
+      [
+       44,
+       168
+      ]
+     ],
+     "height": 14,
+     "profile": "slab",
+     "finish": "anodised-silver",
+     "finishHex": "#bfc1c4",
+     "marks": [
+      {
+       "text": "ROG  \\  STRIX",
+       "at": [
+        55,
+        153.5
+       ],
+       "h": 8.5,
+       "weight": 600,
+       "font": "wide",
+       "finish": "print-silver",
+       "colour": "#2a2b2e",
+       "letterSpacing": 0.08
+      }
+     ]
+    },
+    {
+     "id": "m2-1",
+     "rect": [
+      15,
+      170,
+      132,
+      197
+     ],
+     "height": 12,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#18191c",
+     "marks": [
+      {
+       "text": "ROG STRIX",
+       "at": [
+        60,
+        181.6
+       ],
+       "h": 2.6,
+       "weight": 600,
+       "font": "wide",
+       "finish": "print-white"
+      }
+     ]
+    },
+    {
+     "id": "m2-2",
+     "rect": [
+      134,
+      170,
+      234,
+      197
+     ],
+     "height": 12,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#18191c",
+     "marks": [
+      {
+       "text": "REPUBLIC OF GAMERS",
+       "at": [
+        168,
+        182.2
+       ],
+       "h": 2.6,
+       "weight": 600,
+       "font": "wide",
+       "finish": "print-white"
+      }
+     ]
+    },
+    {
+     "id": "chipset",
+     "rect": [
+      1,
+      209,
+      246,
+      252
+     ],
+     "height": 10,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#141518",
+     "stripes": [
+      {
+       "poly": [
+        [
+         160,
+         202
+        ],
+        [
+         200,
+         202
+        ],
+        [
+         232,
+         236
+        ],
+        [
+         232,
+         252
+        ],
+        [
+         192,
+         252
+        ],
+        [
+         160,
+         222
+        ]
+       ],
+       "finish": "anodised-silver",
+       "finishHex": "#c4c6c9",
+       "h": 0.8,
+       "z": 10
+      }
+     ],
+     "marks": [
+      {
+       "text": "STRIX X870E-E",
+       "at": [
+        113,
+        213
+       ],
+       "h": 2.4,
+       "weight": 600,
+       "font": "wide",
+       "finish": "print-silver",
+       "colour": "#8a8d91"
+      },
+      {
+       "text": "GAMING WIFI",
+       "at": [
+        116,
+        216.6
+       ],
+       "h": 2.4,
+       "weight": 600,
+       "font": "wide",
+       "finish": "print-silver",
+       "colour": "#8a8d91"
+      }
+     ]
+    },
+    {
+     "id": "lower-cover",
+     "rect": [
+      1,
+      252,
+      238,
+      278
+     ],
+     "height": 9,
+     "profile": "slab",
+     "finish": "satin-black",
+     "finishHex": "#101113"
+    }
+   ],
+   "connectors": [
+    {
+     "id": "24pin",
+     "rect": [
+      232.6,
+      57.4,
+      242.2,
+      109.8
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-1",
+     "rect": [
+      62.1,
+      1.7,
+      80.3,
+      11.3
+     ],
+     "height": 14
+    },
+    {
+     "id": "eps-2",
+     "rect": [
+      41.8,
+      1.7,
+      60,
+      11.3
+     ],
+     "height": 14
+    },
+    {
+     "id": "qcode",
+     "rect": [
+      216.3,
+      1.6,
+      231.4,
+      11.7
+     ],
+     "height": 6
+    },
+    {
+     "id": "start-button",
+     "rect": [
+      229.8,
+      22.3,
+      244,
+      36.4
+     ],
+     "height": 8,
+     "shape": "round"
+    },
+    {
+     "id": "fan",
+     "label": "top row x4",
+     "rect": [
+      172.4,
+      0.1,
+      215.7,
+      6.5
+     ],
+     "height": 11
+    },
+    {
+     "id": "usb-c",
+     "rect": [
+      234.5,
+      111.4,
+      240.2,
+      125.5
+     ],
+     "height": 7
+    },
+    {
+     "id": "usb3",
+     "rect": [
+      232.9,
+      197.2,
+      243.8,
+      221.8
+     ],
+     "height": 9
+    },
+    {
+     "id": "sata",
+     "rect": [
+      230,
+      222.9,
+      243.8,
+      255.8
+     ],
+     "height": 9
+    },
+    {
+     "id": "battery",
+     "rect": [
+      196.5,
+      278.5,
+      218.1,
+      302
+     ],
+     "height": 4,
+     "shape": "round"
+    },
+    {
+     "id": "rear-io",
+     "rect": [
+      -0.4,
+      7.7,
+      35.6,
+      151.5
+     ],
+     "height": 38
+    }
+   ],
+   "chipsets": [
+    [
+     177.5,
+     204.3,
+     196.5,
+     223.1
+    ],
+    [
+     57.1,
+     224.6,
+     76.1,
+     243.4
+    ]
+   ],
+   "marks": [],
+   "colours": {
+    "pcb": "#0F1012",
+    "heatsinks": "#26282C",
+    "accent": "#C9CCD0"
+   },
+   "mountHoles": [
+    [
+     10.2,
+     8.9
+    ],
+    [
+     164.5,
+     8.9
+    ],
+    [
+     237.5,
+     8.9
+    ],
+    [
+     10.2,
+     165
+    ],
+    [
+     164.5,
+     165
+    ],
+    [
+     237.5,
+     165
+    ],
+    [
+     10.2,
+     281.5
+    ],
+    [
+     164.5,
+     281.5
+    ],
+    [
+     237.5,
+     281.5
+    ]
+   ]
+  },
+  "ledZones": [
+   {
+    "id": "pixel-rog",
+    "kind": "logo",
+    "group": "board",
+    "addressable": true,
+    "control": "argb-5v",
+    "leds": null,
+    "fixedHex": null,
+    "geom": {
+     "rect": [
+      16,
+      55,
+      59,
+      97
+     ],
+     "z": 41.3,
+     "face": "front",
+     "soft": true
+    },
+    "defaultOn": true
+   },
+   {
+    "id": "qcode",
+    "kind": "screen",
+    "group": "board",
+    "addressable": false,
+    "control": "white",
+    "leds": null,
+    "fixedHex": "#FF3B30",
+    "geom": {
+     "rect": [
+      216.3,
+      1.6,
+      231.4,
+      11.7
+     ]
+    },
+    "defaultOn": true
+   }
+  ],
+  "marks": [],
+  "envelope": {
+   "x": [
+    290,
+    534
+   ],
+   "y": [
+    21,
+    326
+   ],
+   "z": [
+    15,
+    59
+   ]
+  },
+  "no3d": false
+ }
+}
