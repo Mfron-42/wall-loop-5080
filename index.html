@@ -245,6 +245,8 @@ a{color:var(--ink);text-underline-offset:3px;text-decoration-thickness:1px}
 a:hover{text-decoration-thickness:2px}
 :focus-visible{outline:none;box-shadow:var(--ring-out)}
 h1:focus,h1:focus-visible{box-shadow:none}
+/* where focus is moved by script (a heading or a region given tabindex=-1), no ring: the controls keep theirs */
+:is(h1,h2,h3,h4,main,section,[role="region"])[tabindex="-1"]:focus,:is(h1,h2,h3,h4,main,section,[role="region"])[tabindex="-1"]:focus-visible{outline:none;box-shadow:none}
 .skip{position:absolute;left:var(--s4);top:-60px;z-index:60;background:var(--sheet);padding:var(--s2) var(--s3);border:1px solid var(--ink)}
 .skip:focus-visible{top:var(--s2)}
 .sprite{position:absolute;width:0;height:0;overflow:hidden}
@@ -1624,7 +1626,7 @@ svg.i [fill="currentColor"]{stroke:none}
   .rc-list{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:86%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:var(--s1)}
   .rc{scroll-snap-align:start}
   .cf-side{display:block;border:0}
-  .cf-modes{position:fixed;left:0;right:0;bottom:0;z-index:30;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding:0 0 env(safe-area-inset-bottom);background:var(--sheet);border-top:1px solid var(--line-strong);border-bottom:0}
+  .cf-modes{position:fixed;left:0;right:0;bottom:0;z-index:45;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding:0 0 env(safe-area-inset-bottom);background:var(--sheet);border-top:1px solid var(--line-strong);border-bottom:0}
   .cf-mode{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2px;height:56px;padding:0;border-radius:0;font-size:var(--t12)}
   .cf-mode > .i{display:block;width:18px;height:18px}
   .cf-mode .m-sq,.cf-mode .m-v,.m-full{display:none}
@@ -1632,7 +1634,7 @@ svg.i [fill="currentColor"]{stroke:none}
   .cf-mode[aria-current="page"]{box-shadow:inset 0 2px 0 var(--ink)}
   .cf-list{overflow:visible;padding:var(--s4) var(--s2)}
   .cf-foot{padding:var(--s3) var(--s4) var(--s5);border-top:1px solid var(--line)}
-  .cf-ctx{position:fixed;left:0;right:0;bottom:0;top:calc(52px + 45svh);z-index:40;border-left:0;border-top:1px solid var(--line-strong);box-shadow:var(--sh-panel);transform:translateY(100%);visibility:hidden;transition:transform var(--t4) var(--ease),visibility 0s linear var(--t4)}
+  .cf-ctx{position:fixed;left:0;right:0;bottom:calc(56px + env(safe-area-inset-bottom));top:calc(52px + 45svh);z-index:40;border-left:0;border-top:1px solid var(--line-strong);box-shadow:var(--sh-panel);transform:translateY(100%);visibility:hidden;transition:transform var(--t4) var(--ease),visibility 0s linear var(--t4)}
   .cf-ctx.is-open{transform:none;visibility:visible;transition:transform var(--t4) var(--ease),visibility 0s}
   .ctx-in{padding:0 var(--s4) var(--s6)}
   .ctx-hd{position:sticky;top:0;z-index:1;padding-top:var(--s3);background:var(--sheet)}
@@ -13053,6 +13055,7 @@ const CFG = (() => {
     return res;
   }
   // every changed slot's committed part, in idle time; its row and its card repaint as each lands
+  let wcGen = 0;
   function wcQueue(st) {
     if (typeof validateWhatIf !== 'function' || shared) return;
     clearTimeout(wcTimer);
@@ -13060,12 +13063,12 @@ const CFG = (() => {
     B.optionCats.forEach(c => { if (isMulti(c.id)) multiItems(st, c.id).forEach(x => q.push(x.o)); else { const o = optById(effectivePart(st, c.id)); if (o) q.push(o); } });
     const todo = q.filter(o => wcWanted(st, o) && !WC.has(wcKey(o)));
     const idle = window.requestIdleCallback || (fn => setTimeout(() => fn({ timeRemaining: () => 12 }), 30));
-    const step = dl => {
-      if (st !== WLS) return;
-      while (todo.length && dl.timeRemaining() > 4) { const o = todo.shift(); if (wcCompute(st, o)) { rowPaint(st, o.cat); if (o.cat === curSlot()) wiPaint(st, o); } }
-      if (todo.length) idle(step, { timeout: 800 });
+    const gen = ++wcGen, step = () => { // one per idle slice, like the option stamps
+      if (st !== WLS || gen !== wcGen) return;
+      const o = todo.shift(); if (o && wcCompute(st, o)) { rowPaint(st, o.cat); if (o.cat === curSlot()) wiPaint(st, o); }
+      if (todo.length) idle(step, { timeout: 1500 });
     };
-    if (todo.length) wcTimer = setTimeout(() => idle(step, { timeout: 800 }), 90);
+    if (todo.length) wcTimer = setTimeout(() => idle(step, { timeout: 1500 }), 90);
   }
   function rowPaint(st, slot) {
     const row = document.querySelector('.srow[data-slot="' + slot + '"]'); if (!row) return;
@@ -13112,25 +13115,37 @@ const CFG = (() => {
     return res;
   }
   // fill the open slot's stamps in idle time and repaint each card as its result lands
+  // the open slot first, then the likely next ones in the current mode's order (the arrows go next, then back): two
+  // ahead, one behind. ONE what-if per idle slice, so a click or a key always gets in between two of them.
+  let wiGen = 0;
   function wiQueue(st, slot) {
     if (typeof validateWhatIf !== 'function' || shared) return;
-    clearTimeout(wiTimer);
-    const q = B.options.filter(o => o.cat === slot && !o.pending && qtyIn(st, o) === 0 && !WI.has(o.id));
+    clearTimeout(wiTimer); const gen = ++wiGen;
+    const order = slotOrder(), k = order.indexOf(slot), slots = [slot];
+    if (k >= 0) [1, 2, -1].forEach(d => { const s = order[(k + d + order.length) % order.length]; if (!slots.includes(s)) slots.push(s); });
+    const q = [];
+    slots.forEach(s => B.options.forEach(o => { if (o.cat === s && !o.pending && qtyIn(st, o) === 0 && !WI.has(o.id)) q.push(o); }));
     const idle = window.requestIdleCallback || (fn => setTimeout(() => fn({ timeRemaining: () => 12 }), 30));
-    const step = dl => {
-      if (st !== WLS) return;
-      while (q.length && dl.timeRemaining() > 4) { const o = q.shift(); if (wiCompute(st, o)) wiPaint(st, o); }
-      if (q.length) idle(step, { timeout: 800 });
+    const step = () => {
+      if (st !== WLS || gen !== wiGen) return;
+      const o = q.shift(); if (o && !WI.has(o.id) && wiCompute(st, o)) wiPaint(st, o);
+      if (q.length) idle(step, { timeout: 1500 });
     };
-    if (q.length) wiTimer = setTimeout(() => idle(step, { timeout: 800 }), 60);
+    if (q.length) wiTimer = setTimeout(() => idle(step, { timeout: 1500 }), 60);
   }
   function wiPaint(st, o) {
     const card = document.querySelector('.oc[data-oid="' + (window.CSS && CSS.escape ? CSS.escape(o.id) : o.id) + '"]'); if (!card) return;
     const v = verdictOf(st, o);
     if (prevId === o.id) { const lvl = v.level === 'fail' ? 'fail' : (v.level === 'risk' || v.level === 'lay') ? 'risk' : null; callout(lvl ? o : null, v); } // the open preview's callout follows its stamp
-    if (!card.contains(document.activeElement)) { const tmp = document.createElement('div'); tmp.innerHTML = optCard(st, o.cat, o, v, moneyOf(st).total, radarOf(st)); if (tmp.firstElementChild) card.replaceWith(tmp.firstElementChild); return; }
+    // painted in place, never replaced: a card swapped between a press and its release would swallow the click
     card.className = card.className.replace(/\bis-(ok|risk|fail|lay|pend)\b/, 'is-' + v.level);
-    const pb = card.querySelector('.oc-pick'); if (pb && pb.dataset.lab0 != null) pb.setAttribute('aria-label', pb.dataset.lab0 + stampWord(v));
+    const pb = card.querySelector('.oc-pick');
+    if (pb) {
+      if (pb.dataset.lab0 != null) pb.setAttribute('aria-label', pb.dataset.lab0 + stampWord(v));
+      const dis = !!o.pending || v.level === 'fail' || !!shared;
+      if (dis) pb.setAttribute('aria-disabled', 'true'); else pb.removeAttribute('aria-disabled');
+      if (dis && !shared) pb.title = v.reason || ''; else pb.removeAttribute('title');
+    }
     const s = card.querySelector('.oc-st'); if (s) s.innerHTML = stampOf(v) + '<span class="vwhy' + (v.level === 'fail' ? ' fail' : v.level === 'risk' ? ' risk' : '') + '">' + esc(v.reason) + '</span>';
   }
   /* the committed build's own checks for a slot: the row stamp (every row has one) */
@@ -13490,8 +13505,9 @@ const CFG = (() => {
   }
   function pick(oid) {
     const o = optById(oid); if (!o || shared) return;
-    const st = WLS; wiCompute(st, o);
-    const v = verdictOf(st, o);
+    // the click acts at once on what is known (a stamp already in, else the static verdict and the coupled change);
+    // a stamp still on its way follows on the committed card, with the Required fix if it adds a fail
+    const st = WLS, v = verdictOf(st, o);
     if (isMulti(o.cat) && v.on) { setQty(o.cat, o.id, 0); return; }
     if (v.on) return;
     if (o.pending || v.level === 'fail') { callout(o, v, true); return; }
