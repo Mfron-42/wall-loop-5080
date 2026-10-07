@@ -303,16 +303,45 @@
      "profile": "slab",
      "finish": "powder-black",
      "finishHex": "#141518",
-     "grooves": {
-      "rect": [
-       64,
-       30,
-       80,
-       150
+     "relief": {
+      "chamfer": 2,
+      "base": 0.7,
+      "ribs": [
+       {
+        "rect": [
+         64,
+         36,
+         80,
+         150
+        ],
+        "angle": 0,
+        "pitch": 14,
+        "width": 8,
+        "offset": 4
+       }
       ],
-      "angle": 0,
-      "pitch": 14,
-      "width": 2.4
+      "pipes": [
+       {
+        "pts": [
+         [
+          68,
+          46,
+          24
+         ],
+         [
+          78,
+          36,
+          27
+         ],
+         [
+          92,
+          31,
+          27
+         ]
+        ],
+        "r": 2.2
+       }
+      ]
      }
     },
     {
@@ -324,15 +353,22 @@
       28
      ],
      "height": 37,
-     "profile": "wedge",
+     "profile": "slab",
      "finish": "powder-black",
      "finishHex": "#141518",
-     "fins": {
-      "angle": 38,
-      "pitch": 16,
-      "width": 11.5,
+     "relief": {
+      "chamfer": 2.2,
+      "margin": 2.6,
       "base": 0.6,
-      "offset": 3
+      "ribs": [
+       {
+        "angle": 38,
+        "pitch": 16,
+        "width": 11,
+        "offset": 3,
+        "taper": 1.2
+       }
+      ]
      }
     },
     {
@@ -1304,17 +1340,6 @@
       "finishHex": "#0b0c0e",
       "z": 42
      },
-     "grooves": {
-      "rect": [
-       57,
-       40,
-       80,
-       148
-      ],
-      "angle": -55,
-      "pitch": 6,
-      "width": 1.6
-     },
      "marks": [
       {
        "text": "MSI PERFORMANCE GAMING",
@@ -1331,7 +1356,26 @@
        "finish": "print-silver",
        "colour": "#6f7276"
       }
-     ]
+     ],
+     "relief": {
+      "body": false,
+      "ribs": [
+       {
+        "rect": [
+         57,
+         40,
+         80,
+         148
+        ],
+        "angle": -55,
+        "pitch": 8,
+        "width": 3.6,
+        "z0": 34,
+        "z1": 35.6,
+        "taper": 0.5
+       }
+      ]
+     }
     },
     {
      "id": "vrm-top",
@@ -1349,7 +1393,7 @@
       {
        "text": "MPG",
        "at": [
-        143,
+        137,
         4.5
        ],
        "h": 5.6,
@@ -1361,75 +1405,6 @@
       }
      ],
      "stripes": [
-      {
-       "poly": [
-        [
-         96,
-         -6
-        ],
-        [
-         100,
-         -6
-        ],
-        [
-         88,
-         20
-        ],
-        [
-         84,
-         20
-        ]
-       ],
-       "finish": "print-silver",
-       "finishHex": "#4a4c50",
-       "h": 0.3
-      },
-      {
-       "poly": [
-        [
-         110,
-         -6
-        ],
-        [
-         114,
-         -6
-        ],
-        [
-         102,
-         20
-        ],
-        [
-         98,
-         20
-        ]
-       ],
-       "finish": "print-silver",
-       "finishHex": "#4a4c50",
-       "h": 0.3
-      },
-      {
-       "poly": [
-        [
-         124,
-         -6
-        ],
-        [
-         128,
-         -6
-        ],
-        [
-         116,
-         20
-        ],
-        [
-         112,
-         20
-        ]
-       ],
-       "finish": "print-silver",
-       "finishHex": "#4a4c50",
-       "h": 0.3
-      },
       {
        "poly": [
         [
@@ -1453,7 +1428,27 @@
        "finishHex": "#3a3c40",
        "h": 0.3
       }
-     ]
+     ],
+     "relief": {
+      "chamfer": 2,
+      "margin": 2.4,
+      "base": 0.55,
+      "ribs": [
+       {
+        "rect": [
+         80,
+         -8,
+         164,
+         24
+        ],
+        "angle": -65,
+        "pitch": 15,
+        "width": 8,
+        "offset": 4,
+        "taper": 1
+       }
+      ]
+     }
     },
     {
      "id": "m2-1",
@@ -2331,7 +2326,8 @@
        ],
        "finish": "gold",
        "finishHex": "#b8955a",
-       "h": 0.3
+       "h": 0.3,
+       "z": 34
       },
       {
        "poly": [
@@ -2354,9 +2350,16 @@
        ],
        "finish": "gold",
        "finishHex": "#b8955a",
-       "h": 0.3
+       "h": 0.3,
+       "z": 34
       }
-     ]
+     ],
+     "relief": {
+      "well": {
+       "inset": 4,
+       "depth": 4
+      }
+     }
     },
     {
      "id": "vrm-top",
@@ -2392,9 +2395,16 @@
        ],
        "finish": "gold",
        "finishHex": "#b8955a",
-       "h": 0.3
+       "h": 0.3,
+       "z": 31
       }
-     ]
+     ],
+     "relief": {
+      "well": {
+       "inset": 3.5,
+       "depth": 3
+      }
+     }
     },
     {
      "id": "m2-1",
@@ -3027,18 +3037,26 @@
      ],
      "height": 34,
      "profile": "slab",
-     "finish": "gunmetal",
-     "finishHex": "#2f3237",
-     "grooves": {
-      "rect": [
-       92,
-       12,
-       168,
-       30
-      ],
-      "angle": 0,
-      "pitch": 4,
-      "width": 1.4
+     "finish": "powder-black",
+     "finishHex": "#17181b",
+     "relief": {
+      "chamfer": 2.4,
+      "margin": 2.8,
+      "base": 0.8,
+      "ribs": [
+       {
+        "rect": [
+         116,
+         -5,
+         169,
+         28
+        ],
+        "angle": -52,
+        "pitch": 7,
+        "width": 3.4,
+        "taper": 0.6
+       }
+      ]
      }
     },
     {
@@ -3801,7 +3819,27 @@
        "finish": "print-white",
        "letterSpacing": 0.06
       }
-     ]
+     ],
+     "relief": {
+      "chamfer": 2.6,
+      "margin": 3,
+      "base": 0.8,
+      "ribs": [
+       {
+        "rect": [
+         66,
+         -3,
+         146,
+         23
+        ],
+        "angle": 90,
+        "pitch": 80,
+        "width": 60,
+        "offset": 50,
+        "taper": 1.5
+       }
+      ]
+     }
     },
     {
      "id": "vrm-left",
@@ -3815,15 +3853,23 @@
      "profile": "slab",
      "finish": "satin-black",
      "finishHex": "#16171a",
-     "grooves": {
-      "rect": [
-       66,
-       30,
-       82,
-       140
-      ],
-      "pitch": 12,
-      "width": 2.2
+     "relief": {
+      "chamfer": 2,
+      "base": 0.72,
+      "ribs": [
+       {
+        "rect": [
+         60,
+         34,
+         82,
+         138
+        ],
+        "angle": 0,
+        "pitch": 12,
+        "width": 7.5,
+        "offset": 5
+       }
+      ]
      }
     },
     {
