@@ -988,7 +988,8 @@
      "finish": "anodised-silver",
      "finishHex": "#8d8f93"
     }
-   ]
+   ],
+   "photo": "board-dark-hero.webp"
   },
   "ledZones": [
    {
@@ -1964,7 +1965,8 @@
      "size": 6.6,
      "height": 8
     }
-   ]
+   ],
+   "photo": "board-carbon.webp"
   },
   "ledZones": [
    {
@@ -2725,7 +2727,8 @@
      "finish": "print-silver",
      "colour": "#6c6f73"
     }
-   ]
+   ],
+   "photo": "board-proart-creator.webp"
   },
   "ledZones": [],
   "marks": [],
@@ -3419,7 +3422,8 @@
      237.5,
      281.5
     ]
-   ]
+   ],
+   "photo": "board-aorus-master-x3d.webp"
   },
   "ledZones": [
    {
@@ -4179,7 +4183,8 @@
      237.5,
      281.5
     ]
-   ]
+   ],
+   "photo": "board-strix-x870e-e.webp"
   },
   "ledZones": [
    {

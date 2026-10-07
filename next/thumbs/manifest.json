@@ -554,8 +554,8 @@
    "h": 720
   }
  },
- "date": "2026-10-02T20:25:38.632Z",
- "renderer": "gpu",
+ "date": "2026-10-07T10:25:34.214Z",
+ "renderer": "swiftshader",
  "tile": 128,
  "cell": 384
 }

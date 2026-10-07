@@ -87,7 +87,14 @@
      "weight": 500,
      "finish": "print-white"
     }
-   ]
+   ],
+   "photo": "fan-noctua-nf-a12x25.webp",
+   "glb": "fan-noctua-nf-a12x25-g2.glb",
+   "glbDz": -1,
+   "glbRecolor": {
+    "206,158,118": "#26272a",
+    "34,8,4": "#3c3e43"
+   }
   },
   "ledZones": [],
   "marks": [

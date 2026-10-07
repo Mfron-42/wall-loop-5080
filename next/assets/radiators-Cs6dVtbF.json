@@ -136,7 +136,8 @@
     "finishHex": "#1c1d20",
     "border": 3.5,
     "tab": 14
-   }
+   },
+   "glb": "radiator-alphacool-hpe30-360.glb"
   },
   "ledZones": [],
   "marks": [
@@ -325,7 +326,8 @@
     "finishHex": "#1c1d20",
     "border": 3.5,
     "tab": 14
-   }
+   },
+   "glb": "radiator-alphacool-hpe45-360.glb"
   },
   "ledZones": [],
   "marks": [
@@ -1594,7 +1596,8 @@
      "finish": "print-white",
      "finishHex": "#3f8ad8"
     }
-   ]
+   ],
+   "glb": "radiator-alphacool-ut60-360.glb"
   },
   "ledZones": [],
   "marks": [
